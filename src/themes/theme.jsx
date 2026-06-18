@@ -96,13 +96,11 @@ const theme = createTheme({
     body1: {
       fontSize: "1rem",
       lineHeight: 1.8,
-      color: "#5F6368",
     },
 
     body2: {
       fontSize: "0.95rem",
       lineHeight: 1.7,
-      color: "#5F6368",
     },
 
     button: {
@@ -131,7 +129,7 @@ const theme = createTheme({
     MuiButton: {
       styleOverrides: {
         root: {
-          borderRadius: 14,
+          borderRadius: 8,
           padding: "12px 24px",
           boxShadow: "none",
         },

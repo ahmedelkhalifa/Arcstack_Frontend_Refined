@@ -5,8 +5,8 @@
       "services": "Services",
       "work": "Work",
       "about": "About",
-      "process": "Process",
-      "blog": "Blog"
+      "home": "Home",
+      "contact": "Contact"
     },
     "cta": "Let's Talk"
   },
@@ -19,7 +19,7 @@
       "line3": "SCALE."
     },
     "description": "We design modern websites, ecommerce platforms, and business systems that help businesses grow online.",
-    "primaryButton": "Start Your Project",
+    "primaryButton": "START YOUR PROJECT",
     "secondaryButton": "View Our Work",
     "socialProof": {
       "count": "50+",
