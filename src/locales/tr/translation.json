@@ -1,0 +1,220 @@
+{
+  "navbar": {
+    "logo": "ARCSTACK",
+    "menu": {
+      "services": "Hizmetler",
+      "work": "Projeler",
+      "about": "Hakkımızda",
+      "process": "Süreç",
+      "blog": "Blog"
+    },
+    "cta": "Görüşelim"
+  },
+
+  "hero": {
+    "badge": "Premium Web Çözümleri",
+    "title": {
+      "line1": "İNŞA ET.",
+      "line2": "BÜYÜT.",
+      "line3": "ÖLÇEKLENDİR."
+    },
+    "description": "İşletmelerin çevrimiçi büyümesine yardımcı olan modern web siteleri, e-ticaret platformları ve iş yönetim sistemleri tasarlıyoruz.",
+    "primaryButton": "Projeni Başlat",
+    "secondaryButton": "Projelerimizi İncele",
+    "socialProof": {
+      "count": "50+",
+      "text": "işletme ArcStack'e güveniyor"
+    }
+  },
+
+  "stats": {
+    "projectsCompleted": {
+      "value": "50+",
+      "label": "Tamamlanan Proje"
+    },
+    "coreServices": {
+      "value": "4",
+      "label": "Ana Hizmet"
+    },
+    "clientSatisfaction": {
+      "value": "100%",
+      "label": "Müşteri Memnuniyeti"
+    },
+    "location": {
+      "value": "Türkiye & KKTC",
+      "label": "Yerel işletmelere hizmet veriyoruz"
+    }
+  },
+
+  "portfolio": {
+    "badge": "Seçili Projeler",
+    "title": "Gerçek sonuçlar sağlayan dijital çözümler.",
+    "viewAll": "Tüm Projeleri Gör",
+    "projects": [
+      {
+        "category": "Diş Kliniği",
+        "title": "Modern Diş Kliniği Web Sitesi",
+        "cta": "Projeyi İncele"
+      },
+      {
+        "category": "Araç Kiralama",
+        "title": "Araç Kiralama Rezervasyon Platformu",
+        "cta": "Projeyi İncele"
+      },
+      {
+        "category": "Restoran",
+        "title": "Restoran Web Sitesi ve Yönetim Sistemi",
+        "cta": "Projeyi İncele"
+      },
+      {
+        "category": "E-Ticaret",
+        "title": "E-Ticaret Web Sitesi",
+        "cta": "Projeyi İncele"
+      }
+    ]
+  },
+
+  "services": {
+    "badge": "Hizmetler",
+    "title": "İşletmenize özel çözümler.",
+    "description": "Web sitelerinden gelişmiş iş sistemlerine kadar ölçeklenebilir çözümler geliştiriyoruz.",
+    "items": [
+      {
+        "number": "01",
+        "title": "Kurumsal Web Siteleri",
+        "description": "Daha fazla müşteri çekmenize ve markanızı büyütmenize yardımcı olan modern, hızlı ve SEO uyumlu web siteleri.",
+        "features": [
+          "Özel Tasarım",
+          "SEO Optimizasyonu",
+          "Mobil Uyumlu"
+        ],
+        "cta": "Hizmeti İncele"
+      },
+      {
+        "number": "02",
+        "title": "E-Ticaret Siteleri",
+        "description": "Yüksek performanslı, güvenli ve satış odaklı çevrimiçi mağazalar geliştiriyoruz.",
+        "features": [
+          "Dönüşüm Odaklı",
+          "Güvenli ve Ölçeklenebilir",
+          "Stok Entegrasyonu"
+        ],
+        "cta": "Hizmeti İncele"
+      },
+      {
+        "number": "03",
+        "title": "İş Yönetim Sistemleri",
+        "description": "Operasyonları kolaylaştıran, süreçleri hızlandıran özel yönetim panelleri ve iş sistemleri geliştiriyoruz.",
+        "features": [
+          "Yönetim Panelleri",
+          "Süreç Otomasyonu",
+          "Gerçek Zamanlı Analiz"
+        ],
+        "cta": "Hizmeti İncele"
+      },
+      {
+        "number": "04",
+        "title": "Özel Yazılım Çözümleri",
+        "description": "Karmaşık iş problemlerini çözmek ve işletmenizi büyütmek için özel web uygulamaları geliştiriyoruz.",
+        "features": [
+          "Özel Çözümler",
+          "Ölçeklenebilir Mimari",
+          "Sürekli Destek"
+        ],
+        "cta": "Hizmeti İncele"
+      }
+    ]
+  },
+
+  "process": {
+    "badge": "Sürecimiz",
+    "title": "Net bir süreç. Kanıtlanmış sonuçlar.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Keşif",
+        "description": "İşletmenizi, hedeflerinizi ve ihtiyaçlarınızı detaylı şekilde analiz ediyoruz."
+      },
+      {
+        "number": "02",
+        "title": "Tasarım",
+        "description": "Modern, kullanıcı odaklı ve dönüşüm sağlayan tasarımlar oluşturuyoruz."
+      },
+      {
+        "number": "03",
+        "title": "Geliştirme",
+        "description": "Hızlı, güvenli ve ölçeklenebilir çözümleri en iyi yazılım standartlarıyla geliştiriyoruz."
+      },
+      {
+        "number": "04",
+        "title": "Yayınlama",
+        "description": "Projeyi test ediyor, optimize ediyor ve başarılı şekilde yayına alıyoruz."
+      }
+    ]
+  },
+
+  "testimonials": {
+    "badge": "Müşterilerimiz Ne Diyor?",
+    "title": "Farklı sektörlerden işletmeler tarafından tercih ediliyoruz.",
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "ArcStack web sitemizi tamamen yeniledi. Sonuç modern, hızlı ve her gün daha fazla müşteri kazandırıyor.",
+        "author": "Ahmet Y.",
+        "position": "Klinik Sahibi"
+      },
+      {
+        "rating": 5,
+        "text": "Profesyonel ekip, güçlü iletişim ve mükemmel sonuçlar. Rezervasyon sistemimiz kusursuz çalışıyor.",
+        "author": "Mehmet K.",
+        "position": "Araç Kiralama İşletme Sahibi"
+      },
+      {
+        "rating": 5,
+        "text": "E-ticaret mağazamızı sıfırdan geliştirdiler. İlk ay içerisinde satışlarımız gözle görülür şekilde arttı.",
+        "author": "Emre A.",
+        "position": "E-Ticaret İşletme Sahibi"
+      }
+    ]
+  },
+
+  "ctaSection": {
+    "title": "Daha iyisini inşa etmeye hazır mısınız?",
+    "description": "Projenizi birlikte değerlendirelim ve işletmenizi büyütecek dijital çözümü oluşturalım.",
+    "button": "Projeni Başlat"
+  },
+
+  "footer": {
+    "brand": {
+      "name": "ARCSTACK",
+      "description": "İşletmelerin çevrimiçi büyümesine yardımcı olan modern web siteleri, e-ticaret platformları ve özel yazılım çözümleri geliştiriyoruz."
+    },
+
+    "services": [
+      "Kurumsal Web Siteleri",
+      "E-Ticaret Siteleri",
+      "İş Yönetim Sistemleri",
+      "Özel Yazılım Çözümleri"
+    ],
+
+    "company": [
+      "Hakkımızda",
+      "Sürecimiz",
+      "Blog",
+      "İletişim"
+    ],
+
+    "contact": {
+      "email": "arcstack.swe@gmail.com",
+      "website": "arcstack.online",
+      "instagram": "arcstack.dev",
+      "location": "Türkiye & KKTC"
+    },
+
+    "newsletter": {
+      "title": "Bülten",
+      "description": "Dijital dünyaya dair ipuçları ve güncellemeleri e-posta kutunuza alın.",
+      "placeholder": "E-posta adresiniz"
+    }
+  }
+}

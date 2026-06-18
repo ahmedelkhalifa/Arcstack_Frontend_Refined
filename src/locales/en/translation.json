@@ -1,0 +1,220 @@
+{
+  "navbar": {
+    "logo": "ARCSTACK",
+    "menu": {
+      "services": "Services",
+      "work": "Work",
+      "about": "About",
+      "process": "Process",
+      "blog": "Blog"
+    },
+    "cta": "Let's Talk"
+  },
+
+  "hero": {
+    "badge": "Premium Web Solutions",
+    "title": {
+      "line1": "BUILD.",
+      "line2": "GROW.",
+      "line3": "SCALE."
+    },
+    "description": "We design modern websites, ecommerce platforms, and business systems that help businesses grow online.",
+    "primaryButton": "Start Your Project",
+    "secondaryButton": "View Our Work",
+    "socialProof": {
+      "count": "50+",
+      "text": "businesses trusted ArcStack"
+    }
+  },
+
+  "stats": {
+    "projectsCompleted": {
+      "value": "50+",
+      "label": "Projects Completed"
+    },
+    "coreServices": {
+      "value": "4",
+      "label": "Core Services"
+    },
+    "clientSatisfaction": {
+      "value": "100%",
+      "label": "Client Satisfaction"
+    },
+    "location": {
+      "value": "Turkey & KKTC",
+      "label": "Serving businesses locally"
+    }
+  },
+
+  "portfolio": {
+    "badge": "Selected Work",
+    "title": "Digital solutions that drive real results.",
+    "viewAll": "View All Projects",
+    "projects": [
+      {
+        "category": "Dental Clinic",
+        "title": "Modern Dental Clinic Website",
+        "cta": "View Project"
+      },
+      {
+        "category": "Car Rental",
+        "title": "Car Rental Booking Platform",
+        "cta": "View Project"
+      },
+      {
+        "category": "Restaurant",
+        "title": "Restaurant Website & System",
+        "cta": "View Project"
+      },
+      {
+        "category": "E-Commerce",
+        "title": "Ecommerce Website",
+        "cta": "View Project"
+      }
+    ]
+  },
+
+  "services": {
+    "badge": "Services",
+    "title": "Solutions tailored to your business.",
+    "description": "From websites to complex systems, we build solutions that scale.",
+    "items": [
+      {
+        "number": "01",
+        "title": "Business Websites",
+        "description": "Modern, fast, and SEO-friendly websites that help you attract more customers and grow your business.",
+        "features": [
+          "Custom Design",
+          "SEO Optimized",
+          "Mobile Friendly"
+        ],
+        "cta": "Explore Service"
+      },
+      {
+        "number": "02",
+        "title": "Ecommerce Websites",
+        "description": "High-converting online stores built for performance, seamless shopping, and maximum sales.",
+        "features": [
+          "Conversion Focused",
+          "Secure & Scalable",
+          "Inventory Integration"
+        ],
+        "cta": "Explore Service"
+      },
+      {
+        "number": "03",
+        "title": "Business Systems",
+        "description": "Custom dashboards and management systems that streamline operations and save time.",
+        "features": [
+          "Admin Dashboards",
+          "Process Automation",
+          "Real-time Analytics"
+        ],
+        "cta": "Explore Service"
+      },
+      {
+        "number": "04",
+        "title": "Custom Software",
+        "description": "Powerful web applications built to solve complex problems and scale your business.",
+        "features": [
+          "Custom Solutions",
+          "Scalable Architecture",
+          "Ongoing Support"
+        ],
+        "cta": "Explore Service"
+      }
+    ]
+  },
+
+  "process": {
+    "badge": "Our Process",
+    "title": "A clear process. Proven results.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Discover",
+        "description": "We learn about your business, goals, and requirements."
+      },
+      {
+        "number": "02",
+        "title": "Design",
+        "description": "We create modern, user-focused designs that convert."
+      },
+      {
+        "number": "03",
+        "title": "Develop",
+        "description": "We build fast, secure, and scalable solutions using best practices."
+      },
+      {
+        "number": "04",
+        "title": "Launch",
+        "description": "We test, optimize, and launch your project successfully."
+      }
+    ]
+  },
+
+  "testimonials": {
+    "badge": "Clients Love Us",
+    "title": "Trusted by businesses across industries.",
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "ArcStack redesigned our website completely. The result is modern, fast, and brings us more customers every day.",
+        "author": "Ahmet Y.",
+        "position": "Clinic Owner"
+      },
+      {
+        "rating": 5,
+        "text": "Professional team, great communication, and excellent results. Our booking system works flawlessly.",
+        "author": "Mehmet K.",
+        "position": "Car Rental Owner"
+      },
+      {
+        "rating": 5,
+        "text": "They built our ecommerce store from scratch. Sales increased significantly in the first month.",
+        "author": "Emre A.",
+        "position": "Ecommerce Owner"
+      }
+    ]
+  },
+
+  "ctaSection": {
+    "title": "Ready to build something better?",
+    "description": "Let's discuss your project and create a digital solution that grows your business.",
+    "button": "Start Your Project"
+  },
+
+  "footer": {
+    "brand": {
+      "name": "ARCSTACK",
+      "description": "We design and develop modern websites, ecommerce platforms, and custom systems that help businesses grow online."
+    },
+
+    "services": [
+      "Business Websites",
+      "Ecommerce Websites",
+      "Business Systems",
+      "Custom Software"
+    ],
+
+    "company": [
+      "About Us",
+      "Our Process",
+      "Blog",
+      "Contact"
+    ],
+
+    "contact": {
+      "email": "arcstack.dev@gmail.com",
+      "website": "arcstack.dev",
+      "instagram": "arcstack.online",
+      "location": "Turkey & KKTC"
+    },
+
+    "newsletter": {
+      "title": "Newsletter",
+      "description": "Get digital insights and tips straight to your inbox.",
+      "placeholder": "Your email"
+    }
+  }
+}
