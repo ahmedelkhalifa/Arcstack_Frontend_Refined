@@ -78,8 +78,9 @@
     "badge": "Services",
     "title": "Solutions tailored to your business.",
     "description": "From websites to complex systems, we build solutions that scale.",
-    "items": [
-      {
+    "viewAll": "View All Services",
+    "items": {
+      "1": {
         "number": "01",
         "title": "Business Websites",
         "description": "Modern, fast, and SEO-friendly websites that help you attract more customers and grow your business.",
@@ -90,7 +91,7 @@
         ],
         "cta": "Explore Service"
       },
-      {
+      "2": {
         "number": "02",
         "title": "Ecommerce Websites",
         "description": "High-converting online stores built for performance, seamless shopping, and maximum sales.",
@@ -101,7 +102,7 @@
         ],
         "cta": "Explore Service"
       },
-      {
+      "3": {
         "number": "03",
         "title": "Business Systems",
         "description": "Custom dashboards and management systems that streamline operations and save time.",
@@ -112,7 +113,7 @@
         ],
         "cta": "Explore Service"
       },
-      {
+      "4": {
         "number": "04",
         "title": "Custom Software",
         "description": "Powerful web applications built to solve complex problems and scale your business.",
@@ -123,7 +124,7 @@
         ],
         "cta": "Explore Service"
       }
-    ]
+    }
   },
 
   "process": {

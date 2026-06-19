@@ -7,7 +7,7 @@ const theme = createTheme({
     primary: {
       main: "#004741", // Deep Emerald
       dark: "#00342F",
-      light: "#0E625B",
+      light: "rgb(14, 98, 91)",
       contrastText: "#FFFFFF",
     },
 
