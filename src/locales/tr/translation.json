@@ -5,10 +5,10 @@
       "services": "Hizmetler",
       "work": "Projeler",
       "about": "Hakkımızda",
-      "process": "Süreç",
-      "blog": "Blog"
+      "home": "Ana Sayfa",
+      "contact": "İleteşim"
     },
-    "cta": "Görüşelim"
+    "cta": "GÖRÜŞELİM"
   },
 
   "hero": {
@@ -19,8 +19,8 @@
       "line3": "ÖLÇEKLENDİR."
     },
     "description": "İşletmelerin çevrimiçi büyümesine yardımcı olan modern web siteleri, e-ticaret platformları ve iş yönetim sistemleri tasarlıyoruz.",
-    "primaryButton": "Projeni Başlat",
-    "secondaryButton": "Projelerimizi İncele",
+    "primaryButton": "PROJENİ BAŞLAT",
+    "secondaryButton": "PROJELERİMİZİ İNCELE",
     "socialProof": {
       "count": "50+",
       "text": "işletme ArcStack'e güveniyor"
@@ -41,8 +41,8 @@
       "label": "Müşteri Memnuniyeti"
     },
     "location": {
-      "value": "Türkiye & KKTC",
-      "label": "Yerel işletmelere hizmet veriyoruz"
+      "value": "Tüm Dünya",
+      "label": "işletmelere hizmet veriyoruz"
     }
   },
 
@@ -50,28 +50,28 @@
     "badge": "Seçili Projeler",
     "title": "Gerçek sonuçlar sağlayan dijital çözümler.",
     "viewAll": "Tüm Projeleri Gör",
-    "projects": [
-      {
+    "projects": {
+      "1": {
         "category": "Diş Kliniği",
         "title": "Modern Diş Kliniği Web Sitesi",
         "cta": "Projeyi İncele"
       },
-      {
+      "2": {
         "category": "Araç Kiralama",
         "title": "Araç Kiralama Rezervasyon Platformu",
         "cta": "Projeyi İncele"
       },
-      {
+      "3": {
         "category": "Restoran",
         "title": "Restoran Web Sitesi ve Yönetim Sistemi",
         "cta": "Projeyi İncele"
       },
-      {
+      "4": {
         "category": "E-Ticaret",
         "title": "E-Ticaret Web Sitesi",
         "cta": "Projeyi İncele"
       }
-    ]
+    }
   },
 
   "services": {

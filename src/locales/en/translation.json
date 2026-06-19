@@ -8,7 +8,7 @@
       "home": "Home",
       "contact": "Contact"
     },
-    "cta": "Let's Talk"
+    "cta": "LET'S TALK"
   },
 
   "hero": {
@@ -41,8 +41,8 @@
       "label": "Client Satisfaction"
     },
     "location": {
-      "value": "Turkey & KKTC",
-      "label": "Serving businesses locally"
+      "value": "Everywhere",
+      "label": "Serving businesses globally"
     }
   },
 
@@ -50,28 +50,28 @@
     "badge": "Selected Work",
     "title": "Digital solutions that drive real results.",
     "viewAll": "View All Projects",
-    "projects": [
-      {
+    "projects": {
+      "1": {
         "category": "Dental Clinic",
         "title": "Modern Dental Clinic Website",
         "cta": "View Project"
       },
-      {
+      "2": {
         "category": "Car Rental",
         "title": "Car Rental Booking Platform",
         "cta": "View Project"
       },
-      {
+      "3": {
         "category": "Restaurant",
         "title": "Restaurant Website & System",
         "cta": "View Project"
       },
-      {
+      "4": {
         "category": "E-Commerce",
         "title": "Ecommerce Website",
         "cta": "View Project"
       }
-    ]
+    }
   },
 
   "services": {
