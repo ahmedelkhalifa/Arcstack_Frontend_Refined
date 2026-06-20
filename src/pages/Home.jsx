@@ -11,6 +11,7 @@ import ProjectsPaper from "../components/projects/ProjectsPaper";
 import ServicesPaper from "../components/services/ServicesPaper";
 import Process from "../components/general/Process";
 import Testomonials from "../components/general/Testimonials";
+import CTABar from "../components/general/CTABar";
 
 const Home = () => {
   const { t } = useTranslation();
@@ -49,6 +50,8 @@ const Home = () => {
           }}
         >
           <Testomonials />
+          <Box sx={{pb: "100px"}}/>
+          <CTABar />
         </Container>
       </Box>
     </Box>

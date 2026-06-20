@@ -12,7 +12,7 @@ const theme = createTheme({
     },
 
     secondary: {
-      main: "#C8A24A", // Premium Gold
+      main: "rgb(200, 162, 74)", // Premium Gold
       dark: "#A8842E",
       light: "#D8B96A",
       contrastText: "#111827",
