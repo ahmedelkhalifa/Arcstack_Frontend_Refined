@@ -12,6 +12,7 @@ import ServicesPaper from "../components/services/ServicesPaper";
 import Process from "../components/general/Process";
 import Testomonials from "../components/general/Testimonials";
 import CTABar from "../components/general/CTABar";
+import Footer from "../components/general/Footer";
 
 const Home = () => {
   const { t } = useTranslation();
@@ -53,6 +54,7 @@ const Home = () => {
           <Box sx={{pb: "100px"}}/>
           <CTABar />
         </Container>
+        <Footer />
       </Box>
     </Box>
   );
