@@ -9,6 +9,8 @@ import { getProjects } from "../data/projects";
 import ProjectCard from "../components/projects/ProjectCard";
 import ProjectsPaper from "../components/projects/ProjectsPaper";
 import ServicesPaper from "../components/services/ServicesPaper";
+import Process from "../components/general/Process";
+import Testomonials from "../components/general/Testimonials";
 
 const Home = () => {
   const { t } = useTranslation();
@@ -33,6 +35,20 @@ const Home = () => {
           <ProjectsPaper />
           <Box sx={{pb: "100px"}}/>
           <ServicesPaper />
+        </Container>
+        <Process />
+        <Container
+          maxWidth="xl"
+          sx={{
+            py: "100px",
+            px: {
+              xs: 3,
+              md: 6,
+              lg: 8,
+            },
+          }}
+        >
+          <Testomonials />
         </Container>
       </Box>
     </Box>

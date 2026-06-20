@@ -129,7 +129,7 @@
 
   "process": {
     "badge": "Sürecimiz",
-    "title": "Net bir süreç. Kanıtlanmış sonuçlar.",
+    "title": "Net bir süreç.\nKanıtlanmış sonuçlar.",
     "steps": [
       {
         "number": "01",
@@ -156,7 +156,7 @@
 
   "testimonials": {
     "badge": "Müşterilerimiz Ne Diyor?",
-    "title": "Farklı sektörlerden işletmeler tarafından tercih ediliyoruz.",
+    "title": "Farklı sektörlerden işletmeler tarafından\ntercih ediliyoruz.",
     "reviews": [
       {
         "rating": 5,

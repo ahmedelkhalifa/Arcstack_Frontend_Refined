@@ -17,6 +17,12 @@ const ServiceCard = (props) => {
         flexDirection: "column",
         alignItems: "flex-start",
         gap: 0,
+        cursor: "pointer",
+        transition: "all 0.3s ease",
+        "&:hover": {
+            boxShadow: 20,
+            transform: "translateY(-3px)"
+        }
       }}
     >
       <Box
@@ -50,12 +56,12 @@ const ServiceCard = (props) => {
       >
         {service.number}
       </Typography>
-      <Typography variant="h4" sx={{ width: "70%", mt: 1 }}>
+      <Typography variant="h5" sx={{ width: "70%", mt: 1 }}>
         {service.title}
       </Typography>
       <Typography
         variant="body1"
-        sx={{ fontWeight: 500, color: "text.secondary", fontSize: 14, mt: 1, flex: 1 }}
+        sx={{ fontWeight: 500, color: "text.secondary", fontSize: 12, mt: 1, flex: 1 }}
       >
         {service.description}
       </Typography>
@@ -79,7 +85,7 @@ const ServiceCard = (props) => {
             >
               <Check sx={{ color: "secondary.main" }} fontSize="small" />
             </Box>
-            <Typography variant="body2" sx={{ fontSize: 14, fontWeight: 500 }}>
+            <Typography variant="body2" sx={{ fontSize: 12, fontWeight: 500 }}>
               {feature}
             </Typography>
           </Box>

@@ -28,7 +28,7 @@ const ProjectCard = (props) => {
       <Box
         sx={{
           width: "100%",
-          height: "150px",
+          height: "100px",
           borderRadius: 0.5,
           overflow: "hidden",
           mt: 2,
@@ -43,7 +43,7 @@ const ProjectCard = (props) => {
       <Typography variant="body1" sx={{ fontWeight: 600, mt: 2, flex: 1 }}>
         {project.title}
       </Typography>
-      <Button endIcon={<ArrowOutward />} sx={{ fontWeight: 600, p: 0, mt: 2, justifySelf: "flex-end" }}>
+      <Button endIcon={<ArrowOutward />} sx={{ fontWeight: 600, p: 0, mt: 1, justifySelf: "flex-end" }}>
         {project.cta}
       </Button>
     </Card>

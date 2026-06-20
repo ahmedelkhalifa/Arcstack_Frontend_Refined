@@ -129,7 +129,7 @@
 
   "process": {
     "badge": "Our Process",
-    "title": "A clear process. Proven results.",
+    "title": "A clear process.\nProven results.",
     "steps": [
       {
         "number": "01",
@@ -156,7 +156,7 @@
 
   "testimonials": {
     "badge": "Clients Love Us",
-    "title": "Trusted by businesses across industries.",
+    "title": "Trusted by businesses\nacross industries.",
     "reviews": [
       {
         "rating": 5,

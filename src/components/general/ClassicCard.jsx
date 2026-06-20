@@ -8,11 +8,17 @@ const ClassicCard = (props) => {
       sx={{
         display: "flex",
         flexDirection: props.variant === "row" ? "row" : "column",
-        alignItems:{xs: "flex-start", md:  "center"},
-        borderRight: {xs: "none", md: props.border === true ? "1px solid #E5E7EB" : "none"},
-        borderBottom: {xs: props.border === true ? "1px solid #E5E7EB" : "none", md: "none"},
-        justifyContent: {xs: "flex-start", md:  "center"},
-        pb: {xs: 3, md: 0}
+        alignItems: { xs: "flex-start", md: "center" },
+        borderRight: {
+          xs: "none",
+          md: props.border === true ? "1px solid #E5E7EB" : "none",
+        },
+        borderBottom: {
+          xs: props.border === true ? "1px solid #E5E7EB" : "none",
+          md: "none",
+        },
+        justifyContent: { xs: "flex-start", md: "center" },
+        pb: { xs: 3, md: 0 },
       }}
     >
       <Box
