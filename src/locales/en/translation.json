@@ -85,11 +85,7 @@
         "title": "Business Websites",
         "slug": "business-websites",
         "description": "Modern, fast, and SEO-friendly websites that help you attract more customers and grow your business.",
-        "features": [
-          "Custom Design",
-          "SEO Optimized",
-          "Mobile Friendly"
-        ],
+        "features": ["Custom Design", "SEO Optimized", "Mobile Friendly"],
         "cta": "Explore Service"
       },
       "2": {
@@ -197,14 +193,7 @@
 
     "services": "SERVICES",
 
-    "company": [
-      "QUICK LINKS",
-      "Home",
-      "Services",
-      "Work", 
-      "About",
-      "Contact"
-    ],
+    "company": ["QUICK LINKS", "Home", "Services", "Work", "About", "Contact"],
 
     "contact": {
       "title": "CONTACT",
@@ -219,7 +208,98 @@
       "description": "Get digital insights and tips straight to your inbox.",
       "placeholder": "Your email"
     },
-    
+
     "copyright": "Arcstack | All copyrights are reserved."
+  },
+  "servicesPage": {
+    "hero": {
+      "badge": "Services",
+      "title": {
+        "line1": "Digital Solutions",
+        "line2": "Built To Scale."
+      },
+      "description": "From business websites to powerful systems, we build digital solutions that help businesses attract more customers, streamline operations, and achieve sustainable growth.",
+      "cta": {
+        "primary": "Learn More"
+      },
+      "features": [
+        "Modern & Premium Design",
+        "Scalable & Secure Development",
+        "Performance Focused",
+        "Ongoing Support & Maintenance"
+      ]
+    },
+
+    "services": [
+      {
+        "number": "01",
+        "title": "Business Websites",
+        "description": "Professional websites that build trust, generate leads, and turn visitors into customers.",
+        "subtitle": "Industries We Serve:",
+        "items": [
+          "Dental Clinics",
+          "Car Rentals",
+          "Hotels",
+          "Real Estate",
+          "Restaurants",
+          "Accountants"
+        ],
+        "cta": "View Examples"
+      },
+
+      {
+        "number": "02",
+        "title": "Ecommerce Websites",
+        "description": "Online stores built for growth, conversion, and seamless shopping experiences.",
+        "subtitle": "Key Features:",
+        "items": [
+          "Product Management",
+          "Secure Payments",
+          "Inventory Integration",
+          "Order Management",
+          "Discounts & Coupons",
+          "Analytics & Reports"
+        ],
+        "cta": "View Examples"
+      },
+
+      {
+        "number": "03",
+        "title": "Business Systems",
+        "description": "Custom systems that help you automate operations, manage bookings, customers, inventory, and more.",
+        "subtitle": "Popular Solutions:",
+        "items": [
+          "Booking Systems",
+          "Appointment Systems",
+          "Admin Dashboards",
+          "Inventory Management",
+          "Customer Management",
+          "Reporting & Analytics"
+        ],
+        "cta": "View Examples"
+      },
+
+      {
+        "number": "04",
+        "title": "Custom Software",
+        "description": "Tailored web applications built around your unique business needs and workflows.",
+        "subtitle": "Capabilities:",
+        "items": [
+          "Custom Web Applications",
+          "API Integrations",
+          "Workflow Automation",
+          "SaaS Platforms",
+          "Database Design",
+          "Maintenance & Support"
+        ],
+        "cta": "View Examples"
+      }
+    ],
+
+    "ctaSection": {
+      "title": "Ready To Build Something Better?",
+      "description": "Let's discuss your project and create a digital solution that grows your business.",
+      "button": "Start Your Project"
+    }
   }
 }

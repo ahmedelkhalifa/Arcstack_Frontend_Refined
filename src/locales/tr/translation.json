@@ -85,11 +85,7 @@
         "title": "Kurumsal Web Siteleri",
         "slug": "kurumsal-web-siteleri",
         "description": "Daha fazla müşteri çekmenize ve markanızı büyütmenize yardımcı olan modern, hızlı ve SEO uyumlu web siteleri.",
-        "features": [
-          "Özel Tasarım",
-          "SEO Optimizasyonu",
-          "Mobil Uyumlu"
-        ],
+        "features": ["Özel Tasarım", "SEO Optimizasyonu", "Mobil Uyumlu"],
         "cta": "Hizmeti İncele"
       },
       "2": {
@@ -221,5 +217,97 @@
     },
 
     "copyright": "Arcstack | Tüm haklar saklıdır."
+  },
+
+  "servicesPage": {
+    "hero": {
+      "badge": "Hizmetler",
+      "title": {
+        "line1": "Ölçeklenebilir",
+        "line2": "Dijital Çözümler"
+      },
+      "description": "Kurumsal web sitelerinden güçlü iş sistemlerine kadar, işletmelerin daha fazla müşteri kazanmasına, süreçlerini optimize etmesine ve sürdürülebilir büyüme elde etmesine yardımcı olan dijital çözümler geliştiriyoruz.",
+      "cta": {
+        "primary": "Daha Fazla Bilgi"
+      },
+      "features": [
+        "Modern ve Premium Tasarım",
+        "Ölçeklenebilir ve Güvenli Geliştirme",
+        "Performans Odaklı",
+        "Sürekli Destek ve Bakım"
+      ]
+    },
+
+    "services": [
+      {
+        "number": "01",
+        "title": "Kurumsal Web Siteleri",
+        "description": "Güven oluşturan, potansiyel müşteriler kazandıran ve ziyaretçileri müşteriye dönüştüren profesyonel web siteleri.",
+        "subtitle": "Hizmet Verdiğimiz Sektörler:",
+        "items": [
+          "Diş Klinikleri",
+          "Araç Kiralama",
+          "Oteller",
+          "Emlak Firmaları",
+          "Restoranlar",
+          "Muhasebe Ofisleri"
+        ],
+        "cta": "Örnekleri İncele"
+      },
+
+      {
+        "number": "02",
+        "title": "E-Ticaret Siteleri",
+        "description": "Büyüme, dönüşüm ve kusursuz alışveriş deneyimi için geliştirilen modern online mağazalar.",
+        "subtitle": "Temel Özellikler:",
+        "items": [
+          "Ürün Yönetimi",
+          "Güvenli Ödeme Sistemleri",
+          "Stok Entegrasyonu",
+          "Sipariş Yönetimi",
+          "İndirim ve Kupon Sistemleri",
+          "Analitik ve Raporlama"
+        ],
+        "cta": "Örnekleri İncele"
+      },
+
+      {
+        "number": "03",
+        "title": "İş Yönetim Sistemleri",
+        "description": "Operasyonlarınızı otomatikleştirmenize, rezervasyonları, müşterileri ve envanteri yönetmenize yardımcı olan özel sistemler.",
+        "subtitle": "Popüler Çözümler:",
+        "items": [
+          "Rezervasyon Sistemleri",
+          "Randevu Sistemleri",
+          "Yönetim Panelleri",
+          "Stok Yönetimi",
+          "Müşteri Yönetimi",
+          "Raporlama ve Analitik"
+        ],
+        "cta": "Örnekleri İncele"
+      },
+
+      {
+        "number": "04",
+        "title": "Özel Yazılım Çözümleri",
+        "description": "İşletmenizin ihtiyaçlarına ve süreçlerine özel olarak geliştirilen web tabanlı yazılımlar.",
+        "subtitle": "Yetenekler:",
+        "items": [
+          "Özel Web Uygulamaları",
+          "API Entegrasyonları",
+          "İş Akışı Otomasyonu",
+          "SaaS Platformları",
+          "Veritabanı Tasarımı",
+          "Bakım ve Teknik Destek"
+        ],
+        "cta": "Örnekleri İncele"
+      }
+    ],
+
+    "ctaSection": {
+      "title": "Daha İyi Bir Şey İnşa Etmeye Hazır Mısınız?",
+      "description": "Projenizi birlikte değerlendirelim ve işletmenizin büyümesine katkı sağlayacak dijital bir çözüm oluşturalım.",
+      "button": "Projeni Başlat"
+    }
   }
 }

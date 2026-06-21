@@ -20,8 +20,9 @@ const Home = () => {
   return (
     <Box>
       <Box sx={{ height: { xs: "fit-content", md: "100vh" } }}>
-        <Nav />
+        <Nav active={"home"}/>
         <Hero />
+      </Box>
         <FeaturesPaper />
         <Container
           maxWidth="xl"
@@ -55,7 +56,6 @@ const Home = () => {
           <CTABar />
         </Container>
         <Footer />
-      </Box>
     </Box>
   );
 };
