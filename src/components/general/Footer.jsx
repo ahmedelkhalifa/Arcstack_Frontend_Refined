@@ -218,7 +218,7 @@ const Footer = () => {
                   cursor: "pointer",
                 }}
                 component={"div"}
-                onClick={() => navigate(`services/${service.slug}`)}
+                onClick={() => navigate(`/services/${service.slug}`)}
               >
                 {service.title}
               </Typography>

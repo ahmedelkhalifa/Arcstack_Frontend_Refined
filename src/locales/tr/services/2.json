@@ -1,0 +1,150 @@
+{
+  "slug": "e-ticaret-siteleri",
+
+  "seo": {
+    "title": "E-Ticaret Siteleri | ArcStack",
+    "description": "Satışları artırmak ve işletmenizi büyütmek için tasarlanmış modern e-ticaret siteleri."
+  },
+
+  "hero": {
+    "badge": "E-Ticaret Siteleri",
+    "title": "E-Ticaret Siteleri",
+    "highlightedWords": [
+      "büyüme",
+      "dönüşüm"
+    ],
+    "description": "Büyüme ve dönüşüm odaklı online mağazalar.",
+    "content": "Ziyaretçileri sadık müşterilere dönüştüren modern, güvenli ve yüksek performanslı e-ticaret siteleri geliştiriyoruz.",
+    "cta": "Projenizi Başlatın",
+
+    "image": {
+      "src": "/src/assets/services/E-commerce.webp",
+      "alt": "E-Ticaret Sitesi Mockup"
+    }
+  },
+
+  "whatWeBuild": {
+    "title": "Neler Geliştiriyoruz",
+
+    "items": [
+      {
+        "icon": "Storefront",
+        "title": "Online Mağazalar",
+        "description": "Satış yapmanız için gereken tüm özelliklere sahip kapsamlı online mağazalar."
+      },
+      {
+        "icon": "Inventory2",
+        "title": "Ürün Katalogları",
+        "description": "Ürünlerinizi ve koleksiyonlarınızı sergilemek için modern katalog yapıları."
+      },
+      {
+        "icon": "ShoppingCartCheckout",
+        "title": "Özel Ödeme Süreçleri",
+        "description": "Daha yüksek dönüşüm sağlayan güvenli ve optimize edilmiş ödeme akışları."
+      }
+    ]
+  },
+
+  "included": {
+    "title": "Neler Dahil",
+
+    "features": [
+      {
+        "icon": "CheckCircleOutline",
+        "text": "Özel Tasarım"
+      },
+      {
+        "icon": "CheckCircleOutline",
+        "text": "Mobil Uyumlu"
+      },
+      {
+        "icon": "CheckCircleOutline",
+        "text": "Ürün Yönetimi"
+      },
+      {
+        "icon": "CheckCircleOutline",
+        "text": "Güvenli Ödeme Sistemleri"
+      },
+      {
+        "icon": "CheckCircleOutline",
+        "text": "Stok Yönetimi"
+      },
+      {
+        "icon": "CheckCircleOutline",
+        "text": "İndirim ve Kupon Sistemleri"
+      },
+      {
+        "icon": "CheckCircleOutline",
+        "text": "Sipariş Yönetimi"
+      },
+      {
+        "icon": "CheckCircleOutline",
+        "text": "Analitik ve Raporlama"
+      }
+    ]
+  },
+
+  "highlightCard": {
+    "icon": "VerifiedUser",
+
+    "title": "Güvenli ve Güçlü",
+
+    "description": "Mağazanızın her zaman hızlı, güvenli ve stabil çalışması için performans ve güvenliği ön planda tutuyoruz."
+  },
+
+  "portfolio": {
+    "title": "Çalışmalarımızdan Örnekler",
+
+    "projects": [
+      {
+        "title": "Moda Mağazası",
+        "image": "/images/portfolio/fashion-store.webp"
+      },
+      {
+        "title": "Kozmetik Mağazası",
+        "image": "/images/portfolio/cosmetics-store.webp"
+      },
+      {
+        "title": "Mobilya Mağazası",
+        "image": "/images/portfolio/furniture-store.webp"
+      }
+    ]
+  },
+
+  "process": {
+    "title": "Süreçlerimiz",
+
+    "steps": [
+      {
+        "number": "01",
+        "icon": "Search",
+        "title": "Keşif",
+        "description": "İşletmenizi, hedeflerinizi ve ihtiyaçlarınızı analiz ediyoruz."
+      },
+      {
+        "number": "02",
+        "icon": "DesignServices",
+        "title": "Tasarım",
+        "description": "Markanızı en iyi şekilde yansıtan özel bir tasarım oluşturuyoruz."
+      },
+      {
+        "number": "03",
+        "icon": "Code",
+        "title": "Geliştirme",
+        "description": "Mağazanızı temiz, güvenli ve ölçeklenebilir teknolojilerle geliştiriyoruz."
+      },
+      {
+        "number": "04",
+        "icon": "RocketLaunch",
+        "title": "Yayına Alma",
+        "description": "Test ediyor, optimize ediyor ve sitenizi yayına alıyoruz."
+      }
+    ]
+  },
+
+  "ctaSection": {
+    "title": "Online Mağazanızı Hayata Geçirmeye Hazır Mısınız?",
+    "description": "Markanızı büyütecek ve satışlarınızı artıracak güçlü bir e-ticaret deneyimi oluşturalım.",
+    "button": "Bizimle İletişime Geçin"
+  }
+}

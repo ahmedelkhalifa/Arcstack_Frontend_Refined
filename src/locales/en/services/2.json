@@ -1,0 +1,150 @@
+{
+  "slug": "e-commerce-websites",
+
+  "seo": {
+    "title": "Ecommerce Websites | ArcStack",
+    "description": "Modern ecommerce websites designed to increase sales and grow your business."
+  },
+
+  "hero": {
+    "badge": "E-Commerce Websites",
+    "title": "Ecommerce Websites",
+    "highlightedWords": [
+      "growth",
+      "conversions"
+    ],
+    "description": "Online stores designed for growth and conversions.",
+    "content": "We build modern, secure and high-performing ecommerce websites that turn visitors into loyal customers.",
+    "cta": "Start Your Project",
+
+    "image": {
+      "src": "/src/assets/services/E-commerce.webp",
+      "alt": "Ecommerce Website Mockup"
+    }
+  },
+
+  "whatWeBuild": {
+    "title": "What We Build",
+
+    "items": [
+      {
+        "icon": "Storefront",
+        "title": "Online Stores",
+        "description": "Full-featured online stores with everything you need to sell."
+      },
+      {
+        "icon": "Inventory2",
+        "title": "Product Catalogs",
+        "description": "Beautiful catalogs to showcase your products and collections."
+      },
+      {
+        "icon": "ShoppingCartCheckout",
+        "title": "Custom Checkout",
+        "description": "Secure and optimized checkout flows for higher conversions."
+      }
+    ]
+  },
+
+  "included": {
+    "title": "What's Included",
+
+    "features": [
+      {
+        "icon": "CheckCircleOutline",
+        "text": "Custom Design"
+      },
+      {
+        "icon": "CheckCircleOutline",
+        "text": "Mobile Responsive"
+      },
+      {
+        "icon": "CheckCircleOutline",
+        "text": "Product Management"
+      },
+      {
+        "icon": "CheckCircleOutline",
+        "text": "Secure Payments"
+      },
+      {
+        "icon": "CheckCircleOutline",
+        "text": "Inventory Management"
+      },
+      {
+        "icon": "CheckCircleOutline",
+        "text": "Discounts & Coupons"
+      },
+      {
+        "icon": "CheckCircleOutline",
+        "text": "Order Management"
+      },
+      {
+        "icon": "CheckCircleOutline",
+        "text": "Analytics Integration"
+      }
+    ]
+  },
+
+  "highlightCard": {
+    "icon": "VerifiedUser",
+
+    "title": "Secure & Reliable",
+
+    "description": "We build with security and performance in mind, so your store is always fast, safe and reliable."
+  },
+
+  "portfolio": {
+    "title": "Examples Of Our Work",
+
+    "projects": [
+      {
+        "title": "Fashion Store",
+        "image": "/images/portfolio/fashion-store.webp"
+      },
+      {
+        "title": "Cosmetics Store",
+        "image": "/images/portfolio/cosmetics-store.webp"
+      },
+      {
+        "title": "Furniture Store",
+        "image": "/images/portfolio/furniture-store.webp"
+      }
+    ]
+  },
+
+  "process": {
+    "title": "Our Process",
+
+    "steps": [
+      {
+        "number": "01",
+        "icon": "Search",
+        "title": "Discovery",
+        "description": "We learn about your business, goals and requirements."
+      },
+      {
+        "number": "02",
+        "icon": "DesignServices",
+        "title": "Design",
+        "description": "We create a custom design that represents your brand."
+      },
+      {
+        "number": "03",
+        "icon": "Code",
+        "title": "Development",
+        "description": "We build your store using clean and scalable code."
+      },
+      {
+        "number": "04",
+        "icon": "RocketLaunch",
+        "title": "Launch",
+        "description": "We test, optimize and launch your store."
+      }
+    ]
+  },
+
+  "ctaSection": {
+    "title": "Ready To Launch Your Online Store?",
+    "description": "Let's build an ecommerce website that grows your brand and increases your sales.",
+    "button": "Let's Talk"
+  }
+}

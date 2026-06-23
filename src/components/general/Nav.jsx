@@ -198,17 +198,19 @@ const Nav = (props) => {
             gap: 2,
           }}
         >
-          <Box sx={{display: "flex", alignItems: "center"}}>
+          <Box sx={{ display: "flex", alignItems: "center" }}>
             <IconButton
-              onClick={() =>
-                i18next.language === "en"
-                  ? i18next.changeLanguage("tr")
-                  : i18next.changeLanguage("en")
-              }
+              onClick={async () => {
+                const newLanguage = i18next.language === "en" ? "tr" : "en";
+
+                await i18next.changeLanguage(newLanguage);
+
+                localStorage.setItem("language", newLanguage);
+              }}
             >
               <Language sx={{ color: "text.primary" }} />
             </IconButton>
-            <Typography variant="body1" sx={{fontWeight: 500}}>
+            <Typography variant="body1" sx={{ fontWeight: 500 }}>
               {i18next.language}
             </Typography>
           </Box>

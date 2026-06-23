@@ -232,8 +232,10 @@
 
     "services": [
       {
+        "id": 1,
         "number": "01",
         "title": "Business Websites",
+        "slug": "business-websites",
         "description": "Professional websites that build trust, generate leads, and turn visitors into customers.",
         "subtitle": "Industries We Serve:",
         "items": [
@@ -248,8 +250,10 @@
       },
 
       {
+        "id": 2,
         "number": "02",
         "title": "Ecommerce Websites",
+        "slug": "e-commerce-websites",
         "description": "Online stores built for growth, conversion, and seamless shopping experiences.",
         "subtitle": "Key Features:",
         "items": [
@@ -264,8 +268,10 @@
       },
 
       {
+        "id": 3,
         "number": "03",
         "title": "Business Systems",
+        "slug": "business-systems",
         "description": "Custom systems that help you automate operations, manage bookings, customers, inventory, and more.",
         "subtitle": "Popular Solutions:",
         "items": [
@@ -280,8 +286,10 @@
       },
 
       {
+        "id": 4,
         "number": "04",
         "title": "Custom Software",
+        "slug": "custom-software",
         "description": "Tailored web applications built around your unique business needs and workflows.",
         "subtitle": "Capabilities:",
         "items": [

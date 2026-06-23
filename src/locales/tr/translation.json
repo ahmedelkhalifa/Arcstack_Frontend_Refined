@@ -91,7 +91,7 @@
       "2": {
         "number": "02",
         "title": "E-Ticaret Siteleri",
-        "slug": "E-Ticaret-siteleri",
+        "slug": "e-ticaret-siteleri",
         "description": "Yüksek performanslı, güvenli ve satış odaklı çevrimiçi mağazalar geliştiriyoruz.",
         "features": [
           "Dönüşüm Odaklı",
@@ -240,8 +240,10 @@
 
     "services": [
       {
+        "id": 1,
         "number": "01",
         "title": "Kurumsal Web Siteleri",
+        "slug": "kurumsal-web-siteleri",
         "description": "Güven oluşturan, potansiyel müşteriler kazandıran ve ziyaretçileri müşteriye dönüştüren profesyonel web siteleri.",
         "subtitle": "Hizmet Verdiğimiz Sektörler:",
         "items": [
@@ -256,8 +258,10 @@
       },
 
       {
+        "id": 2,
         "number": "02",
         "title": "E-Ticaret Siteleri",
+        "slug": "e-ticaret-siteleri",
         "description": "Büyüme, dönüşüm ve kusursuz alışveriş deneyimi için geliştirilen modern online mağazalar.",
         "subtitle": "Temel Özellikler:",
         "items": [
@@ -272,8 +276,10 @@
       },
 
       {
+        "id": 3,
         "number": "03",
         "title": "İş Yönetim Sistemleri",
+        "slug": "iş-yönetim-sistemleri",
         "description": "Operasyonlarınızı otomatikleştirmenize, rezervasyonları, müşterileri ve envanteri yönetmenize yardımcı olan özel sistemler.",
         "subtitle": "Popüler Çözümler:",
         "items": [
@@ -288,8 +294,10 @@
       },
 
       {
+        "id": 4,
         "number": "04",
         "title": "Özel Yazılım Çözümleri",
+        "slug": "özel-yazılım-çözümleri",
         "description": "İşletmenizin ihtiyaçlarına ve süreçlerine özel olarak geliştirilen web tabanlı yazılımlar.",
         "subtitle": "Yetenekler:",
         "items": [
