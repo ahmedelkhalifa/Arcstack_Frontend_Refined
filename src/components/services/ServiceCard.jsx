@@ -1,8 +1,10 @@
 import { Check, East } from "@mui/icons-material";
 import { Box, Button, Card, Typography } from "@mui/material";
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const ServiceCard = (props) => {
+  const navigate = useNavigate();
   const service = props.service;
   console.log(service.feautres);
   return (
@@ -90,7 +92,7 @@ const ServiceCard = (props) => {
             </Typography>
           </Box>
         ))}
-        <Button sx={{ p: 0, mt: 3 }} endIcon={<East />}>
+        <Button sx={{ p: 0, mt: 3 }} endIcon={<East />} onClick={() => navigate(`/services/${service.slug}`)}>
           {service.cta}
         </Button>
       </Box>

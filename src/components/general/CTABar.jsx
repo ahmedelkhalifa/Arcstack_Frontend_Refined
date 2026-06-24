@@ -14,7 +14,7 @@ const CTABar = () => {
         py: 5,
         bgcolor: "primary.dark",
         display: "flex",
-        flexDirection: {xs: "column", md: "row"},
+        flexDirection: { xs: "column", md: "row" },
         justifyContent: "space-between",
         alignItems: "center",
         borderRadius: 1,
@@ -22,35 +22,43 @@ const CTABar = () => {
         position: "relative",
         overflow: "hidden",
         "&::after": {
-            content: '""',
-            position: "absolute",
-            right: 0,
-            bottom: 0,
-            width: "150px",
-            height: "100px",
-            bgcolor: "rgba(200, 162, 74, 0.7)",
-            borderTopLeftRadius: "100%"
-        }
+          content: '""',
+          position: "absolute",
+          right: 0,
+          bottom: 0,
+          width: "150px",
+          height: "100px",
+          bgcolor: "rgba(200, 162, 74, 0.7)",
+          borderTopLeftRadius: "100%",
+        },
       }}
     >
       <Box sx={{ flex: 1 }}>
         <Typography
           variant="h4"
-          sx={{ color: "background.default", width: {xs: "100%", md: "70%"} }}
+          sx={{ color: "background.default", width: { xs: "100%", md: "70%" } }}
         >
           {t("ctaSection.title")}
         </Typography>
       </Box>
-      <Box sx={{flex: 1,}}>
+      <Box sx={{ flex: 1 }}>
         <Typography
           variant="body1"
-          sx={{ color: "background.default", width: {xs: "100%", md: "70%"} }}
+          sx={{ color: "background.default", width: { xs: "100%", md: "70%" } }}
         >
           {t("ctaSection.description")}
         </Typography>
       </Box>
       <Box sx={{ flex: 1, width: "100%" }}>
-        <Button variant="contained" sx={{ bgcolor: "secondary.main", width: {xs: "100%", md: "200px", lg: "250px"} }} endIcon={<ArrowOutward />}>
+        <Button
+          variant="contained"
+          sx={{
+            bgcolor: "secondary.main",
+            width: { xs: "100%", md: "200px", lg: "250px" },
+            zIndex: 100
+          }}
+          endIcon={<ArrowOutward />}
+        >
           {t("ctaSection.button")}
         </Button>
       </Box>

@@ -1,0 +1,154 @@
+{
+  "slug": "kurumsal-web-siteleri",
+
+  "seo": {
+    "title": "Kurumsal Web Siteleri | ArcStack",
+    "description": "Güven oluşturan, müşteri kazandıran ve işletmenizi büyütmeye yardımcı olan profesyonel kurumsal web siteleri."
+  },
+
+  "hero": {
+    "badge": "Kurumsal Web Siteleri",
+    "title": "Kurumsal Web Siteleri",
+    "highlightedWords": [
+      "güven",
+      "büyüme"
+    ],
+    "description": "Markanızın güvenilirliğini artırmak ve yeni müşteriler kazanmak için tasarlanmış profesyonel web siteleri.",
+    "content": "Hizmetlerinizi etkili şekilde tanıtan, markanızı güçlendiren ve ziyaretçileri müşterilere dönüştüren modern kurumsal web siteleri geliştiriyoruz.",
+    "cta": "Projeni Başlat",
+
+    "image": {
+      "src": "/src/assets/services/Business.webp",
+      "alt": "Kurumsal Web Sitesi Mockup"
+    }
+  },
+
+  "whatWeBuild": {
+    "title": "Neler Geliştiriyoruz",
+
+    "items": [
+      {
+        "icon": "Business",
+        "title": "Kurumsal Web Siteleri",
+        "description": "Markanızı ve hizmetlerinizi profesyonel şekilde temsil eden modern web siteleri."
+      },
+      {
+        "icon": "Groups",
+        "title": "Hizmet Odaklı Web Siteleri",
+        "description": "Teklif, rezervasyon ve müşteri talepleri oluşturmak için optimize edilmiş web siteleri."
+      },
+      {
+        "icon": "Apartment",
+        "title": "Sektöre Özel Çözümler",
+        "description": "Klinikler, oteller, emlak firmaları, restoranlar ve diğer sektörler için özel web çözümleri."
+      }
+    ]
+  },
+
+  "included": {
+    "title": "Pakete Dahil Olanlar",
+
+    "features": [
+      {
+        "icon": "CheckCircleOutline",
+        "text": "Özel Tasarım"
+      },
+      {
+        "icon": "CheckCircleOutline",
+        "text": "Mobil Uyumlu"
+      },
+      {
+        "icon": "CheckCircleOutline",
+        "text": "SEO Altyapısı"
+      },
+      {
+        "icon": "CheckCircleOutline",
+        "text": "İletişim Formları"
+      },
+      {
+        "icon": "CheckCircleOutline",
+        "text": "Google Haritalar Entegrasyonu"
+      },
+      {
+        "icon": "CheckCircleOutline",
+        "text": "Performans Optimizasyonu"
+      },
+      {
+        "icon": "CheckCircleOutline",
+        "text": "Analitik Entegrasyonu"
+      },
+      {
+        "icon": "CheckCircleOutline",
+        "text": "Sürekli Destek"
+      }
+    ]
+  },
+
+  "highlightCard": {
+    "icon": "VerifiedUser",
+
+    "title": "Güven ve Profesyonellik İçin Tasarlandı",
+
+    "description": "Web siteniz çoğu zaman potansiyel müşterilerinizin işletmeniz hakkında edindiği ilk izlenimdir. Bu nedenle sitenizin güvenilir, profesyonel ve kaliteli bir görünüm sunmasını sağlıyoruz."
+  },
+
+  "portfolio": {
+    "title": "Çalışmalarımızdan Örnekler",
+
+    "projects": [
+      {
+        "title": "Mobilya Firması",
+        "image": "/src/assets/projects/corporate/coffee/cover.webp"
+      },
+      {
+        "title": "Kurumsal Marka",
+        "image": "/src/assets/projects/corporate/aluminum/cover.webp"
+      },
+      {
+        "title": "Profesyonel Hizmetler",
+        "image": "/src/assets/projects/corporate/clinic/cover.webp"
+      },
+      {
+        "title": "Yerel İşletme",
+        "image": "/src/assets/projects/corporate/estate/cover.webp"
+      }
+    ]
+  },
+
+  "process": {
+    "title": "Çalışma Sürecimiz",
+
+    "steps": [
+      {
+        "number": "01",
+        "icon": "Search",
+        "title": "Keşif",
+        "description": "İşletmenizi, hedef kitlenizi, hedeflerinizi ve ihtiyaçlarınızı detaylı şekilde analiz ediyoruz."
+      },
+      {
+        "number": "02",
+        "icon": "DesignServices",
+        "title": "Tasarım",
+        "description": "Markanızı ve kurumsal kimliğinizi yansıtan özel bir tasarım oluşturuyoruz."
+      },
+      {
+        "number": "03",
+        "icon": "Code",
+        "title": "Geliştirme",
+        "description": "Web sitenizi modern teknolojiler kullanarak hızlı, güvenli ve ölçeklenebilir şekilde geliştiriyoruz."
+      },
+      {
+        "number": "04",
+        "icon": "RocketLaunch",
+        "title": "Yayınlama",
+        "description": "Test ve optimizasyon süreçlerinin ardından web sitenizi yayına alıyoruz."
+      }
+    ]
+  },
+
+  "ctaSection": {
+    "title": "İşletmenizi Dijitalde Büyütmeye Hazır Mısınız?",
+    "description": "Markanızı güçlendirecek ve daha fazla müşteriye ulaşmanızı sağlayacak profesyonel bir web sitesi oluşturalım.",
+    "button": "Hemen İletişime Geç"
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "slug": "business-websites",
+
+  "seo": {
+    "title": "Business Websites | ArcStack",
+    "description": "Professional business websites designed to build trust, generate leads, and grow your business."
+  },
+
+  "hero": {
+    "badge": "Business Websites",
+    "title": "Business Websites",
+    "highlightedWords": [
+      "trust",
+      "growth"
+    ],
+    "description": "Professional websites designed to establish credibility and attract new customers.",
+    "content": "We create modern business websites that showcase your services, strengthen your brand, and convert visitors into clients.",
+    "cta": "Start Your Project",
+
+    "image": {
+      "src": "/src/assets/services/Business.webp",
+      "alt": "Business Website Mockup"
+    }
+  },
+
+  "whatWeBuild": {
+    "title": "What We Build",
+
+    "items": [
+      {
+        "icon": "Business",
+        "title": "Corporate Websites",
+        "description": "Professional websites that communicate your brand and services effectively."
+      },
+      {
+        "icon": "Groups",
+        "title": "Service-Based Websites",
+        "description": "Websites designed to generate inquiries, bookings, and leads for service businesses."
+      },
+      {
+        "icon": "Apartment",
+        "title": "Industry-Specific Solutions",
+        "description": "Tailored websites for clinics, hotels, real estate agencies, restaurants, and more."
+      }
+    ]
+  },
+
+  "included": {
+    "title": "What's Included",
+
+    "features": [
+      {
+        "icon": "CheckCircleOutline",
+        "text": "Custom Design"
+      },
+      {
+        "icon": "CheckCircleOutline",
+        "text": "Mobile Responsive"
+      },
+      {
+        "icon": "CheckCircleOutline",
+        "text": "SEO Foundations"
+      },
+      {
+        "icon": "CheckCircleOutline",
+        "text": "Contact Forms"
+      },
+      {
+        "icon": "CheckCircleOutline",
+        "text": "Google Maps Integration"
+      },
+      {
+        "icon": "CheckCircleOutline",
+        "text": "Performance Optimization"
+      },
+      {
+        "icon": "CheckCircleOutline",
+        "text": "Analytics Integration"
+      },
+      {
+        "icon": "CheckCircleOutline",
+        "text": "Ongoing Support"
+      }
+    ]
+  },
+
+  "highlightCard": {
+    "icon": "VerifiedUser",
+
+    "title": "Built For Trust & Credibility",
+
+    "description": "Your website is often the first impression potential customers have of your business. We ensure it reflects professionalism, reliability, and quality."
+  },
+
+  "portfolio": {
+    "title": "Examples Of Our Work",
+    
+    "projects": [
+      {
+        "title": "Furniture Company",
+        "image": "/src/assets/projects/corporate/coffee/cover.webp"
+      },
+      {
+        "title": "Corporate Brand",
+        "image": "/src/assets/projects/corporate/aluminum/cover.webp"
+      },
+      {
+        "title": "Professional Services",
+        "image": "/src/assets/projects/corporate/clinic/cover.webp"
+      },
+      {
+        "title": "Local Business",
+        "image": "/src/assets/projects/corporate/estate/cover.webp"
+      }
+    ]
+  },
+
+  "process": {
+    "title": "Our Process",
+
+    "steps": [
+      {
+        "number": "01",
+        "icon": "Search",
+        "title": "Discovery",
+        "description": "We learn about your business, audience, goals, and requirements."
+      },
+      {
+        "number": "02",
+        "icon": "DesignServices",
+        "title": "Design",
+        "description": "We create a custom design that reflects your brand and business identity."
+      },
+      {
+        "number": "03",
+        "icon": "Code",
+        "title": "Development",
+        "description": "We build a fast, responsive, and scalable website using modern technologies."
+      },
+      {
+        "number": "04",
+        "icon": "RocketLaunch",
+        "title": "Launch",
+        "description": "After testing and optimization, we launch your website and make it available to the world."
+      }
+    ]
+  },
+
+  "ctaSection": {
+    "title": "Ready To Grow Your Business Online?",
+    "description": "Let's build a professional website that strengthens your brand and helps you attract more customers.",
+    "button": "Let's Talk"
+  }
+}

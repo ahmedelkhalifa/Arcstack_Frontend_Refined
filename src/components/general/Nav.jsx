@@ -222,12 +222,36 @@ const Nav = (props) => {
             {t("navbar.cta")}
           </Button>
         </Box>
-        <IconButton
-          onClick={() => setOpen(true)}
-          sx={{ display: { xs: "flex", md: "none" } }}
+        <Box
+          sx={{
+            display: { xs: "flex", md: "none" },
+            alignItems: "center",
+            gap: 2,
+          }}
         >
-          <Menu sx={{ color: "text.primary" }}></Menu>
-        </IconButton>
+          <Box sx={{ display: "flex", alignItems: "center" }}>
+            <IconButton
+              onClick={async () => {
+                const newLanguage = i18next.language === "en" ? "tr" : "en";
+
+                await i18next.changeLanguage(newLanguage);
+
+                localStorage.setItem("language", newLanguage);
+              }}
+            >
+              <Language sx={{ color: "text.primary" }} />
+            </IconButton>
+            <Typography variant="body1" sx={{ fontWeight: 500 }}>
+              {i18next.language}
+            </Typography>
+          </Box>
+          <IconButton
+            onClick={() => setOpen(true)}
+            sx={{ display: { xs: "flex", md: "none" } }}
+          >
+            <Menu sx={{ color: "text.primary" }}></Menu>
+          </IconButton>
+        </Box>
       </Container>
       <Drawer
         anchor="left"

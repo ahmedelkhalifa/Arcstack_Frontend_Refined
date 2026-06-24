@@ -5,8 +5,8 @@ export const slugMap = {
   "business-systems": 3,
   "custom-software": 4,
   // Turkish slugs
-  "is-websiteleri": 1,
+  "kurumsal-web-siteleri": 1,
   "e-ticaret-siteleri": 2,
-  "is-sistemleri": 3,
+  "iş-yönetim-sistemleri": 3,
   "ozel-yazilim": 4,
 };

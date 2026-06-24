@@ -44,12 +44,12 @@ const ClassicCard = (props) => {
           {props.icon}
         </Box>
         <Box>
-          <Typography variant="h6" sx={{ color: "background.paper" }}>
+          <Typography variant="h6" sx={{ color: props.dark === true ? "primary.main" : "background.paper" }}>
             {props.number}
           </Typography>
           <Typography
             variant="body1"
-            sx={{ color: "background.paper", fontSize: 12 }}
+            sx={{ color: props.dark === true ? "primary.main" : "background.paper", fontSize: 12 }}
           >
             {props.text}
           </Typography>

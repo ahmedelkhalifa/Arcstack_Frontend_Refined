@@ -1,0 +1,154 @@
+{
+  "slug": "business-systems",
+
+  "seo": {
+    "title": "Business Management Systems | ArcStack",
+    "description": "Custom business management systems that streamline operations, automate workflows, and improve efficiency."
+  },
+
+  "hero": {
+    "badge": "Business Management Systems",
+    "title": "Business Management Systems",
+    "highlightedWords": [
+      "automation",
+      "efficiency"
+    ],
+    "description": "Custom systems that help you manage your business more efficiently.",
+    "content": "From appointment scheduling and booking platforms to inventory tracking and administration dashboards, we build systems that simplify operations and save valuable time.",
+    "cta": "Start Your Project",
+
+    "image": {
+      "src": "/src/assets/services/management.webp",
+      "alt": "Business Management System Dashboard"
+    }
+  },
+
+  "whatWeBuild": {
+    "title": "What We Build",
+
+    "items": [
+      {
+        "icon": "Dashboard",
+        "title": "Admin Dashboards",
+        "description": "Centralized dashboards that give you complete control over your business operations."
+      },
+      {
+        "icon": "EventAvailable",
+        "title": "Booking & Appointment Systems",
+        "description": "Automated scheduling systems that simplify reservations and appointments."
+      },
+      {
+        "icon": "Inventory2",
+        "title": "Inventory & Operations Management",
+        "description": "Track inventory, products, services, and operational processes from one place."
+      }
+    ]
+  },
+
+  "included": {
+    "title": "What's Included",
+
+    "features": [
+      {
+        "icon": "CheckCircleOutline",
+        "text": "Custom Dashboard"
+      },
+      {
+        "icon": "CheckCircleOutline",
+        "text": "Role & Permission Management"
+      },
+      {
+        "icon": "CheckCircleOutline",
+        "text": "Customer Management"
+      },
+      {
+        "icon": "CheckCircleOutline",
+        "text": "Appointment & Booking Management"
+      },
+      {
+        "icon": "CheckCircleOutline",
+        "text": "Inventory Tracking"
+      },
+      {
+        "icon": "CheckCircleOutline",
+        "text": "Reports & Analytics"
+      },
+      {
+        "icon": "CheckCircleOutline",
+        "text": "Automation Workflows"
+      },
+      {
+        "icon": "CheckCircleOutline",
+        "text": "Ongoing Support"
+      }
+    ]
+  },
+
+  "highlightCard": {
+    "icon": "VerifiedUser",
+
+    "title": "Built Around Your Workflow",
+
+    "description": "Unlike off-the-shelf software, our business systems are designed specifically around your processes, ensuring a perfect fit for your operations."
+  },
+
+  "portfolio": {
+    "title": "Examples Of Our Work",
+
+    "projects": [
+      {
+        "title": "Furniture Company",
+        "image": "/src/assets/projects/e-commerce/luxora_fur/cover.webp"
+      },
+      {
+        "title": "Corporate Brand",
+        "image": "/src/assets/projects/e-commerce/urbane/cover.webp"
+      },
+      {
+        "title": "Professional Services",
+        "image": "/src/assets/projects/e-commerce/northwnd/cover.webp"
+      },
+      {
+        "title": "Local Business",
+        "image": "/src/assets/projects/e-commerce/books/cover.webp"
+      }
+    ]
+  },
+
+  "process": {
+    "title": "Our Process",
+
+    "steps": [
+      {
+        "number": "01",
+        "icon": "Search",
+        "title": "Analysis",
+        "description": "We analyze your current workflow, challenges, and operational requirements."
+      },
+      {
+        "number": "02",
+        "icon": "AccountTree",
+        "title": "System Planning",
+        "description": "We design the system architecture and define how each process will work."
+      },
+      {
+        "number": "03",
+        "icon": "Code",
+        "title": "Development",
+        "description": "We develop a secure and scalable system tailored to your business."
+      },
+      {
+        "number": "04",
+        "icon": "RocketLaunch",
+        "title": "Deployment",
+        "description": "We test, optimize, deploy, and support your system after launch."
+      }
+    ]
+  },
+
+  "ctaSection": {
+    "title": "Ready To Streamline Your Operations?",
+    "description": "Let's build a custom business management system that saves time, improves efficiency, and supports your growth.",
+    "button": "Let's Talk"
+  }
+}

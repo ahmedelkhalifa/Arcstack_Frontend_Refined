@@ -9,9 +9,11 @@ import {
 import React from "react";
 import { useTranslation } from "react-i18next";
 import { ArrowOutward } from "@mui/icons-material";
+import { useNavigate } from "react-router-dom";
 
 const Hero = (props) => {
   const { t } = useTranslation();
+  const navigate = useNavigate();
   return (
     <Box
       sx={{
@@ -69,11 +71,12 @@ const Hero = (props) => {
             </Typography>
             {props.title2 && (
               <Typography
-                variant="h1"
+                variant={props.type === "details" ? "body1" : "h1"}
                 sx={{
-                  fontSize: { xs: 48, md: 60, lg: 72 },
+                  fontSize: props.type === "details" ? {xs: "24px", md: "36px"}: { xs: 48, md: 60, lg: 72 },
                   whiteSpace: "pre-line",
                   color: "primary.main",
+                  lineHeight: 1
                 }}
               >
                 {props.title2}
@@ -104,6 +107,7 @@ const Hero = (props) => {
                 variant="contained"
                 endIcon={<ArrowOutward />}
                 sx={{ fontWeight: 500, fontSize: { xs: 14, md: 10, lg: 14 } }}
+                onClick={() => window.open("https://wa.me/905391330540", "_blank")}
               >
                 {t("hero.primaryButton")}
               </Button>
@@ -111,6 +115,7 @@ const Hero = (props) => {
                 variant="outlined"
                 endIcon={<ArrowOutward />}
                 sx={{ fontWeight: 500, fontSize: { xs: 14, md: 10, lg: 14 } }}
+                onClick={() => navigate("/work")}
               >
                 {t("hero.secondaryButton")}
               </Button>

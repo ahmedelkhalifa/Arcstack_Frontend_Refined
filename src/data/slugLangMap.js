@@ -3,8 +3,8 @@ export const slugLangMap = {
   "e-commerce-websites": "en",
   "business-systems": "en",
   "custom-software": "en",
-  "is-websiteleri": "tr",
+  "kurumsal-web-siteleri": "tr",
   "e-ticaret-siteleri": "tr",
-  "is-sistemleri": "tr",
+  "iş-yönetim-sistemleri": "tr",
   "ozel-yazilim": "tr",
 };

@@ -98,15 +98,19 @@
     "projects": [
       {
         "title": "Moda Mağazası",
-        "image": "/images/portfolio/fashion-store.webp"
+        "image": "/src/assets/projects/e-commerce/luxora_fur/cover.webp"
       },
       {
         "title": "Kozmetik Mağazası",
-        "image": "/images/portfolio/cosmetics-store.webp"
+        "image": "/src/assets/projects/e-commerce/urbane/cover.webp"
       },
       {
-        "title": "Mobilya Mağazası",
-        "image": "/images/portfolio/furniture-store.webp"
+        "title": "Clothing Store",
+        "image": "/src/assets/projects/e-commerce/northwnd/cover.webp"
+      },
+      {
+        "title": "Book Store",
+        "image": "/src/assets/projects/e-commerce/books/cover.webp"
       }
     ]
   },

@@ -1,0 +1,154 @@
+{
+  "slug": "iş-yönetim-sistemleri",
+
+  "seo": {
+    "title": "İş Yönetim Sistemleri | ArcStack",
+    "description": "Operasyonlarınızı optimize eden, süreçleri otomatikleştiren ve verimliliği artıran özel iş yönetim sistemleri."
+  },
+
+  "hero": {
+    "badge": "İş Yönetim Sistemleri",
+    "title": "İş Yönetim Sistemleri",
+    "highlightedWords": [
+      "otomasyon",
+      "verimlilik"
+    ],
+    "description": "İşletmenizi daha verimli yönetmenizi sağlayan özel sistemler.",
+    "content": "Randevu ve rezervasyon sistemlerinden stok takibi ve yönetim panellerine kadar, operasyonlarınızı kolaylaştıran ve zamandan tasarruf sağlayan sistemler geliştiriyoruz.",
+    "cta": "Projeni Başlat",
+
+    "image": {
+      "src": "/src/assets/services/management.webp",
+      "alt": "İş Yönetim Sistemi Paneli"
+    }
+  },
+
+  "whatWeBuild": {
+    "title": "Neler Geliştiriyoruz",
+
+    "items": [
+      {
+        "icon": "Dashboard",
+        "title": "Yönetim Panelleri",
+        "description": "Tüm operasyonlarınızı tek noktadan yönetebileceğiniz merkezi kontrol panelleri."
+      },
+      {
+        "icon": "EventAvailable",
+        "title": "Rezervasyon ve Randevu Sistemleri",
+        "description": "Rezervasyon ve randevu süreçlerini otomatikleştiren sistemler."
+      },
+      {
+        "icon": "Inventory2",
+        "title": "Stok ve Operasyon Yönetimi",
+        "description": "Stoklarınızı, hizmetlerinizi ve operasyonel süreçlerinizi tek yerden yönetin."
+      }
+    ]
+  },
+
+  "included": {
+    "title": "Pakete Dahil Olanlar",
+
+    "features": [
+      {
+        "icon": "CheckCircleOutline",
+        "text": "Özel Yönetim Paneli"
+      },
+      {
+        "icon": "CheckCircleOutline",
+        "text": "Rol ve Yetki Yönetimi"
+      },
+      {
+        "icon": "CheckCircleOutline",
+        "text": "Müşteri Yönetimi"
+      },
+      {
+        "icon": "CheckCircleOutline",
+        "text": "Randevu ve Rezervasyon Yönetimi"
+      },
+      {
+        "icon": "CheckCircleOutline",
+        "text": "Stok Takibi"
+      },
+      {
+        "icon": "CheckCircleOutline",
+        "text": "Raporlama ve Analitik"
+      },
+      {
+        "icon": "CheckCircleOutline",
+        "text": "Otomasyon Süreçleri"
+      },
+      {
+        "icon": "CheckCircleOutline",
+        "text": "Sürekli Destek"
+      }
+    ]
+  },
+
+  "highlightCard": {
+    "icon": "VerifiedUser",
+
+    "title": "İş Süreçlerinize Özel Tasarlandı",
+
+    "description": "Hazır yazılımların aksine, geliştirdiğimiz sistemler işletmenizin süreçlerine özel olarak tasarlanır ve operasyonlarınıza tam uyum sağlar."
+  },
+
+  "portfolio": {
+    "title": "Çalışmalarımızdan Örnekler",
+
+    "projects": [
+      {
+        "title": "Mobilya Firması",
+        "image": "/src/assets/projects/e-commerce/luxora_fur/cover.webp"
+      },
+      {
+        "title": "Kurumsal Marka",
+        "image": "/src/assets/projects/e-commerce/urbane/cover.webp"
+      },
+      {
+        "title": "Profesyonel Hizmetler",
+        "image": "/src/assets/projects/e-commerce/northwnd/cover.webp"
+      },
+      {
+        "title": "Yerel İşletme",
+        "image": "/src/assets/projects/e-commerce/books/cover.webp"
+      }
+    ]
+  },
+
+  "process": {
+    "title": "Çalışma Sürecimiz",
+
+    "steps": [
+      {
+        "number": "01",
+        "icon": "Search",
+        "title": "Analiz",
+        "description": "Mevcut iş süreçlerinizi, ihtiyaçlarınızı ve karşılaştığınız zorlukları analiz ediyoruz."
+      },
+      {
+        "number": "02",
+        "icon": "AccountTree",
+        "title": "Sistem Planlama",
+        "description": "Sistem mimarisini tasarlıyor ve süreçlerin nasıl işleyeceğini belirliyoruz."
+      },
+      {
+        "number": "03",
+        "icon": "Code",
+        "title": "Geliştirme",
+        "description": "İşletmenize özel güvenli ve ölçeklenebilir bir sistem geliştiriyoruz."
+      },
+      {
+        "number": "04",
+        "icon": "RocketLaunch",
+        "title": "Yayınlama",
+        "description": "Sistemi test ediyor, optimize ediyor ve yayına aldıktan sonra destek sağlıyoruz."
+      }
+    ]
+  },
+
+  "ctaSection": {
+    "title": "Operasyonlarınızı Daha Verimli Hale Getirmeye Hazır Mısınız?",
+    "description": "Zaman kazandıran, verimliliği artıran ve büyümenizi destekleyen özel bir iş yönetim sistemi geliştirelim.",
+    "button": "Hemen İletişime Geç"
+  }
+}
