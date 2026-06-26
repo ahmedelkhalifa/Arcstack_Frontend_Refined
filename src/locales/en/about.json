@@ -1,0 +1,129 @@
+{
+  "hero": {
+    "badge": "About ArcStack",
+    "title": {
+      "line1": "We Build Digital Experiences",
+      "line2": "That Drive Growth."
+    },
+    "description": "ArcStack is a digital studio focused on building modern websites, ecommerce platforms, and business systems that help businesses grow, operate efficiently, and achieve real results.",
+    "cta": {
+      "primary": "Start Your Project"
+    },
+    "contacts": {
+      "website": "arcstack.online",
+      "instagram": "arcstack.dev",
+      "email": "arcstack.swe@gmail.com"
+    }
+  },
+
+  "philosophy": {
+    "badge": "Our Philosophy",
+    "title": {
+      "line1": "Technology should",
+      "highlight": "simplify,",
+      "line2": "not complicate."
+    },
+    "description": "We believe great digital products are clear, fast, and reliable. Our goal is to remove complexity so you can focus on running and growing your business."
+  },
+
+  "beliefs": {
+    "title": "What We Believe",
+    "items": [
+      {
+        "number": "01",
+        "title": "Business First",
+        "description": "Every project starts with business goals. We focus on what matters most for your growth.",
+        "img": "/src/assets/business_first.webp",
+        "icon": "Work"
+      },
+      {
+        "number": "02",
+        "title": "Built To Scale",
+        "description": "We build solutions that are flexible, scalable, and ready for the future.",
+        "img": "/src/assets/Scale.webp",
+        "icon": "FitScreen"
+      },
+      {
+        "number": "03",
+        "title": "Long-Term Partnership",
+        "description": "We're not just here to deliver a project. We're here to support your growth for the long run.",
+        "img": "/src/assets/long_term.webp",
+        "icon": "Handshake"
+      }
+    ]
+  },
+
+  "services": {
+    "title": "What We Do",
+    "items": [
+      {
+        "icon": "Tab",
+        "title": "Business Websites",
+        "description": "Professional websites that build trust, strengthen your brand, and bring in your customers."
+      },
+      {
+        "icon": "ShoppingCart",
+        "title": "Ecommerce Websites",
+        "description": "High-converting online stores designed to increase sales and customer loyalty."
+      },
+      {
+        "icon": "ViewInAr",
+        "title": "Business Systems",
+        "description": "Custom systems and dashboards that streamline operations and improve efficiency."
+      },
+      {
+        "icon": "Code",
+        "title": "Custom Software",
+        "description": "Tailored web applications built to solve complex and unique business challenges."
+      }
+    ]
+  },
+
+  "process": {
+    "title": "Our Process",
+    "steps": [
+      {
+        "number": "01",
+        "icon": "Search",
+        "title": "Discover",
+        "description": "We learn about your business, goals, and requirements."
+      },
+      {
+        "number": "02",
+        "icon": "DesignServices",
+        "title": "Design",
+        "description": "We design a solution that fits your brand and users."
+      },
+      {
+        "number": "03",
+        "icon": "Code",
+        "title": "Develop",
+        "description": "We build your solution with clean and scalable code."
+      },
+      {
+        "number": "04",
+        "icon": "RocketLaunch",
+        "title": "Launch",
+        "description": "We test everything and launch with confidence."
+      },
+      {
+        "number": "05",
+        "icon": "Shield",
+        "title": "Support",
+        "description": "We provide ongoing support to keep you growing."
+      }
+    ]
+  },
+
+  "vision": {
+    "badge": "Our Vision",
+    "title": "To help businesses build stronger digital foundations through modern technology.",
+    "description": "We exist to help businesses unlock their potential with digital solutions that create real impact."
+  },
+
+  "ctaSection": {
+    "title": "Ready to build something better?",
+    "description": "Let's create a digital solution tailored to your business.",
+    "button": "Start Your Project"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "hero": {
+    "badge": "Hakkımızda",
+    "title": {
+      "line1": "İşletmeleri Büyüten",
+      "line2": "Dijital Deneyimler Geliştiriyoruz."
+    },
+    "description": "ArcStack, işletmelerin büyümesine, operasyonlarını daha verimli yönetmesine ve gerçek sonuçlar elde etmesine yardımcı olan modern web siteleri, e-ticaret platformları ve iş yönetim sistemleri geliştiren bir dijital stüdyodur.",
+    "cta": {
+      "primary": "Projeni Başlat"
+    },
+    "contacts": {
+      "website": "arcstack.online",
+      "instagram": "arcstack.dev",
+      "email": "arcstack.swe@gmail.com"
+    }
+  },
+
+  "philosophy": {
+    "badge": "Felsefemiz",
+    "title": {
+      "line1": "Teknoloji",
+      "highlight": "hayatı kolaylaştırmalı,",
+      "line2": "karmaşıklaştırmamalıdır."
+    },
+    "description": "Harika dijital ürünlerin sade, hızlı ve güvenilir olması gerektiğine inanıyoruz. Amacımız karmaşıklığı ortadan kaldırarak sizin işletmenizi büyütmeye odaklanmanızı sağlamaktır."
+  },
+
+  "beliefs": {
+    "title": "İnandığımız Değerler",
+    "items": [
+      {
+        "number": "01",
+        "title": "Önce İşletmeniz",
+        "description": "Her projeye işletmenizin hedeflerini anlayarak başlıyoruz. Önceliğimiz, büyümeniz için en önemli olan çözümleri üretmektir.",
+        "img": "/src/assets/business_first.webp",
+        "icon": "Work"
+      },
+      {
+        "number": "02",
+        "title": "Büyümeye Hazır",
+        "description": "Geliştirdiğimiz çözümler esnek, ölçeklenebilir ve gelecekteki ihtiyaçlarınıza uyum sağlayacak şekilde tasarlanır.",
+        "img": "/src/assets/Scale.webp",
+        "icon": "FitScreen"
+      },
+      {
+        "number": "03",
+        "title": "Uzun Vadeli İş Ortaklığı",
+        "description": "Bizim için proje teslimi son değil, başlangıçtır. İşletmenizin büyüme yolculuğunda yanınızda olmaya devam ederiz.",
+        "img": "/src/assets/long_term.webp",
+        "icon": "Handshake"
+      }
+    ]
+  },
+
+  "services": {
+    "title": "Neler Yapıyoruz",
+    "items": [
+      {
+        "icon": "Language",
+        "title": "Kurumsal Web Siteleri",
+        "description": "Güven oluşturan, markanızı güçlendiren ve yeni müşteriler kazanmanıza yardımcı olan profesyonel web siteleri."
+      },
+      {
+        "icon": "ShoppingCart",
+        "title": "E-Ticaret Siteleri",
+        "description": "Satışlarınızı artırmak ve müşterilerinize kusursuz bir alışveriş deneyimi sunmak için geliştirilen modern online mağazalar."
+      },
+      {
+        "icon": "ViewInAr",
+        "title": "İş Yönetim Sistemleri",
+        "description": "Operasyonlarınızı kolaylaştıran, süreçlerinizi dijitalleştiren ve verimliliği artıran özel sistemler."
+      },
+      {
+        "icon": "Code",
+        "title": "Özel Yazılım Çözümleri",
+        "description": "İşletmenizin ihtiyaçlarına özel geliştirilen web tabanlı uygulamalar ve dijital çözümler."
+      }
+    ]
+  },
+
+  "process": {
+    "title": "Çalışma Sürecimiz",
+    "steps": [
+      {
+        "number": "01",
+        "icon": "Search",
+        "title": "Keşif",
+        "description": "İşletmenizi, hedeflerinizi ve ihtiyaçlarınızı detaylı şekilde analiz ediyoruz."
+      },
+      {
+        "number": "02",
+        "icon": "DesignServices",
+        "title": "Tasarım",
+        "description": "Markanızı ve kullanıcı deneyimini yansıtan modern bir çözüm tasarlıyoruz."
+      },
+      {
+        "number": "03",
+        "icon": "Code",
+        "title": "Geliştirme",
+        "description": "Çözümünüzü temiz, güvenli ve ölçeklenebilir kod altyapısıyla geliştiriyoruz."
+      },
+      {
+        "number": "04",
+        "icon": "RocketLaunch",
+        "title": "Yayınlama",
+        "description": "Tüm testleri tamamlayarak projenizi güvenle yayına alıyoruz."
+      },
+      {
+        "number": "05",
+        "icon": "Shield",
+        "title": "Destek",
+        "description": "Proje sonrasında da sürekli destek sağlayarak işletmenizin büyümesine katkıda bulunuyoruz."
+      }
+    ]
+  },
+
+  "vision": {
+    "badge": "Vizyonumuz",
+    "title": "Modern teknolojilerle işletmelerin daha güçlü dijital temeller oluşturmasına yardımcı olmak.",
+    "description": "İşletmelerin gerçek değer üreten dijital çözümlerle potansiyellerini ortaya çıkarmalarına katkı sağlamayı amaçlıyoruz."
+  },
+
+  "ctaSection": {
+    "title": "Daha İyisini İnşa Etmeye Hazır Mısınız?",
+    "description": "İşletmenize özel dijital bir çözümü birlikte hayata geçirelim.",
+    "button": "Projeni Başlat"
+  }
+}

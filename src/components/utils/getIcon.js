@@ -10,6 +10,13 @@ import {
   Business,
   Groups,
   Apartment,
+  Tab,
+  ShoppingCart,
+  ViewInAr,
+  Code,
+  FitScreen,
+  Work,
+  Handshake,
 } from "@mui/icons-material";
 
 const iconMap = {
@@ -23,7 +30,14 @@ const iconMap = {
   Campaign,
   Business,
   Groups,
-  Apartment
+  Apartment,
+  Tab,
+  ShoppingCart,
+  ViewInAr,
+  Code,
+  Work,
+  FitScreen,
+  Handshake
 };
 
 export const getIcon = (iconName) => {
