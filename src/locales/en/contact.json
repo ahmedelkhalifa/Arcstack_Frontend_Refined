@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "title": "Contact Us",
+    "description": "Let's build something great together. Reach out to discuss your project, website, e-commerce platform, or custom software."
+  },
+  "hero": {
+    "badge": "Contact Us",
+    "title": {
+      "line1": "Let's Build Something",
+      "line2": "Great Together."
+    },
+    "description": "Have a project in mind or want to discuss an idea? We'd love to hear from you. Reach out to us and let's create something amazing.",
+    "primaryButton": "Start Your Project",
+    "secondaryButton": "Schedule a Call",
+    "highlights": {
+      "responseTime": {
+        "title": "Response Time",
+        "description": "Within 24 hours"
+      },
+      "contact": {
+        "title": "Let's Connect",
+        "description": "Tell us about your project"
+      }
+    }
+  },
+  "contactForm": {
+    "badge": "Send Us a Message",
+    "title": "Tell us about your project",
+    "description": "Fill out the form below and we'll get back to you soon.",
+    "fields": {
+      "name": {
+        "label": "Your Name",
+        "placeholder": "John Doe"
+      },
+      "email": {
+        "label": "Your Email",
+        "placeholder": "john@example.com"
+      },
+      "company": {
+        "label": "Company / Business Name",
+        "placeholder": "Your company"
+      },
+      "service": {
+        "label": "What are you looking for?",
+        "placeholder": "Select a service",
+        "options": [
+          "Business Website",
+          "E-commerce Website",
+          "Business System",
+          "UI/UX Design",
+          "Website Redesign",
+          "Custom Software",
+          "Other"
+        ]
+      },
+      "message": {
+        "label": "Tell us about your project",
+        "placeholder": "Share some details about your project..."
+      }
+    },
+    "submitButton": "Send Message",
+    "privacyNote": "We respect your privacy. Your information will never be shared."
+  },
+  "contactInfo": {
+    "badge": "Contact Information",
+    "title": "Other ways to reach us",
+    "items": {
+      "website": {
+        "title": "Website",
+        "value": "arcstack.online",
+        "link": "https://arcstack.online/"
+      },
+      "instagram": {
+        "title": "Instagram",
+        "value": "@arcstack.dev",
+        "link": "https://www.instagram.com/arcstack.dev/"
+      },
+      "email": {
+        "title": "Email",
+        "value": "arcstack.swe@gmail.com",
+        "link": "mailto:arcstack.swe@gmail.com"
+      },
+      "whatsApp": {
+        "title": "WhatsApp",
+        "value": "+90 539 133 05 40",
+        "link": "https://wa.me/905391330540"
+      },
+      "availability": {
+        "title": "Availability",
+        "value": "Monday – Saturday",
+        "time": "10:00 AM – 7:00 PM (GMT+3)"
+      }
+    }
+  },
+  "cta": {
+    "badge": "Let's Start",
+    "title": "Every great project starts with a conversation.",
+    "description": "Whether you have a clear plan or just an idea, we're here to help you take the next step.",
+    "button": "Start Your Project",
+    "footerText": "Let's build something great together."
+  },
+  "footer": {
+    "description": "We design and build digital solutions that help businesses grow, automate, and succeed online.",
+    "sections": {
+      "services": {
+        "title": "Services",
+        "items": [
+          "Business Websites",
+          "E-commerce Websites",
+          "Business Systems",
+          "Custom Software"
+        ]
+      },
+      "company": {
+        "title": "Company",
+        "items": ["About Us", "Our Work", "Process", "Blog"]
+      },
+      "contact": {
+        "title": "Contact",
+        "website": "arcstack.online",
+        "instagram": "@arcstack.dev",
+        "email": "arcstack.swe@gmail.com"
+      }
+    },
+    "copyright": "© 2024 ArcStack. All rights reserved.",
+    "tagline": "Built with precision. Designed for growth."
+  }
+}

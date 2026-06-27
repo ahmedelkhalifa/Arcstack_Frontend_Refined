@@ -309,5 +309,10 @@
       "description": "Let's discuss your project and create a digital solution that grows your business.",
       "button": "Start Your Project"
     }
+  },
+  "thanks": {
+    "title": "Thank You",
+    "text": "We've recieved your message, we will responsd to you as soon as possible :)",
+    "button": "Go back to Homepage"
   }
 }

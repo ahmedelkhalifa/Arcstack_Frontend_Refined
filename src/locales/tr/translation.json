@@ -317,5 +317,11 @@
       "description": "Projenizi birlikte değerlendirelim ve işletmenizin büyümesine katkı sağlayacak dijital bir çözüm oluşturalım.",
       "button": "Projeni Başlat"
     }
+  },
+
+  "thanks": {
+    "title": "Teşekkür ederiz",
+    "text": "Mesajınızı aldık, size en kısa sürede yanıt vereceğiz :)",
+    "button": "Anasayfa'ya geri dön"
   }
 }

@@ -1,0 +1,142 @@
+{
+  "meta": {
+    "title": "İletişim",
+    "description": "Harika bir projeyi birlikte hayata geçirelim. Web sitesi, e-ticaret veya özel yazılım projenizi konuşmak için bizimle iletişime geçin."
+  },
+  "hero": {
+    "badge": "Bize Ulaşın",
+    "title": {
+      "line1": "Harika Bir Projeyi Birlikte",
+      "line2": "Hayata Geçirelim."
+    },
+    "description": "Aklınızda bir proje mi var veya bir fikrinizi hayata geçirmek mi istiyorsunuz? Sizi dinlemekten memnuniyet duyarız. Bizimle iletişime geçin, birlikte etkileyici bir dijital deneyim oluşturalım.",
+    "primaryButton": "Projenizi Başlatın",
+    "secondaryButton": "Görüşme Planlayın",
+    "highlights": {
+      "responseTime": {
+        "title": "Yanıt Süresi",
+        "description": "24 saat içinde"
+      },
+      "contact": {
+        "title": "Bağlantıya Geçelim",
+        "description": "Projenizi bizimle paylaşın"
+      }
+    }
+  },
+  "contactForm": {
+    "badge": "Mesaj Gönderin",
+    "title": "Projenizi Bize Anlatın",
+    "description": "Aşağıdaki formu doldurun, en kısa sürede sizinle iletişime geçelim.",
+    "fields": {
+      "name": {
+        "label": "Adınız Soyadınız",
+        "placeholder": "Ahmet Yılmaz"
+      },
+      "email": {
+        "label": "E-posta Adresiniz",
+        "placeholder": "ornek@mail.com"
+      },
+      "company": {
+        "label": "Şirket / İşletme Adı",
+        "placeholder": "İşletmenizin adı"
+      },
+      "service": {
+        "label": "Hangi hizmetle ilgileniyorsunuz?",
+        "placeholder": "Bir hizmet seçin",
+        "options": [
+          "Kurumsal Web Sitesi",
+          "E-Ticaret Web Sitesi",
+          "İş Yönetim Sistemi",
+          "UI/UX Tasarımı",
+          "Web Sitesi Yenileme",
+          "Özel Yazılım Geliştirme",
+          "Diğer"
+        ]
+      },
+      "message": {
+        "label": "Projenizi Anlatın",
+        "placeholder": "Projeniz hakkında birkaç detay paylaşın..."
+      }
+    },
+    "submitButton": "Mesaj Gönder",
+    "privacyNote": "Gizliliğinize önem veriyoruz. Bilgileriniz hiçbir zaman üçüncü kişilerle paylaşılmaz."
+  },
+  "contactInfo": {
+    "badge": "İletişim Bilgileri",
+    "title": "Bize Ulaşabileceğiniz Diğer Kanallar",
+    "items": {
+      "website": {
+        "title": "Web Sitesi",
+        "value": "arcstack.online",
+        "link": "https://arcstack.online/"
+      },
+      "instagram": {
+        "title": "Instagram",
+        "value": "@arcstack.dev",
+        "link": "https://www.instagram.com/arcstack.dev/"
+      },
+      "email": {
+        "title": "E-posta",
+        "value": "arcstack.swe@gmail.com",
+        "link": "mailto:arcstack.swe@gmail.com"
+      },
+      "whatsApp": {
+        "title": "WhatsApp",
+        "value": "+90 539 133 05 40",
+        "link": "https://wa.me/905391330540"
+      },
+      "availability": {
+        "title": "Çalışma Saatleri",
+        "value": "Pazartesi - Cumartesi",
+        "time": "10:00 - 19:00 (GMT+3)"
+      }
+    }
+  },
+  "cta": {
+    "badge": "Hadi Başlayalım",
+    "title": "Her başarılı proje iyi bir sohbetle başlar.",
+    "description": "İster net bir planınız olsun ister sadece bir fikriniz, bir sonraki adımı birlikte atalım.",
+    "button": "Projenizi Başlatın",
+    "footerText": "Harika bir projeyi birlikte hayata geçirelim."
+  },
+  "footer": {
+    "description": "İşletmelerin büyümesini, süreçlerini dijitalleştirmesini ve çevrimiçi başarıya ulaşmasını sağlayan modern dijital çözümler tasarlıyor ve geliştiriyoruz.",
+    "sections": {
+      "services": {
+        "title": "Hizmetler",
+        "items": [
+          "Kurumsal Web Siteleri",
+          "E-Ticaret Çözümleri",
+          "İş Yönetim Sistemleri",
+          "Özel Yazılım Geliştirme"
+        ]
+      },
+      "company": {
+        "title": "Şirket",
+        "items": ["Hakkımızda", "Projelerimiz", "Süreç", "Blog"]
+      },
+      "contact": {
+        "title": "İletişim",
+        "website": "arcstack.online",
+        "instagram": "@arcstack.dev",
+        "email": "arcstack.swe@gmail.com"
+      }
+    },
+    "copyright": "© 2024 ArcStack. Tüm hakları saklıdır.",
+    "tagline": "Titizlikle geliştirildi. Büyümeniz için tasarlandı."
+  },
+  "success": {
+    "title": "Mesajınız Gönderildi",
+    "description": "Bizimle iletişime geçtiğiniz için teşekkür ederiz. En geç bir iş günü içerisinde size dönüş yapacağız."
+  },
+  "validation": {
+    "required": "Bu alan zorunludur.",
+    "email": "Lütfen geçerli bir e-posta adresi girin.",
+    "minMessage": "Lütfen projeniz hakkında biraz daha detay paylaşın."
+  },
+  "buttons": {
+    "startProject": "Projenizi Başlatın",
+    "scheduleCall": "Görüşme Planlayın",
+    "sendMessage": "Mesaj Gönder"
+  }
+}

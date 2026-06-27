@@ -98,39 +98,36 @@ const ServiceDetails = () => {
           description={service.hero.content}
           type={"details"}
         />
-        <Container
-          maxWidth="xl"
-          sx={{ px: { xs: 3, md: 6, lg: 8 }}}
-        >
-          <Box sx={{ pb: 4 }}>
-            <Typography
-              variant="h6"
-              sx={{
-                fontWeight: 600,
-                color: "secondary.main",
-                textAlign: "center",
-                mb: 3,
-              }}
-            >
-              {service.portfolio.title}
-            </Typography>
-            <ProjectsOverview projects={service.portfolio.projects} />
-          </Box>
-          <WhatsIncluded content={service} />
-          <Box sx={{ pb: "100px" }} />
-        </Container>
-        <Process />
-        <Box sx={{ pb: "100px" }} />
-        <Container
-          maxWidth="xl"
-          sx={{ px: { xs: 3, md: 6, lg: 8 }, pb: "100px" }}
-        >
-          <WhatWeBuild service={service.whatWeBuild} />
-          <Box sx={{ pb: 4 }} />
-          <CTABar />
-        </Container>
-        <Footer />
       </Box>
+      <Container maxWidth="xl" sx={{ px: { xs: 3, md: 6, lg: 8 } }}>
+        <Box sx={{ pb: 4 }}>
+          <Typography
+            variant="h6"
+            sx={{
+              fontWeight: 600,
+              color: "secondary.main",
+              textAlign: "center",
+              mb: 3,
+            }}
+          >
+            {service.portfolio.title}
+          </Typography>
+          <ProjectsOverview projects={service.portfolio.projects} />
+        </Box>
+        <WhatsIncluded content={service} />
+        <Box sx={{ pb: "100px" }} />
+      </Container>
+      <Process />
+      <Box sx={{ pb: "100px" }} />
+      <Container
+        maxWidth="xl"
+        sx={{ px: { xs: 3, md: 6, lg: 8 }, pb: "100px" }}
+      >
+        <WhatWeBuild service={service.whatWeBuild} />
+        <Box sx={{ pb: 4 }} />
+        <CTABar />
+      </Container>
+      <Footer />
     </>
   );
 };
