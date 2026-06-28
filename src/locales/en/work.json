@@ -1,0 +1,139 @@
+{
+  "hero": {
+    "badge": "OUR WORK",
+    "title": {
+      "line1": "DIGITAL SOLUTIONS",
+      "line2": "THAT DRIVE",
+      "highlight": "RESULTS."
+    },
+    "description": "Explore a selection of projects we've designed and developed for businesses across different industries.",
+    "cta": "START YOUR PROJECT"
+  },
+  "filters": {
+    "all": "ALL PROJECTS",
+    "business": "BUSINESS WEBSITES",
+    "ecommerce": "ECOMMERCE WEBSITES",
+    "systems": "BUSINESS SYSTEMS",
+    "branding": "BRANDING"
+  },
+  "sort": {
+    "label": "LATEST",
+    "latest": "Latest",
+    "oldest": "Oldest"
+  },
+  "pagination": {
+    "prev": "Previous",
+    "next": "Next"
+  },
+  "typeBadge": {
+    "project": "Live Project",
+    "design": "Design"
+  },
+  "details": {
+    "livePreview": "Live Preview",
+    "gallery": "Project Gallery",
+    "backToWork": "Back to Work",
+    "type": "Type",
+    "category": "Category"
+  },
+  "projects": {
+    "yeniAy": {
+      "category": "BUSINESS WEBSITE",
+      "title": "Yeni Ay Aluminum",
+      "description": "Modern website for an aluminum company in Cyprus.",
+      "detailsDescription": "A fully developed corporate website for Yeni Ay Aluminum, a leading aluminum solutions company in Cyprus. The site showcases their product range, services, and company values with a clean and professional design built for trust and conversions.",
+      "cta": "View Project"
+    },
+    "arcDental": {
+      "category": "BUSINESS WEBSITE",
+      "title": "Arc Dental Clinic",
+      "description": "Professional website for a dental clinic focused on patient trust and care.",
+      "detailsDescription": "A modern, patient-focused website for Arc Dental Clinic. Designed to build trust from the first visit, featuring service pages, team profiles, and an appointment booking flow. Built with a clean aesthetic that reflects the clinic's commitment to quality care.",
+      "cta": "View Project"
+    },
+    "arcCoffee": {
+      "category": "BUSINESS WEBSITE",
+      "title": "Arc Coffee Shop",
+      "description": "Elegant website for a coffee shop.",
+      "detailsDescription": "A warm and inviting website for Arc Coffee, designed to reflect the cozy atmosphere of the brand. Features the menu, story, and location in a visually rich layout that drives foot traffic and online engagement.",
+      "cta": "View Project"
+    },
+    "menex": {
+      "category": "BUSINESS SYSTEM",
+      "title": "Menex Digital Menus",
+      "description": "SaaS software that provides digital QR code menus for restaurants.",
+      "detailsDescription": "Menex is a SaaS platform that provides restaurants with dynamic digital menus accessible via QR code. The system includes a dashboard for menu management, real-time updates, multi-language support, and analytics — eliminating the need for printed menus.",
+      "cta": "View Project"
+    },
+    "coffee": {
+      "category": "BUSINESS WEBSITE",
+      "title": "Coffee Shop",
+      "description": "Elegant website for a coffee shop.",
+      "detailsDescription": "A beautifully crafted website for a local coffee shop, designed to capture the brand's warm personality. The site features the menu, ambiance photography, and location details in a layout optimized for mobile visitors.",
+      "cta": "View Project"
+    },
+    "northEstate": {
+      "category": "BUSINESS WEBSITE",
+      "title": "NorthWay Real Estate",
+      "description": "Real estate website with advanced property listings.",
+      "detailsDescription": "A full-featured real estate website for NorthWay, enabling property browsing with filters, detailed listing pages, and a contact flow for inquiries. Built to handle a large inventory of properties while keeping the user experience fast and intuitive.",
+      "cta": "View Project"
+    },
+    "luxora": {
+      "category": "ECOMMERCE WEBSITE",
+      "title": "Luxora",
+      "description": "E-commerce design for a furniture brand with a clean shopping experience.",
+      "detailsDescription": "A premium e-commerce UI/UX design for Luxora, a furniture brand targeting a high-end market. The design focuses on large product visuals, refined typography, and a seamless shopping flow that reflects the brand's luxury positioning.",
+      "cta": "View Design"
+    },
+    "northWnd": {
+      "category": "ECOMMERCE WEBSITE",
+      "title": "NorthWnd Clothing",
+      "description": "E-commerce design for a clothing store with product catalog.",
+      "detailsDescription": "A clean and modern e-commerce design for NorthWnd, a contemporary clothing brand. The UI covers product listing pages, filters, product detail pages, cart, and checkout — designed with a minimal aesthetic that keeps the focus on the products.",
+      "cta": "View Design"
+    },
+    "pageturner": {
+      "category": "ECOMMERCE WEBSITE",
+      "title": "Pageturner Bookstore",
+      "description": "E-commerce design for a bookstore.",
+      "detailsDescription": "An inviting e-commerce design for Pageturner, an online bookstore. The design features a clean catalog layout, book detail pages with reviews, genre filtering, and a checkout flow — all crafted to make book discovery enjoyable.",
+      "cta": "View Design"
+    },
+    "urbane": {
+      "category": "ECOMMERCE WEBSITE",
+      "title": "Urbane Clothes",
+      "description": "Elegant e-commerce design for an urban clothing brand.",
+      "detailsDescription": "A bold and contemporary e-commerce design for Urbane, an urban streetwear brand. The design system includes a dark-toned product catalog, lookbook-style layouts, and a streamlined checkout experience that matches the brand's attitude.",
+      "cta": "View Design"
+    },
+    "driveManage": {
+      "category": "BUSINESS SYSTEM",
+      "title": "DriveManage",
+      "description": "Car rental management system design for reservations, vehicles, and reports.",
+      "detailsDescription": "A comprehensive UI design for DriveManage, a car rental management system. The dashboard covers reservations, vehicle tracking, customer management, and revenue reporting — all accessible from a single clean interface designed for operational efficiency.",
+      "cta": "View Design"
+    },
+    "hrManage": {
+      "category": "BUSINESS SYSTEM",
+      "title": "HRManage",
+      "description": "HR management system design for workforce, payroll, and attendance.",
+      "detailsDescription": "A full-featured UI design for HRManage, an HR management platform. The system covers employee records, attendance tracking, leave management, payroll, and performance — designed with a clean layout that makes complex HR workflows simple and intuitive.",
+      "cta": "View Design"
+    },
+    "salesHub": {
+      "category": "BUSINESS SYSTEM",
+      "title": "SalesHub",
+      "description": "CRM and sales management system design for leads, deals, and revenue.",
+      "detailsDescription": "A modern CRM UI design for SalesHub, built to help sales teams manage leads, track deals, and grow revenue. Features a sales pipeline view, revenue overview charts, lead source analytics, and recent activity tracking in a clean dashboard layout.",
+      "cta": "View Design"
+    },
+    "stockFlow": {
+      "category": "BUSINESS SYSTEM",
+      "title": "StockFlow",
+      "description": "Inventory and stock management system design with alerts and reporting.",
+      "detailsDescription": "A clean and functional UI design for StockFlow, a smart inventory management system. The dashboard provides a real-time overview of stock levels, low stock alerts, supplier management, and inventory analytics — designed for businesses that need to stay on top of their stock.",
+      "cta": "View Design"
+    }
+  }
+}

@@ -26,7 +26,7 @@ export const getServices = (t) => [
       {
         "number": "04",
         "title": t("services.items.4.title"),
-        "slug": t("services.items.3.slug"),
+        "slug": t("services.items.4.slug"),
         "description": t("services.items.4.description"),
         "features": t("services.items.4.features", { returnObjects: true }),
         "cta": t("services.items.4.cta")

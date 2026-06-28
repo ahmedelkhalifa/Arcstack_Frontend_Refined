@@ -63,7 +63,10 @@ const Hero = (props) => {
               variant="h1"
               sx={{
                 mt: 3,
-                fontSize: { xs: 48, md: 60, lg: 72 },
+                fontSize:
+                    props.type === "details"
+                      ? { xs: "36px", md: "48px" }
+                      : { xs: 48, md: 60, lg: 72 },
                 whiteSpace: "pre-line",
               }}
             >
@@ -73,10 +76,16 @@ const Hero = (props) => {
               <Typography
                 variant={props.type === "details" ? "body1" : "h1"}
                 sx={{
-                  fontSize: props.type === "details" ? {xs: "24px", md: "36px"}: { xs: 48, md: 60, lg: 72 },
+                  fontSize:
+                    props.type === "details"
+                      ? { xs: "24px", md: "36px" }
+                      : { xs: 48, md: 60, lg: 72 },
+                  mt:
+                    props.type === "details"
+                      ? 2 : 0,
                   whiteSpace: "pre-line",
                   color: "primary.main",
-                  lineHeight: 1
+                  lineHeight: 1,
                 }}
               >
                 {props.title2}
@@ -107,18 +116,32 @@ const Hero = (props) => {
                 variant="contained"
                 endIcon={<ArrowOutward />}
                 sx={{ fontWeight: 500, fontSize: { xs: 14, md: 10, lg: 14 } }}
-                onClick={() => window.open("https://wa.me/905391330540", "_blank")}
+                onClick={() =>
+                  window.open("https://wa.me/905391330540", "_blank")
+                }
               >
                 {t("hero.primaryButton")}
               </Button>
-              <Button
-                variant="outlined"
-                endIcon={<ArrowOutward />}
-                sx={{ fontWeight: 500, fontSize: { xs: 14, md: 10, lg: 14 } }}
-                onClick={() => navigate("/work")}
-              >
-                {t("hero.secondaryButton")}
-              </Button>
+              {props.variant !== "work" && (
+                <Button
+                  variant="outlined"
+                  endIcon={<ArrowOutward />}
+                  sx={{ fontWeight: 500, fontSize: { xs: 14, md: 10, lg: 14 } }}
+                  onClick={() => navigate("/work")}
+                >
+                  {t("hero.secondaryButton")}
+                </Button>
+              )}
+              {props.variant === "work" && (
+                <Button
+                  variant="outlined"
+                  endIcon={<ArrowOutward />}
+                  sx={{ fontWeight: 500, fontSize: { xs: 14, md: 10, lg: 14 } }}
+                  onClick={() => navigate("/contact")}
+                >
+                  {t("hero.contactButton")}
+                </Button>
+              )}
             </Box>
           </Box>
         </Box>

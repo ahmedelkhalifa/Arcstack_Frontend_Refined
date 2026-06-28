@@ -1,7 +1,7 @@
-import dental from "../assets/projects/dental_clinic.webp"
-import coffee from "../assets/projects/coffee_shop.webp"
-import menex from "../assets/projects/menex.png"
-import yeniAy from "../assets/projects/yeni-ay.png"
+import dental from "../assets/projects/corporate/clinic/arcDental.webp"
+import coffee from "../assets/projects/corporate/coffee/arcCoffee.webp"
+import menex from "../assets/projects/business/menex.webp"
+import yeniAy from "../assets/projects/corporate/aluminum/yeniAy.webp"
 
 export const getProjects = (t) => [
   // dental clininc
@@ -12,6 +12,7 @@ export const getProjects = (t) => [
     image: dental,
     featured: true,
     cta: t("portfolio.projects.1.cta"),
+    link: "/work/arc-dental"
   },
   //   car rental
   {
@@ -21,6 +22,7 @@ export const getProjects = (t) => [
     image: coffee,
     featured: true,
     cta: t("portfolio.projects.2.cta"),
+    link: "/work/arc-coffee"
   },
   //   Menex
   {
@@ -30,6 +32,7 @@ export const getProjects = (t) => [
     image: menex,
     featured: true,
     cta: t("portfolio.projects.3.cta"),
+    link: "/work/menex"
   },
   //   E-commerce
   {
@@ -39,5 +42,6 @@ export const getProjects = (t) => [
     image: yeniAy,
     featured: true,
     cta: t("portfolio.projects.4.cta"),
+    link: "/work/yeni-ay-aluminum"
   },
 ];

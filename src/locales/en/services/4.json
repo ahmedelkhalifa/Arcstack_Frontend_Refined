@@ -1,0 +1,156 @@
+
+{
+  "slug": "custom-software",
+
+  "seo": {
+    "title": "Custom Software Development | ArcStack",
+    "description": "Tailor-made software solutions designed around your business processes, helping you automate operations, improve productivity, and scale with confidence."
+  },
+
+  "hero": {
+    "badge": "Custom Software Development",
+    "title": "Custom Software Solutions",
+    "highlightedWords": [
+      "tailored",
+      "scalable"
+    ],
+    "description": "Software built specifically for your business, not adapted from generic tools.",
+    "content": "Whether you need an internal platform, customer portal, SaaS product, workflow automation, or a completely unique web application, we develop secure, scalable software that solves real business challenges.",
+    "cta": "Start Your Project",
+
+    "image": {
+      "src": "/src/assets/services/custom.webp",
+      "alt": "Custom Software Development"
+    }
+  },
+
+  "whatWeBuild": {
+    "title": "What We Build",
+
+    "items": [
+      {
+        "icon": "Code",
+        "title": "Custom Web Applications",
+        "description": "Tailor-made web applications designed around your exact business requirements."
+      },
+      {
+        "icon": "Cloud",
+        "title": "SaaS Platforms",
+        "description": "Modern cloud-based software products built for scalability, subscriptions, and long-term growth."
+      },
+      {
+        "icon": "Hub",
+        "title": "Workflow Automation",
+        "description": "Automate repetitive processes, connect business operations, and improve team productivity."
+      }
+    ]
+  },
+
+  "included": {
+    "title": "What's Included",
+
+    "features": [
+      {
+        "icon": "CheckCircleOutline",
+        "text": "Requirements Analysis"
+      },
+      {
+        "icon": "CheckCircleOutline",
+        "text": "Custom UI/UX Design"
+      },
+      {
+        "icon": "CheckCircleOutline",
+        "text": "Secure Backend Development"
+      },
+      {
+        "icon": "CheckCircleOutline",
+        "text": "Responsive Frontend"
+      },
+      {
+        "icon": "CheckCircleOutline",
+        "text": "API Integrations"
+      },
+      {
+        "icon": "CheckCircleOutline",
+        "text": "Database Design"
+      },
+      {
+        "icon": "CheckCircleOutline",
+        "text": "Testing & Quality Assurance"
+      },
+      {
+        "icon": "CheckCircleOutline",
+        "text": "Deployment & Ongoing Support"
+      }
+    ]
+  },
+
+  "highlightCard": {
+    "icon": "AutoAwesome",
+
+    "title": "Software Designed Around Your Business",
+
+    "description": "Every business is different. Instead of forcing your workflow into generic software, we build solutions that fit your processes perfectly, making your operations faster, smarter, and easier to manage."
+  },
+
+  "portfolio": {
+    "title": "Examples Of Our Work",
+
+    "projects": [
+      {
+        "title": "Furniture Company",
+        "image": "/src/assets/projects/business/hrManage/cover.webp"
+      },
+      {
+        "title": "Corporate Brand",
+        "image": "/src/assets/projects/business/driveManage/cover.webp"
+      },
+      {
+        "title": "Local Business",
+        "image": "/src/assets/projects/business/stockFlow/cover.webp"
+      },
+      {
+        "title": "Professional Services",
+        "image": "/src/assets/projects/business/salesHub/cover.webp"
+      }
+    ]
+  },
+
+  "process": {
+    "title": "Our Process",
+
+    "steps": [
+      {
+        "number": "01",
+        "icon": "Search",
+        "title": "Discovery",
+        "description": "We understand your business goals, workflows, and technical requirements."
+      },
+      {
+        "number": "02",
+        "icon": "Architecture",
+        "title": "Planning & Design",
+        "description": "We define the software architecture, user experience, and development roadmap."
+      },
+      {
+        "number": "03",
+        "icon": "Code",
+        "title": "Development",
+        "description": "Our team develops your software using modern technologies with security and scalability in mind."
+      },
+      {
+        "number": "04",
+        "icon": "RocketLaunch",
+        "title": "Launch & Support",
+        "description": "After thorough testing, we deploy your software and continue supporting its growth."
+      }
+    ]
+  },
+
+  "ctaSection": {
+    "title": "Have An Idea Worth Building?",
+    "description": "Let's turn your concept into powerful custom software that helps your business grow and gives you a competitive advantage.",
+    "button": "Let's Talk"
+  }
+}
+

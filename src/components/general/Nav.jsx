@@ -38,7 +38,7 @@ const Nav = (props) => {
         left: 0,
         width: "100%",
         bgcolor: "background.default",
-        zIndex: 2000,
+        zIndex: 1100,
         transition: "box-shadow 0.3s ease",
         boxShadow: scrolled ? 10 : 0,
       }}
@@ -75,7 +75,6 @@ const Nav = (props) => {
                 height: 2,
                 bgcolor: "secondary.main",
                 transition: "all 0.3s ease",
-                // display: props.active === "home" ? "block" : "none"
               },
               "&:hover::after": {
                 width: "100%",
@@ -101,7 +100,6 @@ const Nav = (props) => {
                 height: 2,
                 bgcolor: "secondary.main",
                 transition: "all 0.3s ease",
-                // display: props.active === "home" ? "block" : "none"
               },
               "&:hover::after": {
                 width: "100%",
@@ -127,7 +125,6 @@ const Nav = (props) => {
                 height: 2,
                 bgcolor: "secondary.main",
                 transition: "all 0.3s ease",
-                // display: props.active === "home" ? "block" : "none"
               },
               "&:hover::after": {
                 width: "100%",
@@ -153,7 +150,6 @@ const Nav = (props) => {
                 height: 2,
                 bgcolor: "secondary.main",
                 transition: "all 0.3s ease",
-                // display: props.active === "home" ? "block" : "none"
               },
               "&:hover::after": {
                 width: "100%",
@@ -179,7 +175,6 @@ const Nav = (props) => {
                 height: 2,
                 bgcolor: "secondary.main",
                 transition: "all 0.3s ease",
-                // display: props.active === "home" ? "block" : "none"
               },
               "&:hover::after": {
                 width: "100%",
@@ -202,9 +197,7 @@ const Nav = (props) => {
             <IconButton
               onClick={async () => {
                 const newLanguage = i18next.language === "en" ? "tr" : "en";
-
                 await i18next.changeLanguage(newLanguage);
-
                 localStorage.setItem("language", newLanguage);
               }}
             >
@@ -218,6 +211,7 @@ const Nav = (props) => {
             variant="contained"
             endIcon={<ArrowOutward />}
             sx={{ display: { xs: "none", md: "flex" }, width: "100%" }}
+            onClick={() => window.open("https://wa.me/905391330540", "_blank")}
           >
             {t("navbar.cta")}
           </Button>
@@ -233,9 +227,7 @@ const Nav = (props) => {
             <IconButton
               onClick={async () => {
                 const newLanguage = i18next.language === "en" ? "tr" : "en";
-
                 await i18next.changeLanguage(newLanguage);
-
                 localStorage.setItem("language", newLanguage);
               }}
             >
@@ -249,7 +241,7 @@ const Nav = (props) => {
             onClick={() => setOpen(true)}
             sx={{ display: { xs: "flex", md: "none" } }}
           >
-            <Menu sx={{ color: "text.primary" }}></Menu>
+            <Menu sx={{ color: "text.primary" }} />
           </IconButton>
         </Box>
       </Container>
@@ -285,11 +277,8 @@ const Nav = (props) => {
                   height: 2,
                   bgcolor: "secondary.main",
                   transition: "all 0.3s ease",
-                  // display: props.active === "home" ? "block" : "none"
                 },
-                "&:hover::after": {
-                  width: "100%",
-                },
+                "&:hover::after": { width: "100%" },
               }}
               component={"div"}
               onClick={() => navigate("/")}
@@ -311,11 +300,8 @@ const Nav = (props) => {
                   height: 2,
                   bgcolor: "secondary.main",
                   transition: "all 0.3s ease",
-                  // display: props.active === "home" ? "block" : "none"
                 },
-                "&:hover::after": {
-                  width: "100%",
-                },
+                "&:hover::after": { width: "100%" },
               }}
               component={"div"}
               onClick={() => navigate("/services")}
@@ -337,11 +323,8 @@ const Nav = (props) => {
                   height: 2,
                   bgcolor: "secondary.main",
                   transition: "all 0.3s ease",
-                  // display: props.active === "home" ? "block" : "none"
                 },
-                "&:hover::after": {
-                  width: "100%",
-                },
+                "&:hover::after": { width: "100%" },
               }}
               component={"div"}
               onClick={() => navigate("/work")}
@@ -363,11 +346,8 @@ const Nav = (props) => {
                   height: 2,
                   bgcolor: "secondary.main",
                   transition: "all 0.3s ease",
-                  // display: props.active === "home" ? "block" : "none"
                 },
-                "&:hover::after": {
-                  width: "100%",
-                },
+                "&:hover::after": { width: "100%" },
               }}
               component={"div"}
               onClick={() => navigate("/about")}
@@ -389,11 +369,8 @@ const Nav = (props) => {
                   height: 2,
                   bgcolor: "secondary.main",
                   transition: "all 0.3s ease",
-                  // display: props.active === "home" ? "block" : "none"
                 },
-                "&:hover::after": {
-                  width: "100%",
-                },
+                "&:hover::after": { width: "100%" },
               }}
               component={"div"}
               onClick={() => navigate("/contact")}

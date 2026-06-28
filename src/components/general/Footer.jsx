@@ -112,7 +112,7 @@ const Footer = () => {
                 }}
                 onClick={() =>
                   window.open(
-                    "https://www.facebook.com/profile.php?id=61586613479348",
+                    "https://wa.me/905391330540",
                     "_blank",
                   )
                 }
@@ -254,7 +254,10 @@ const Footer = () => {
                   color: "background.default",
                   fontSize: 14,
                   fontWeight: 400,
+                  cursor: "pointer"
                 }}
+                component={"div"}
+                onClick={() => window.open("https://wa.me/905391330540", "_blank")}
               >
                 +90 539 133 05 40
               </Typography>

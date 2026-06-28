@@ -21,6 +21,7 @@
     "description": "We design modern websites, ecommerce platforms, and business systems that help businesses grow online.",
     "primaryButton": "START YOUR PROJECT",
     "secondaryButton": "View Our Work",
+    "contactButton": "Contact Us",
     "socialProof": {
       "count": "50+",
       "text": "businesses trusted ArcStack"
@@ -52,23 +53,23 @@
     "viewAll": "View All Projects",
     "projects": {
       "1": {
-        "category": "Dental Clinic",
-        "title": "Modern Dental Clinic Website",
+        "category": "Business Website",
+        "title": "ArcDental | dental clinic",
         "cta": "View Project"
       },
       "2": {
-        "category": "Car Rental",
-        "title": "Car Rental Booking Platform",
+        "category": "Business Website",
+        "title": "ArcCoffee",
         "cta": "View Project"
       },
       "3": {
-        "category": "Restaurant",
-        "title": "Restaurant Website & System",
+        "category": "Software",
+        "title": "Menex | Digital QR code menus",
         "cta": "View Project"
       },
       "4": {
-        "category": "E-Commerce",
-        "title": "Ecommerce Website",
+        "category": "Business Website",
+        "title": "Yeni Ay Aluminum",
         "cta": "View Project"
       }
     }

@@ -98,19 +98,19 @@
     "projects": [
       {
         "title": "Furniture Company",
-        "image": "/src/assets/projects/e-commerce/luxora_fur/cover.webp"
+        "image": "/src/assets/projects/business/hrManage/cover.webp"
       },
       {
         "title": "Corporate Brand",
-        "image": "/src/assets/projects/e-commerce/urbane/cover.webp"
-      },
-      {
-        "title": "Professional Services",
-        "image": "/src/assets/projects/e-commerce/northwnd/cover.webp"
+        "image": "/src/assets/projects/business/driveManage/cover.webp"
       },
       {
         "title": "Local Business",
-        "image": "/src/assets/projects/e-commerce/books/cover.webp"
+        "image": "/src/assets/projects/business/stockFlow/cover.webp"
+      },
+      {
+        "title": "Professional Services",
+        "image": "/src/assets/projects/business/salesHub/cover.webp"
       }
     ]
   },

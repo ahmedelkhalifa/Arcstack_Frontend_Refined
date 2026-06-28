@@ -7,11 +7,13 @@ import ScrollToTop from "./components/utils/ScrollToTop";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Thanks from "./pages/Thanks";
+import Work from "./pages/Work";
+import ProjectDetails from "./pages/ProjectDetails";
 
 const App = () => {
   return (
     <BrowserRouter>
-    <ScrollToTop />
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/services" element={<Services />} />
@@ -19,6 +21,8 @@ const App = () => {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/thank-you" element={<Thanks />} />
+        <Route path="/work" element={<Work />} />
+        <Route path="/work/:slug" element={<ProjectDetails />} />
       </Routes>
     </BrowserRouter>
   );

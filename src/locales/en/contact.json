@@ -124,5 +124,11 @@
     },
     "copyright": "© 2024 ArcStack. All rights reserved.",
     "tagline": "Built with precision. Designed for growth."
+  },
+  "validation": {
+    "email": "Please enter a valid Email"
+  },
+  "success": {
+    "title": "Message sent successfully!"
   }
 }

@@ -1,0 +1,155 @@
+
+{
+  "slug": "özel-yazılım-çözümleri",
+
+  "seo": {
+    "title": "Özel Yazılım Geliştirme | ArcStack",
+    "description": "İş süreçlerinize özel geliştirilen yazılım çözümleriyle operasyonlarınızı dijitalleştirin, verimliliği artırın ve güvenle büyüyün."
+  },
+
+  "hero": {
+    "badge": "Özel Yazılım Geliştirme",
+    "title": "Özel Yazılım Çözümleri",
+    "highlightedWords": [
+      "size özel",
+      "ölçeklenebilir"
+    ],
+    "description": "Hazır yazılımlara uyum sağlamak yerine, işinizi destekleyen tamamen size özel çözümler geliştiriyoruz.",
+    "content": "İster kurum içi bir yönetim platformuna, müşteri portalına, SaaS ürününe, iş süreçlerini otomatikleştiren bir sisteme ya da tamamen özgün bir web uygulamasına ihtiyacınız olsun; işletmenizin ihtiyaçlarına uygun, güvenli ve ölçeklenebilir yazılımlar geliştiriyoruz.",
+    "cta": "Projenizi Başlatın",
+
+    "image": {
+      "src": "/src/assets/services/custom.webp",
+      "alt": "Özel Yazılım Geliştirme"
+    }
+  },
+
+  "whatWeBuild": {
+    "title": "Neler Geliştiriyoruz",
+
+    "items": [
+      {
+        "icon": "Code",
+        "title": "Özel Web Uygulamaları",
+        "description": "İş süreçlerinize ve hedeflerinize tamamen uygun, sıfırdan geliştirilen web uygulamaları."
+      },
+      {
+        "icon": "Cloud",
+        "title": "SaaS Platformları",
+        "description": "Abonelik modeliyle çalışan, büyümeye hazır modern bulut tabanlı yazılım çözümleri."
+      },
+      {
+        "icon": "Hub",
+        "title": "İş Süreci Otomasyonu",
+        "description": "Tekrarlayan işleri otomatikleştiren, ekip verimliliğini artıran akıllı yazılım çözümleri."
+      }
+    ]
+  },
+
+  "included": {
+    "title": "Neler Dahil",
+
+    "features": [
+      {
+        "icon": "CheckCircleOutline",
+        "text": "İhtiyaç Analizi"
+      },
+      {
+        "icon": "CheckCircleOutline",
+        "text": "Özel UI/UX Tasarımı"
+      },
+      {
+        "icon": "CheckCircleOutline",
+        "text": "Güvenli Backend Geliştirme"
+      },
+      {
+        "icon": "CheckCircleOutline",
+        "text": "Responsive Frontend Geliştirme"
+      },
+      {
+        "icon": "CheckCircleOutline",
+        "text": "API Entegrasyonları"
+      },
+      {
+        "icon": "CheckCircleOutline",
+        "text": "Veritabanı Tasarımı"
+      },
+      {
+        "icon": "CheckCircleOutline",
+        "text": "Test ve Kalite Kontrol"
+      },
+      {
+        "icon": "CheckCircleOutline",
+        "text": "Yayınlama ve Sürekli Destek"
+      }
+    ]
+  },
+
+  "highlightCard": {
+    "icon": "AutoAwesome",
+
+    "title": "İşletmenize Özel Geliştirilen Yazılımlar",
+
+    "description": "Her işletmenin çalışma şekli farklıdır. Hazır yazılımlara uyum sağlamak yerine, süreçlerinize tam uyum sağlayan özel yazılımlar geliştirerek operasyonlarınızı daha hızlı, verimli ve kolay yönetilebilir hale getiriyoruz."
+  },
+
+  "portfolio": {
+    "title": "Projelerimizden Örnekler",
+
+    "projects": [
+      {
+        "title": "Furniture Company",
+        "image": "/src/assets/projects/business/hrManage/cover.webp"
+      },
+      {
+        "title": "Corporate Brand",
+        "image": "/src/assets/projects/business/driveManage/cover.webp"
+      },
+      {
+        "title": "Local Business",
+        "image": "/src/assets/projects/business/stockFlow/cover.webp"
+      },
+      {
+        "title": "Professional Services",
+        "image": "/src/assets/projects/business/salesHub/cover.webp"
+      }
+    ]
+  },
+
+  "process": {
+    "title": "Çalışma Sürecimiz",
+
+    "steps": [
+      {
+        "number": "01",
+        "icon": "Search",
+        "title": "Keşif",
+        "description": "İşletmenizi, hedeflerinizi ve ihtiyaç duyduğunuz yazılımı detaylı şekilde analiz ediyoruz."
+      },
+      {
+        "number": "02",
+        "icon": "Architecture",
+        "title": "Planlama ve Tasarım",
+        "description": "Yazılım mimarisini oluşturuyor, kullanıcı deneyimini tasarlıyor ve geliştirme planını hazırlıyoruz."
+      },
+      {
+        "number": "03",
+        "icon": "Code",
+        "title": "Geliştirme",
+        "description": "Modern teknolojiler kullanarak güvenli, performanslı ve ölçeklenebilir yazılımınızı geliştiriyoruz."
+      },
+      {
+        "number": "04",
+        "icon": "RocketLaunch",
+        "title": "Yayınlama ve Destek",
+        "description": "Kapsamlı testlerin ardından yazılımınızı yayına alıyor ve ihtiyaç duyduğunuz sürece destek vermeye devam ediyoruz."
+      }
+    ]
+  },
+
+  "ctaSection": {
+    "title": "Aklınızda Bir Yazılım Fikri Mi Var?",
+    "description": "İşletmenize değer katacak, rekabet avantajı sağlayacak ve büyümenizi destekleyecek özel bir yazılım geliştirelim.",
+    "button": "Hadi Konuşalım"
+  }
+}

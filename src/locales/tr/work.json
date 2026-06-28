@@ -1,0 +1,139 @@
+{
+  "hero": {
+    "badge": "PROJELERİMİZ",
+    "title": {
+      "line1": "SONUÇ ODAKLI",
+      "line2": "DİJİTAL",
+      "highlight": "ÇÖZÜMLER."
+    },
+    "description": "Farklı sektörlerdeki işletmeler için tasarladığımız ve geliştirdiğimiz projelerden bir seçki.",
+    "cta": "PROJENİ BAŞLAT"
+  },
+  "filters": {
+    "all": "TÜM PROJELER",
+    "business": "KURUMSAL WEB SİTELERİ",
+    "ecommerce": "E-TİCARET SİTELERİ",
+    "systems": "İŞ YÖNETİM SİSTEMLERİ",
+    "branding": "MARKA TASARIMI"
+  },
+  "sort": {
+    "label": "EN YENİ",
+    "latest": "En Yeni",
+    "oldest": "En Eski"
+  },
+  "pagination": {
+    "prev": "Önceki",
+    "next": "Sonraki"
+  },
+  "typeBadge": {
+    "project": "Canlı Proje",
+    "design": "Tasarım"
+  },
+  "details": {
+    "livePreview": "Canlı Önizleme",
+    "gallery": "Proje Galerisi",
+    "backToWork": "Projelere Dön",
+    "type": "Tür",
+    "category": "Kategori"
+  },
+  "projects": {
+    "yeniAy": {
+      "category": "KURUMSAL WEB SİTESİ",
+      "title": "Yeni Ay Alüminyum",
+      "description": "Kıbrıs'taki Yeni Ay alüminyum şirketi için modern web sitesi.",
+      "detailsDescription": "Kıbrıs'ın önde gelen alüminyum çözümleri şirketi Yeni Ay Alüminyum için tamamen geliştirilmiş bir kurumsal web sitesi.",
+      "cta": "Projeyi İncele"
+    },
+    "arcDental": {
+      "category": "KURUMSAL WEB SİTESİ",
+      "title": "Arc Diş Kliniği",
+      "description": "Hasta güveni ve bakıma odaklanmış bir diş kliniği için profesyonel web sitesi.",
+      "detailsDescription": "Arc Diş Kliniği için modern ve hasta odaklı bir web sitesi. İlk ziyaretten itibaren güven oluşturmak için tasarlanmış olup hizmet sayfaları, ekip profilleri ve randevu akışını içerir.",
+      "cta": "Projeyi İncele"
+    },
+    "arcCoffee": {
+      "category": "KURUMSAL WEB SİTESİ",
+      "title": "Arc Kafe",
+      "description": "Bir kafe için şık web sitesi.",
+      "detailsDescription": "Arc Coffee için markanın sıcak atmosferini yansıtmak üzere tasarlanmış davetkar bir web sitesi.",
+      "cta": "Projeyi İncele"
+    },
+    "menex": {
+      "category": "İŞ YÖNETİM SİSTEMİ",
+      "title": "Menex Dijital Menüler",
+      "description": "Restoranlar için dijital QR kod menüleri sağlayan SaaS yazılımı.",
+      "detailsDescription": "Menex, restoranlara QR kod üzerinden erişilebilen dinamik dijital menüler sunan bir SaaS platformudur.",
+      "cta": "Projeyi İncele"
+    },
+    "coffee": {
+      "category": "KURUMSAL WEB SİTESİ",
+      "title": "Kafe",
+      "description": "Bir kafe için şık web sitesi.",
+      "detailsDescription": "Yerel bir kafe için güzelce hazırlanmış, markanın sıcak kişiliğini yansıtan bir web sitesi.",
+      "cta": "Projeyi İncele"
+    },
+    "northEstate": {
+      "category": "KURUMSAL WEB SİTESİ",
+      "title": "NorthWay Emlak",
+      "description": "Gelişmiş mülk listelemeleri ile emlak web sitesi.",
+      "detailsDescription": "NorthWay için filtreli mülk arama, detaylı ilan sayfaları ve iletişim akışı içeren tam özellikli bir emlak web sitesi.",
+      "cta": "Projeyi İncele"
+    },
+    "luxora": {
+      "category": "E-TİCARET SİTESİ",
+      "title": "Luxora",
+      "description": "Mobilya markası için şık alışveriş deneyimiyle e-ticaret tasarımı.",
+      "detailsDescription": "Üst segment pazara hitap eden mobilya markası Luxora için premium bir e-ticaret UI/UX tasarımı.",
+      "cta": "Tasarımı İncele"
+    },
+    "northWnd": {
+      "category": "E-TİCARET SİTESİ",
+      "title": "NorthWnd Kıyafet",
+      "description": "Ürün kataloğu olan kıyafet mağazası için e-ticaret tasarımı.",
+      "detailsDescription": "Çağdaş bir giyim markası olan NorthWnd için temiz ve modern bir e-ticaret tasarımı.",
+      "cta": "Tasarımı İncele"
+    },
+    "pageturner": {
+      "category": "E-TİCARET SİTESİ",
+      "title": "Pageturner Kitabevi",
+      "description": "Bir kitapçı için e-ticaret tasarımı.",
+      "detailsDescription": "Pageturner adlı çevrimiçi kitabevi için davetkar bir e-ticaret tasarımı.",
+      "cta": "Tasarımı İncele"
+    },
+    "urbane": {
+      "category": "E-TİCARET SİTESİ",
+      "title": "Urbane Kıyafet",
+      "description": "Kentsel giyim markası için zarif e-ticaret tasarımı.",
+      "detailsDescription": "Kentsel sokak giyimi markası Urbane için cesur ve çağdaş bir e-ticaret tasarımı.",
+      "cta": "Tasarımı İncele"
+    },
+    "driveManage": {
+      "category": "İŞ YÖNETİM SİSTEMİ",
+      "title": "DriveManage",
+      "description": "Rezervasyon, araç ve raporlar için araç kiralama yönetim sistemi tasarımı.",
+      "detailsDescription": "DriveManage için kapsamlı bir UI tasarımı. Dashboard; rezervasyonlar, araç takibi, müşteri yönetimi ve gelir raporlarını tek bir arayüzde sunar.",
+      "cta": "Tasarımı İncele"
+    },
+    "hrManage": {
+      "category": "İŞ YÖNETİM SİSTEMİ",
+      "title": "HRManage",
+      "description": "İşgücü, bordro ve devam takibi için İK yönetim sistemi tasarımı.",
+      "detailsDescription": "HRManage için tam özellikli bir UI tasarımı. Çalışan kayıtları, devam takibi, izin yönetimi, bordro ve performansı kapsayan sezgisel bir platform tasarımı.",
+      "cta": "Tasarımı İncele"
+    },
+    "salesHub": {
+      "category": "İŞ YÖNETİM SİSTEMİ",
+      "title": "SalesHub",
+      "description": "Müşteri adayları, fırsatlar ve gelir için CRM ve satış yönetim sistemi tasarımı.",
+      "detailsDescription": "Satış ekiplerinin müşteri adaylarını yönetmesine, fırsatları takip etmesine ve geliri artırmasına yardımcı olan modern bir CRM UI tasarımı.",
+      "cta": "Tasarımı İncele"
+    },
+    "stockFlow": {
+      "category": "İŞ YÖNETİM SİSTEMİ",
+      "title": "StockFlow",
+      "description": "Uyarılar ve raporlama ile envanter ve stok yönetim sistemi tasarımı.",
+      "detailsDescription": "StockFlow için temiz ve işlevsel bir UI tasarımı. Dashboard; stok seviyeleri, düşük stok uyarıları, tedarikçi yönetimi ve envanter analizlerini gerçek zamanlı olarak sunar.",
+      "cta": "Tasarımı İncele"
+    }
+  }
+}

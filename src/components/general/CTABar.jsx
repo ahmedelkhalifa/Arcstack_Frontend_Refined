@@ -58,6 +58,7 @@ const CTABar = () => {
             zIndex: 100
           }}
           endIcon={<ArrowOutward />}
+          onClick={() => window.open("https://wa.me/905391330540", "_blank")}
         >
           {t("ctaSection.button")}
         </Button>

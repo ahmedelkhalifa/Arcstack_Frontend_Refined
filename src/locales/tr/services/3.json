@@ -97,20 +97,20 @@
 
     "projects": [
       {
-        "title": "Mobilya Firması",
-        "image": "/src/assets/projects/e-commerce/luxora_fur/cover.webp"
+        "title": "Furniture Company",
+        "image": "/src/assets/projects/business/hrManage/cover.webp"
       },
       {
-        "title": "Kurumsal Marka",
-        "image": "/src/assets/projects/e-commerce/urbane/cover.webp"
+        "title": "Corporate Brand",
+        "image": "/src/assets/projects/business/driveManage/cover.webp"
       },
       {
-        "title": "Profesyonel Hizmetler",
-        "image": "/src/assets/projects/e-commerce/northwnd/cover.webp"
+        "title": "Local Business",
+        "image": "/src/assets/projects/business/stockFlow/cover.webp"
       },
       {
-        "title": "Yerel İşletme",
-        "image": "/src/assets/projects/e-commerce/books/cover.webp"
+        "title": "Professional Services",
+        "image": "/src/assets/projects/business/salesHub/cover.webp"
       }
     ]
   },

@@ -6,5 +6,5 @@ export const slugLangMap = {
   "kurumsal-web-siteleri": "tr",
   "e-ticaret-siteleri": "tr",
   "iş-yönetim-sistemleri": "tr",
-  "ozel-yazilim": "tr",
+  "özel-yazılım-çözümleri": "tr",
 };

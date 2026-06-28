@@ -8,5 +8,5 @@ export const slugMap = {
   "kurumsal-web-siteleri": 1,
   "e-ticaret-siteleri": 2,
   "iş-yönetim-sistemleri": 3,
-  "ozel-yazilim": 4,
+  "özel-yazılım-çözümleri": 4,
 };

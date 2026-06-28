@@ -53,7 +53,7 @@ const ContactForm = () => {
         import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
       );
 
-      alert("Message sent successfully!");
+      alert(t("success.title"));
       navigate("/thank-you");
     } catch (err) {
       console.error(err);

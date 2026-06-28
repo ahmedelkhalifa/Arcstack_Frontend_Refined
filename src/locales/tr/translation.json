@@ -21,6 +21,7 @@
     "description": "İşletmelerin çevrimiçi büyümesine yardımcı olan modern web siteleri, e-ticaret platformları ve iş yönetim sistemleri tasarlıyoruz.",
     "primaryButton": "PROJENİ BAŞLAT",
     "secondaryButton": "PROJELERİMİZİ İNCELE",
+    "contactButton": "İletişime Geç",
     "socialProof": {
       "count": "50+",
       "text": "işletme ArcStack'e güveniyor"
@@ -52,23 +53,23 @@
     "viewAll": "Tüm Projeleri Gör",
     "projects": {
       "1": {
-        "category": "Diş Kliniği",
-        "title": "Modern Diş Kliniği Web Sitesi",
+        "category": "Kurumsal Websitesi",
+        "title": "ArcDental | Diş Kliniği",
         "cta": "Projeyi İncele"
       },
       "2": {
-        "category": "Araç Kiralama",
-        "title": "Araç Kiralama Rezervasyon Platformu",
+        "category": "Kurumsal Websitesi",
+        "title": "ArcCoffee",
         "cta": "Projeyi İncele"
       },
       "3": {
-        "category": "Restoran",
-        "title": "Restoran Web Sitesi ve Yönetim Sistemi",
+        "category": "Yazılım",
+        "title": "Menex | Dijital QR code menüleri",
         "cta": "Projeyi İncele"
       },
       "4": {
-        "category": "E-Ticaret",
-        "title": "E-Ticaret Web Sitesi",
+        "category": "Kurumsal Websitesi",
+        "title": "Yeni Ay Alüminyum",
         "cta": "Projeyi İncele"
       }
     }

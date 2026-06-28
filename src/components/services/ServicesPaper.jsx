@@ -4,10 +4,12 @@ import React from 'react'
 import { useTranslation } from 'react-i18next'
 import { getServices } from '../../data/services'
 import ServiceCard from './ServiceCard'
+import { useNavigate } from 'react-router-dom'
 
 const ServicesPaper = () => {
     const {t} = useTranslation();
     const services = getServices(t);
+    const navigate = useNavigate();
   return (
     <Box sx={{width: "100%"}}>
         <Box
@@ -28,6 +30,7 @@ const ServicesPaper = () => {
         <Button
           endIcon={<ArrowOutward />}
           sx={{ fontWeight: 600, display: { xs: "none", md: "flex" } }}
+          onClick={() => navigate("/services")}
         >
           {t("services.viewAll")}
         </Button>

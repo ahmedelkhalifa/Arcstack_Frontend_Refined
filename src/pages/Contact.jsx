@@ -3,7 +3,7 @@ import React from "react";
 import Nav from "../components/general/Nav";
 import { useTranslation } from "react-i18next";
 import Hero from "../components/general/Hero";
-import image from "../assets/about_hero.webp"
+import image from "../assets/contact_hero.webp"
 import ContactForm from "../components/contact/ContactForm";
 import CTABar from "../components/general/CTABar";
 import Footer from "../components/general/Footer";

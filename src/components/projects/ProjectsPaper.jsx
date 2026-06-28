@@ -4,10 +4,12 @@ import React from "react";
 import { getProjects } from "../../data/projects";
 import { useTranslation } from "react-i18next";
 import ProjectCard from "./ProjectCard";
+import { useNavigate } from "react-router-dom";
 
 const ProjectsPaper = () => {
   const { t } = useTranslation();
   const projects = getProjects(t).filter((p) => p.featured === true);
+  const navigate = useNavigate();
   return (
     <Box sx={{ width: "100%" }}>
       <Box
@@ -28,13 +30,14 @@ const ProjectsPaper = () => {
         <Button
           endIcon={<ArrowOutward />}
           sx={{ fontWeight: 600, display: { xs: "none", md: "flex" } }}
+          onClick={() => navigate("/work")}
         >
           {t("portfolio.viewAll")}
         </Button>
       </Box>
       <Grid container sx={{ mt: 8 }} spacing={3}>
         {projects.map((project, index) => (
-          <Grid size={{ xs: 12, md: 6, lg: 3 }} key={index}>
+          <Grid size={{ xs: 12, md: 6 }} key={index}>
             <ProjectCard project={project} />
           </Grid>
         ))}

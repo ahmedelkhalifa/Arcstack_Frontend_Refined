@@ -11,9 +11,11 @@ import Nav from "../general/Nav";
 import image from "../../assets/homepage_hero.webp";
 import { useTranslation } from "react-i18next";
 import { ArrowOutward } from "@mui/icons-material";
+import { useNavigate } from "react-router-dom";
 
 const Hero = () => {
   const { t } = useTranslation();
+  const navigate = useNavigate();
   return (
     <Box
       sx={{
@@ -116,6 +118,7 @@ const Hero = () => {
                 variant="contained"
                 endIcon={<ArrowOutward />}
                 sx={{ fontWeight: 500, fontSize: { xs: 14, md: 10, lg: 14 } }}
+                onClick={() => window.open("https://wa.me/905391330540", "_blank")}
               >
                 {t("hero.primaryButton")}
               </Button>
@@ -123,11 +126,12 @@ const Hero = () => {
                 variant="outlined"
                 endIcon={<ArrowOutward />}
                 sx={{ fontWeight: 500, fontSize: { xs: 14, md: 10, lg: 14 } }}
+                onClick={() => navigate("/work")}
               >
                 {t("hero.secondaryButton")}
               </Button>
             </Box>
-            <Box sx={{ display: "flex", alignItems: {xs: "flex-start", md: "center"}, gap: 2, mt: 3, flexDirection: { xs: "column", md: "row" }, }}>
+            {/* <Box sx={{ display: "flex", alignItems: {xs: "flex-start", md: "center"}, gap: 2, mt: 3, flexDirection: { xs: "column", md: "row" }, }}>
               <Box>
                 <AvatarGroup total={24}>
                   <Avatar alt="Remy Sharp" />
@@ -144,7 +148,7 @@ const Hero = () => {
                   {t("hero.socialProof.count")} {t("hero.socialProof.text")}
                 </Typography>
               </Box>
-            </Box>
+            </Box> */}
           </Box>
         </Box>
         <Box sx={{ flex: 1.5, pt: {xs: 0, md: 10} }}>
