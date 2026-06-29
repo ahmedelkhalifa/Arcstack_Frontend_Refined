@@ -31,21 +31,21 @@
         "number": "01",
         "title": "Önce İşletmeniz",
         "description": "Her projeye işletmenizin hedeflerini anlayarak başlıyoruz. Önceliğimiz, büyümeniz için en önemli olan çözümleri üretmektir.",
-        "img": "/src/assets/business_first.webp",
+        "img": "/public/images/business_first.webp",
         "icon": "Work"
       },
       {
         "number": "02",
         "title": "Büyümeye Hazır",
         "description": "Geliştirdiğimiz çözümler esnek, ölçeklenebilir ve gelecekteki ihtiyaçlarınıza uyum sağlayacak şekilde tasarlanır.",
-        "img": "/src/assets/Scale.webp",
+        "img": "/public/images/Scale.webp",
         "icon": "FitScreen"
       },
       {
         "number": "03",
         "title": "Uzun Vadeli İş Ortaklığı",
         "description": "Bizim için proje teslimi son değil, başlangıçtır. İşletmenizin büyüme yolculuğunda yanınızda olmaya devam ederiz.",
-        "img": "/src/assets/long_term.webp",
+        "img": "/public/images/long_term.webp",
         "icon": "Handshake"
       }
     ]

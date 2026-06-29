@@ -19,7 +19,7 @@
     "cta": "Start Your Project",
 
     "image": {
-      "src": "/src/assets/services/custom.webp",
+      "src": "/public/images/services/custom.webp",
       "alt": "Custom Software Development"
     }
   },
@@ -99,19 +99,19 @@
     "projects": [
       {
         "title": "Furniture Company",
-        "image": "/src/assets/projects/business/hrManage/cover.webp"
+        "image": "/public/images/projects/business/hrManage/cover.webp"
       },
       {
         "title": "Corporate Brand",
-        "image": "/src/assets/projects/business/driveManage/cover.webp"
+        "image": "/public/images/projects/business/driveManage/cover.webp"
       },
       {
         "title": "Local Business",
-        "image": "/src/assets/projects/business/stockFlow/cover.webp"
+        "image": "/public/images/projects/business/stockFlow/cover.webp"
       },
       {
         "title": "Professional Services",
-        "image": "/src/assets/projects/business/salesHub/cover.webp"
+        "image": "/public/images/projects/business/salesHub/cover.webp"
       }
     ]
   },

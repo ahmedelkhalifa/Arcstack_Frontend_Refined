@@ -18,7 +18,7 @@
     "cta": "Start Your Project",
 
     "image": {
-      "src": "/src/assets/services/Business.webp",
+      "src": "/public/images/services/Business.webp",
       "alt": "Business Website Mockup"
     }
   },
@@ -98,19 +98,19 @@
     "projects": [
       {
         "title": "Furniture Company",
-        "image": "/src/assets/projects/corporate/coffee/cover.webp"
+        "image": "/public/images/projects/corporate/coffee/cover.webp"
       },
       {
         "title": "Corporate Brand",
-        "image": "/src/assets/projects/corporate/aluminum/cover.webp"
+        "image": "/public/images/projects/corporate/aluminum/cover.webp"
       },
       {
         "title": "Professional Services",
-        "image": "/src/assets/projects/corporate/clinic/cover.webp"
+        "image": "/public/images/projects/corporate/clinic/cover.webp"
       },
       {
         "title": "Local Business",
-        "image": "/src/assets/projects/corporate/estate/cover.webp"
+        "image": "/public/images/projects/corporate/estate/cover.webp"
       }
     ]
   },

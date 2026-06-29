@@ -40,6 +40,7 @@ const ProjectCard = (props) => {
           component={"img"}
           src={project.image}
           sx={{ width: "100%", height: "100%", objectFit: "cover" }}
+          loading="lazy"
         />
       </Box>
       <Typography variant="body1" sx={{ fontWeight: 600, mt: 2, flex: 1 }}>

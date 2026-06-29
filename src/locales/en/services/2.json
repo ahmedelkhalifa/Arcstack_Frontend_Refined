@@ -18,7 +18,7 @@
     "cta": "Start Your Project",
 
     "image": {
-      "src": "/src/assets/services/E-commerce.webp",
+      "src": "/public/images/services/E-commerce.webp",
       "alt": "Ecommerce Website Mockup"
     }
   },
@@ -98,19 +98,19 @@
     "projects": [
       {
         "title": "Furniture Store",
-        "image": "/src/assets/projects/e-commerce/luxora_fur/cover.webp"
+        "image": "/public/images/projects/e-commerce/luxora_fur/cover.webp"
       },
       {
         "title": "Clothing Store",
-        "image": "/src/assets/projects/e-commerce/urbane/cover.webp"
+        "image": "/public/images/projects/e-commerce/urbane/cover.webp"
       },
       {
         "title": "Clothing Store",
-        "image": "/src/assets/projects/e-commerce/northwnd/cover.webp"
+        "image": "/public/images/projects/e-commerce/northwnd/cover.webp"
       },
       {
         "title": "Book Store",
-        "image": "/src/assets/projects/e-commerce/books/cover.webp"
+        "image": "/public/images/projects/e-commerce/books/cover.webp"
       } 
     ]
   },

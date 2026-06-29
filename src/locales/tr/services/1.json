@@ -18,7 +18,7 @@
     "cta": "Projeni Başlat",
 
     "image": {
-      "src": "/src/assets/services/Business.webp",
+      "src": "/public/images/services/Business.webp",
       "alt": "Kurumsal Web Sitesi Mockup"
     }
   },
@@ -98,19 +98,19 @@
     "projects": [
       {
         "title": "Mobilya Firması",
-        "image": "/src/assets/projects/corporate/coffee/cover.webp"
+        "image": "/public/images/projects/corporate/coffee/cover.webp"
       },
       {
         "title": "Kurumsal Marka",
-        "image": "/src/assets/projects/corporate/aluminum/cover.webp"
+        "image": "/public/images/projects/corporate/aluminum/cover.webp"
       },
       {
         "title": "Profesyonel Hizmetler",
-        "image": "/src/assets/projects/corporate/clinic/cover.webp"
+        "image": "/public/images/projects/corporate/clinic/cover.webp"
       },
       {
         "title": "Yerel İşletme",
-        "image": "/src/assets/projects/corporate/estate/cover.webp"
+        "image": "/public/images/projects/corporate/estate/cover.webp"
       }
     ]
   },
