@@ -1,19 +1,19 @@
-import clinicCover from "../assets/projects/corporate/clinic/cover.webp";
-import coffeeCover from "../assets/projects/corporate/coffee/cover.webp";
-import aluminumCover from "../assets/projects/corporate/aluminum/cover.webp";
-import estateCover from "../assets/projects/corporate/estate/cover.webp";
-import luxoraFurCover from "../assets/projects/e-commerce/luxora_fur/cover.webp";
-import northwndCover from "../assets/projects/e-commerce/northwnd/cover.webp";
-import yeniAy from "../assets/projects/corporate/aluminum/yeniAy.webp";
-import arcDental from "../assets/projects/corporate/clinic/arcDental.webp";
-import arcCoffee from "../assets/projects/corporate/coffee/arcCoffee.webp";
-import pageturner from "../assets/projects/e-commerce/books/cover.webp";
-import urbane from "../assets/projects/e-commerce/urbane/cover.webp";
-import menex from "../assets/projects/business/menex.webp";
-import driveManage from "../assets/projects/business/driveManage/cover.webp";
-import hrManage from "../assets/projects/business/hrManage/cover.webp";
-import salesHub from "../assets/projects/business/salesHub/cover.webp";
-import stockFlow from "../assets/projects/business/stockFlow/cover.webp";
+import clinicCover from "/public/images/projects/corporate/clinic/cover.webp";
+import coffeeCover from "/public/images/projects/corporate/coffee/cover.webp";
+import aluminumCover from "/public/images/projects/corporate/aluminum/cover.webp";
+import estateCover from "/public/images/projects/corporate/estate/cover.webp";
+import luxoraFurCover from "/public/images/projects/e-commerce/luxora_fur/cover.webp";
+import northwndCover from "/public/images/projects/e-commerce/northwnd/cover.webp";
+import yeniAy from "/public/images/projects/corporate/aluminum/yeniAy.webp";
+import arcDental from "/public/images/projects/corporate/clinic/arcDental.webp";
+import arcCoffee from "/public/images/projects/corporate/coffee/arcCoffee.webp";
+import pageturner from "/public/images/projects/e-commerce/books/cover.webp";
+import urbane from "/public/images/projects/e-commerce/urbane/cover.webp";
+import menex from "/public/images/projects/business/menex.webp";
+import driveManage from "/public/images/projects/business/driveManage/cover.webp";
+import hrManage from "/public/images/projects/business/hrManage/cover.webp";
+import salesHub from "/public/images/projects/business/salesHub/cover.webp";
+import stockFlow from "/public/images/projects/business/stockFlow/cover.webp";
 
 export const FILTERS = {
   ALL: "all",
