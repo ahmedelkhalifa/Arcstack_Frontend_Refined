@@ -11,11 +11,19 @@ import { useTranslation } from "react-i18next";
 import ServiceHorizontal from "../components/services/ServiceHorizontal";
 import CTABar from "../components/general/CTABar";
 import Footer from "../components/general/Footer";
+import PageHelmet from "../components/general/PageHelmet";
+
 const Services = () => {
   const { t } = useTranslation();
   const services = t("servicesPage.services", { returnObjects: true });
+
   return (
     <>
+      <PageHelmet
+        title={t("seo.services.title")}
+        description={t("seo.services.description")}
+        canonical="/services"
+      />
       <Box sx={{ height: { xs: "fit-content", md: "100vh" } }}>
         <Nav active={"services"} />
         <Hero

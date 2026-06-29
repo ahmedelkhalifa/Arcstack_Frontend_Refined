@@ -15,7 +15,6 @@
       "email": "arcstack.swe@gmail.com"
     }
   },
-
   "philosophy": {
     "badge": "Our Philosophy",
     "title": {
@@ -25,7 +24,6 @@
     },
     "description": "We believe great digital products are clear, fast, and reliable. Our goal is to remove complexity so you can focus on running and growing your business."
   },
-
   "beliefs": {
     "title": "What We Believe",
     "items": [
@@ -52,7 +50,6 @@
       }
     ]
   },
-
   "services": {
     "title": "What We Do",
     "items": [
@@ -78,7 +75,6 @@
       }
     ]
   },
-
   "process": {
     "title": "Our Process",
     "steps": [
@@ -114,16 +110,18 @@
       }
     ]
   },
-
   "vision": {
     "badge": "Our Vision",
     "title": "To help businesses build stronger digital foundations through modern technology.",
     "description": "We exist to help businesses unlock their potential with digital solutions that create real impact."
   },
-
   "ctaSection": {
     "title": "Ready to build something better?",
     "description": "Let's create a digital solution tailored to your business.",
     "button": "Start Your Project"
+  },
+  "seo": {
+    "title": "About ArcStack — Web Design Agency in North Cyprus",
+    "description": "ArcStack is a digital agency based in North Cyprus, building websites, ecommerce platforms, and business systems that drive real results for businesses in Cyprus and Turkey."
   }
 }

@@ -15,7 +15,6 @@
       "email": "arcstack.swe@gmail.com"
     }
   },
-
   "philosophy": {
     "badge": "Felsefemiz",
     "title": {
@@ -25,7 +24,6 @@
     },
     "description": "Harika dijital ürünlerin sade, hızlı ve güvenilir olması gerektiğine inanıyoruz. Amacımız karmaşıklığı ortadan kaldırarak sizin işletmenizi büyütmeye odaklanmanızı sağlamaktır."
   },
-
   "beliefs": {
     "title": "İnandığımız Değerler",
     "items": [
@@ -52,7 +50,6 @@
       }
     ]
   },
-
   "services": {
     "title": "Neler Yapıyoruz",
     "items": [
@@ -78,7 +75,6 @@
       }
     ]
   },
-
   "process": {
     "title": "Çalışma Sürecimiz",
     "steps": [
@@ -114,16 +110,18 @@
       }
     ]
   },
-
   "vision": {
     "badge": "Vizyonumuz",
     "title": "Modern teknolojilerle işletmelerin daha güçlü dijital temeller oluşturmasına yardımcı olmak.",
     "description": "İşletmelerin gerçek değer üreten dijital çözümlerle potansiyellerini ortaya çıkarmalarına katkı sağlamayı amaçlıyoruz."
   },
-
   "ctaSection": {
     "title": "Daha İyisini İnşa Etmeye Hazır Mısınız?",
     "description": "İşletmenize özel dijital bir çözümü birlikte hayata geçirelim.",
     "button": "Projeni Başlat"
+  },
+  "seo": {
+    "title": "Hakkımızda — Kuzey Kıbrıs'ta Web Tasarım Ajansı ArcStack",
+    "description": "ArcStack, Kuzey Kıbrıs merkezli bir dijital ajans olarak işletmelere web siteleri, e-ticaret platformları ve iş yönetim sistemleri geliştiriyor."
   }
 }

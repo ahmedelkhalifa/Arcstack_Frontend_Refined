@@ -383,6 +383,7 @@ const Nav = (props) => {
               variant="contained"
               endIcon={<ArrowOutward />}
               sx={{ display: { xs: "flex", md: "none" }, width: "100%" }}
+              onClick={() => window.open("https://wa.me/905391330540", "_blank")}
             >
               {t("navbar.cta")}
             </Button>

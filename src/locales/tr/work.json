@@ -135,5 +135,10 @@
       "detailsDescription": "StockFlow için temiz ve işlevsel bir UI tasarımı. Dashboard; stok seviyeleri, düşük stok uyarıları, tedarikçi yönetimi ve envanter analizlerini gerçek zamanlı olarak sunar.",
       "cta": "Tasarımı İncele"
     }
+  },
+  "seo": {
+    "title": "Web Tasarım Portföyü — ArcStack Kuzey Kıbrıs",
+    "description": "Kuzey Kıbrıs, Kıbrıs ve Türkiye'deki müşteriler için geliştirdiğimiz web siteleri, e-ticaret mağazaları ve iş sistemleri portföyümüzü inceleyin.",
+    "projectTitleSuffix": "— ArcStack Web Tasarımı"
   }
 }

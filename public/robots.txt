@@ -1,0 +1,8 @@
+# robots.txt for ArcStack
+# https://arcstack.online
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://arcstack.online/sitemap.xml

@@ -30,7 +30,7 @@
 
   "stats": {
     "projectsCompleted": {
-      "value": "50+",
+      "value": "15+",
       "label": "Tamamlanan Proje"
     },
     "coreServices": {
@@ -104,7 +104,7 @@
       "3": {
         "number": "03",
         "title": "İş Yönetim Sistemleri",
-        "slug": "iş-yönetim-sistemleri",
+        "slug": "is-yonetim-sistemleri",
         "description": "Operasyonları kolaylaştıran, süreçleri hızlandıran özel yönetim panelleri ve iş sistemleri geliştiriyoruz.",
         "features": [
           "Yönetim Panelleri",
@@ -116,7 +116,7 @@
       "4": {
         "number": "04",
         "title": "Özel Yazılım Çözümleri",
-        "slug": "özel-yazılım-çözümleri",
+        "slug": "ozel-yazilim-cozumleri",
         "description": "Karmaşık iş problemlerini çözmek ve işletmenizi büyütmek için özel web uygulamaları geliştiriyoruz.",
         "features": [
           "Özel Çözümler",
@@ -191,9 +191,7 @@
       "name": "ARCSTACK",
       "description": "İşletmelerin çevrimiçi büyümesine yardımcı olan modern web siteleri, e-ticaret platformları ve özel yazılım çözümleri geliştiriyoruz."
     },
-
     "services": "HİZMETLER",
-
     "company": [
       "HIZLI LİNKLER",
       "Ana Sayfa",
@@ -202,7 +200,6 @@
       "Hakkımızda",
       "İletişim"
     ],
-
     "contact": {
       "title": "İLETİŞİM",
       "email": "arcstack.swe@gmail.com",
@@ -210,13 +207,11 @@
       "instagram": "arcstack.dev",
       "location": "Türkiye & KKTC"
     },
-
     "newsletter": {
       "title": "Bülten",
       "description": "Dijital dünyaya dair ipuçları ve güncellemeleri e-posta kutunuza alın.",
       "placeholder": "E-posta adresiniz"
     },
-
     "copyright": "Arcstack | Tüm haklar saklıdır."
   },
 
@@ -238,7 +233,6 @@
         "Sürekli Destek ve Bakım"
       ]
     },
-
     "services": [
       {
         "id": 1,
@@ -257,7 +251,6 @@
         ],
         "cta": "Örnekleri İncele"
       },
-
       {
         "id": 2,
         "number": "02",
@@ -275,12 +268,11 @@
         ],
         "cta": "Örnekleri İncele"
       },
-
       {
         "id": 3,
         "number": "03",
         "title": "İş Yönetim Sistemleri",
-        "slug": "iş-yönetim-sistemleri",
+        "slug": "is-yonetim-sistemleri",
         "description": "Operasyonlarınızı otomatikleştirmenize, rezervasyonları, müşterileri ve envanteri yönetmenize yardımcı olan özel sistemler.",
         "subtitle": "Popüler Çözümler:",
         "items": [
@@ -293,12 +285,11 @@
         ],
         "cta": "Örnekleri İncele"
       },
-
       {
         "id": 4,
         "number": "04",
         "title": "Özel Yazılım Çözümleri",
-        "slug": "özel-yazılım-çözümleri",
+        "slug": "ozel-yazilim-cozumleri",
         "description": "İşletmenizin ihtiyaçlarına ve süreçlerine özel olarak geliştirilen web tabanlı yazılımlar.",
         "subtitle": "Yetenekler:",
         "items": [
@@ -312,7 +303,6 @@
         "cta": "Örnekleri İncele"
       }
     ],
-
     "ctaSection": {
       "title": "Daha İyi Bir Şey İnşa Etmeye Hazır Mısınız?",
       "description": "Projenizi birlikte değerlendirelim ve işletmenizin büyümesine katkı sağlayacak dijital bir çözüm oluşturalım.",
@@ -324,5 +314,39 @@
     "title": "Teşekkür ederiz",
     "text": "Mesajınızı aldık, size en kısa sürede yanıt vereceğiz :)",
     "button": "Anasayfa'ya geri dön"
+  },
+
+  "seo": {
+    "home": {
+      "title": "Kuzey Kıbrıs Web Tasarım ve Yazılım Ajansı — ArcStack",
+      "description": "ArcStack, Kuzey Kıbrıs, Kıbrıs ve Türkiye'deki işletmeler için modern web siteleri, e-ticaret mağazaları ve iş yönetim sistemleri geliştiriyor."
+    },
+    "services": {
+      "title": "Kuzey Kıbrıs Web Tasarım, E-Ticaret ve İş Sistemleri — ArcStack",
+      "description": "Kuzey Kıbrıs ve çevresindeki işletmeler için profesyonel web tasarımı, e-ticaret geliştirme ve özel iş yönetim sistemleri."
+    },
+    "about": {
+      "title": "Hakkımızda — Kuzey Kıbrıs'ta Web Tasarım Ajansı ArcStack",
+      "description": "ArcStack, Kuzey Kıbrıs merkezli bir dijital ajans olarak web siteleri, e-ticaret platformları ve iş sistemleri geliştiriyor."
+    },
+    "work": {
+      "title": "Web Tasarım Portföyü — ArcStack Kuzey Kıbrıs",
+      "description": "Kuzey Kıbrıs, Kıbrıs ve Türkiye'deki müşteriler için geliştirdiğimiz web siteleri, e-ticaret mağazaları ve iş sistemleri portföyümüzü inceleyin."
+    },
+    "contact": {
+      "title": "İletişim — Kuzey Kıbrıs Web Tasarım Ajansı ArcStack",
+      "description": "Kuzey Kıbrıs'ta web sitesi, e-ticaret mağazası veya iş yönetim sistemi projeniz için ArcStack ile iletişime geçin."
+    },
+    "thanks": {
+      "title": "Teşekkürler — ArcStack"
+    },
+    "serviceDetails": {
+      "titleSuffix": "Kuzey Kıbrıs'ta — ArcStack"
+    },
+    "projectDetails": {
+      "titleSuffix": "— ArcStack Web Tasarımı"
+    },
+    "ogImage": "https://arcstack.online/og-image.png",
+    "siteUrl": "https://arcstack.online"
   }
 }

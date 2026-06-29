@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Home -->
+  <url>
+    <loc>https://arcstack.online/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://arcstack.online/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://arcstack.online/"/>
+    <xhtml:link rel="alternate"
+        hreflang="x-default"
+        href="https://arcstack.online/"/>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Services index -->
+  <url>
+    <loc>https://arcstack.online/services</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://arcstack.online/services"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://arcstack.online/services"/>
+    <xhtml:link rel="alternate"
+        hreflang="x-default"
+        href="https://arcstack.online/services"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Service: Business Websites -->
+  <url>
+    <loc>https://arcstack.online/services/business-websites</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://arcstack.online/services/business-websites"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://arcstack.online/services/kurumsal-web-siteleri"/>
+    <xhtml:link rel="alternate"
+        hreflang="x-default"
+        href="https://arcstack.online/services/kurumsal-web-siteleri"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://arcstack.online/services/kurumsal-web-siteleri</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://arcstack.online/services/business-websites"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://arcstack.online/services/kurumsal-web-siteleri"/>
+    <xhtml:link rel="alternate"
+        hreflang="x-default"
+        href="https://arcstack.online/services/kurumsal-web-siteleri"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Service: Ecommerce Websites -->
+  <url>
+    <loc>https://arcstack.online/services/e-commerce-websites</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://arcstack.online/services/e-commerce-websites"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://arcstack.online/services/e-ticaret-siteleri"/>
+    <xhtml:link rel="alternate"
+        hreflang="x-default"
+        href="https://arcstack.online/services/e-ticaret-siteleri"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://arcstack.online/services/e-ticaret-siteleri</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://arcstack.online/services/e-commerce-websites"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://arcstack.online/services/e-ticaret-siteleri"/>
+    <xhtml:link rel="alternate"
+        hreflang="x-default"
+        href="https://arcstack.online/services/e-ticaret-siteleri"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Service: Business Systems -->
+  <url>
+    <loc>https://arcstack.online/services/business-systems</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://arcstack.online/services/business-systems"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://arcstack.online/services/is-yonetim-sistemleri"/>
+    <xhtml:link rel="alternate"
+        hreflang="x-default"
+        href="https://arcstack.online/services/is-yonetim-sistemleri"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://arcstack.online/services/is-yonetim-sistemleri</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://arcstack.online/services/business-systems"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://arcstack.online/services/is-yonetim-sistemleri"/>
+    <xhtml:link rel="alternate"
+        hreflang="x-default"
+        href="https://arcstack.online/services/is-yonetim-sistemleri"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Service: Custom Software -->
+  <url>
+    <loc>https://arcstack.online/services/custom-software</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://arcstack.online/services/custom-software"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://arcstack.online/services/ozel-yazilim-cozumleri"/>
+    <xhtml:link rel="alternate"
+        hreflang="x-default"
+        href="https://arcstack.online/services/ozel-yazilim-cozumleri"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://arcstack.online/services/ozel-yazilim-cozumleri</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://arcstack.online/services/custom-software"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://arcstack.online/services/ozel-yazilim-cozumleri"/>
+    <xhtml:link rel="alternate"
+        hreflang="x-default"
+        href="https://arcstack.online/services/ozel-yazilim-cozumleri"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- About -->
+  <url>
+    <loc>https://arcstack.online/about</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://arcstack.online/about"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://arcstack.online/about"/>
+    <xhtml:link rel="alternate"
+        hreflang="x-default"
+        href="https://arcstack.online/about"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Work index -->
+  <url>
+    <loc>https://arcstack.online/work</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://arcstack.online/work"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://arcstack.online/work"/>
+    <xhtml:link rel="alternate"
+        hreflang="x-default"
+        href="https://arcstack.online/work"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Work: Yeni Ay Aluminum -->
+  <url>
+    <loc>https://arcstack.online/work/yeni-ay-aluminum</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Work: Arc Dental Clinic -->
+  <url>
+    <loc>https://arcstack.online/work/arc-dental</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Work: Arc Coffee Shop -->
+  <url>
+    <loc>https://arcstack.online/work/arc-coffee</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Work: Menex -->
+  <url>
+    <loc>https://arcstack.online/work/menex</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Work: Coffee Shop -->
+  <url>
+    <loc>https://arcstack.online/work/coffee-shop</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Work: NorthWay Real Estate -->
+  <url>
+    <loc>https://arcstack.online/work/northway-real-estate</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Work: Luxora -->
+  <url>
+    <loc>https://arcstack.online/work/luxora</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Work: NorthWnd -->
+  <url>
+    <loc>https://arcstack.online/work/northwnd</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Work: Pageturner -->
+  <url>
+    <loc>https://arcstack.online/work/pageturner</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Work: Urbane -->
+  <url>
+    <loc>https://arcstack.online/work/urbane</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Work: DriveManage -->
+  <url>
+    <loc>https://arcstack.online/work/drive-manage</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Work: HRManage -->
+  <url>
+    <loc>https://arcstack.online/work/hr-manage</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Work: SalesHub -->
+  <url>
+    <loc>https://arcstack.online/work/sales-hub</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Work: StockFlow -->
+  <url>
+    <loc>https://arcstack.online/work/stock-flow</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Contact -->
+  <url>
+    <loc>https://arcstack.online/contact</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://arcstack.online/contact"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://arcstack.online/contact"/>
+    <xhtml:link rel="alternate"
+        hreflang="x-default"
+        href="https://arcstack.online/contact"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>

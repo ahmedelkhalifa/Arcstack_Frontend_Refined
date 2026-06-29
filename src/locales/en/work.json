@@ -135,5 +135,10 @@
       "detailsDescription": "A clean and functional UI design for StockFlow, a smart inventory management system. The dashboard provides a real-time overview of stock levels, low stock alerts, supplier management, and inventory analytics — designed for businesses that need to stay on top of their stock.",
       "cta": "View Design"
     }
+  },
+  "seo": {
+    "title": "Web Design Portfolio — ArcStack North Cyprus",
+    "description": "Browse ArcStack's portfolio of websites, ecommerce stores, and business systems built for clients across North Cyprus, Cyprus, and Turkey.",
+    "projectTitleSuffix": "— Web Design by ArcStack"
   }
 }

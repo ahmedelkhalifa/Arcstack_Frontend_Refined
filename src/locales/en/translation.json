@@ -23,7 +23,7 @@
     "secondaryButton": "View Our Work",
     "contactButton": "Contact Us",
     "socialProof": {
-      "count": "50+",
+      "count": "15+",
       "text": "businesses trusted ArcStack"
     }
   },
@@ -191,11 +191,8 @@
       "name": "ARCSTACK",
       "description": "We design and develop modern websites, ecommerce platforms, and custom systems that help businesses grow online."
     },
-
     "services": "SERVICES",
-
     "company": ["QUICK LINKS", "Home", "Services", "Work", "About", "Contact"],
-
     "contact": {
       "title": "CONTACT",
       "email": "arcstack.dev@gmail.com",
@@ -203,15 +200,14 @@
       "instagram": "arcstack.online",
       "location": "Turkey & KKTC"
     },
-
     "newsletter": {
       "title": "Newsletter",
       "description": "Get digital insights and tips straight to your inbox.",
       "placeholder": "Your email"
     },
-
     "copyright": "Arcstack | All copyrights are reserved."
   },
+
   "servicesPage": {
     "hero": {
       "badge": "Services",
@@ -230,7 +226,6 @@
         "Ongoing Support & Maintenance"
       ]
     },
-
     "services": [
       {
         "id": 1,
@@ -249,7 +244,6 @@
         ],
         "cta": "View Examples"
       },
-
       {
         "id": 2,
         "number": "02",
@@ -267,7 +261,6 @@
         ],
         "cta": "View Examples"
       },
-
       {
         "id": 3,
         "number": "03",
@@ -285,7 +278,6 @@
         ],
         "cta": "View Examples"
       },
-
       {
         "id": 4,
         "number": "04",
@@ -304,16 +296,50 @@
         "cta": "View Examples"
       }
     ],
-
     "ctaSection": {
       "title": "Ready To Build Something Better?",
       "description": "Let's discuss your project and create a digital solution that grows your business.",
       "button": "Start Your Project"
     }
   },
+
   "thanks": {
     "title": "Thank You",
     "text": "We've recieved your message, we will responsd to you as soon as possible :)",
     "button": "Go back to Homepage"
+  },
+
+  "seo": {
+    "home": {
+      "title": "Web Design & Development Agency in North Cyprus — ArcStack",
+      "description": "ArcStack builds modern websites, ecommerce stores, and business systems for businesses in North Cyprus, Cyprus, and Turkey. Start your project today."
+    },
+    "services": {
+      "title": "Web Design, Ecommerce & Business Systems in North Cyprus — ArcStack",
+      "description": "Professional web design, ecommerce development, and custom business systems for businesses in North Cyprus and beyond."
+    },
+    "about": {
+      "title": "About ArcStack — Web Design Agency in North Cyprus",
+      "description": "ArcStack is a digital agency based in North Cyprus, building websites, ecommerce platforms, and business systems that drive real results."
+    },
+    "work": {
+      "title": "Web Design Portfolio — ArcStack North Cyprus",
+      "description": "Browse ArcStack's portfolio of websites, ecommerce stores, and business systems built for clients across North Cyprus, Cyprus, and Turkey."
+    },
+    "contact": {
+      "title": "Contact ArcStack — Web Design in North Cyprus",
+      "description": "Get in touch with ArcStack to start your website, ecommerce store, or business system project in North Cyprus."
+    },
+    "thanks": {
+      "title": "Thank You — ArcStack"
+    },
+    "serviceDetails": {
+      "titleSuffix": "in North Cyprus — ArcStack"
+    },
+    "projectDetails": {
+      "titleSuffix": "— Web Design by ArcStack"
+    },
+    "ogImage": "https://arcstack.online/og-image.png",
+    "siteUrl": "https://arcstack.online"
   }
 }

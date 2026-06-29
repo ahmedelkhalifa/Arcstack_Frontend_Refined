@@ -8,6 +8,9 @@ import Footer from "../components/general/Footer";
 import CTABar from "../components/general/CTABar";
 import ProjectGallery from "../components/projectDetails/ProjectGallery";
 import { getWorkProjects, PROJECT_TYPE } from "../data/workProjects";
+import PageHelmet from "../components/general/PageHelmet";
+
+const SITE_URL = "https://arcstack.online";
 
 const ProjectDetails = () => {
   const { slug } = useParams();
@@ -36,8 +39,40 @@ const ProjectDetails = () => {
 
   const isLive = project.type === PROJECT_TYPE.PROJECT;
 
+  const seoTitle = `${project.title} ${t("seo.projectTitleSuffix")}`;
+  const seoDescription = project.detailsDescription;
+
+  // Use the project's cover image as OG image when it's an imported asset.
+  // Vite resolves imports to hashed paths — in production these are absolute
+  // paths served from the same origin, so we prepend SITE_URL.
+  const ogImage = project.image
+    ? `${SITE_URL}${project.image}`
+    : undefined;
+
+  const creativeWorkJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": project.title,
+    "description": seoDescription,
+    "url": `${SITE_URL}/work/${project.slug}`,
+    "image": ogImage || `${SITE_URL}/og-image.png`,
+    "creator": {
+      "@type": "Organization",
+      "name": "ArcStack",
+      "url": SITE_URL,
+    },
+  };
+
   return (
     <Box>
+      <PageHelmet
+        title={seoTitle}
+        description={seoDescription}
+        canonical={`/work/${project.slug}`}
+        ogImage={ogImage}
+        jsonLd={creativeWorkJsonLd}
+      />
+
       <Nav active="work" />
 
       <Container
@@ -73,7 +108,6 @@ const ProjectDetails = () => {
           }}
         >
           <Box>
-            {/* Type + Category badges */}
             <Box sx={{ display: "flex", gap: 1, mb: 2, flexWrap: "wrap" }}>
               <Chip
                 label={t(`typeBadge.${project.type}`)}
@@ -112,7 +146,6 @@ const ProjectDetails = () => {
             </Typography>
           </Box>
 
-          {/* Live preview button — only for live projects */}
           {isLive && project.link && project.link !== "#" && (
             <Button
               variant="contained"
@@ -127,7 +160,6 @@ const ProjectDetails = () => {
 
         <Divider sx={{ mb: 4 }} />
 
-        {/* Description */}
         <Typography
           variant="body1"
           sx={{
@@ -140,7 +172,6 @@ const ProjectDetails = () => {
           {project.detailsDescription}
         </Typography>
 
-        {/* Gallery */}
         <ProjectGallery screenshots={project.screenshots} />
 
         <Box sx={{ mt: 12 }}>
