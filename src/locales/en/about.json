@@ -31,21 +31,21 @@
         "number": "01",
         "title": "Business First",
         "description": "Every project starts with business goals. We focus on what matters most for your growth.",
-        "img": "/public/images/business_first.webp",
+        "img": "/images/business_first.webp",
         "icon": "Work"
       },
       {
         "number": "02",
         "title": "Built To Scale",
         "description": "We build solutions that are flexible, scalable, and ready for the future.",
-        "img": "/public/images/Scale.webp",
+        "img": "/images/Scale.webp",
         "icon": "FitScreen"
       },
       {
         "number": "03",
         "title": "Long-Term Partnership",
         "description": "We're not just here to deliver a project. We're here to support your growth for the long run.",
-        "img": "/public/images/long_term.webp",
+        "img": "/images/long_term.webp",
         "icon": "Handshake"
       }
     ]

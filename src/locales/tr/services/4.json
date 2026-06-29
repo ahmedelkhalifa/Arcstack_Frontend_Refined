@@ -19,7 +19,7 @@
     "cta": "Projenizi Başlatın",
 
     "image": {
-      "src": "/public/images/services/custom.webp",
+      "src": "/images/services/custom.webp",
       "alt": "Özel Yazılım Geliştirme"
     }
   },
@@ -99,19 +99,19 @@
     "projects": [
       {
         "title": "Furniture Company",
-        "image": "/public/images/projects/business/hrManage/cover.webp"
+        "image": "/images/projects/business/hrManage/cover.webp"
       },
       {
         "title": "Corporate Brand",
-        "image": "/public/images/projects/business/driveManage/cover.webp"
+        "image": "/images/projects/business/driveManage/cover.webp"
       },
       {
         "title": "Local Business",
-        "image": "/public/images/projects/business/stockFlow/cover.webp"
+        "image": "/images/projects/business/stockFlow/cover.webp"
       },
       {
         "title": "Professional Services",
-        "image": "/public/images/projects/business/salesHub/cover.webp"
+        "image": "/images/projects/business/salesHub/cover.webp"
       }
     ]
   },

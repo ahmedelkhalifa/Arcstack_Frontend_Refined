@@ -1,19 +1,19 @@
-import clinicCover from "/public/images/projects/corporate/clinic/cover.webp";
-import coffeeCover from "/public/images/projects/corporate/coffee/cover.webp";
-import aluminumCover from "/public/images/projects/corporate/aluminum/cover.webp";
-import estateCover from "/public/images/projects/corporate/estate/cover.webp";
-import luxoraFurCover from "/public/images/projects/e-commerce/luxora_fur/cover.webp";
-import northwndCover from "/public/images/projects/e-commerce/northwnd/cover.webp";
-import yeniAy from "/public/images/projects/corporate/aluminum/yeniAy.webp";
-import arcDental from "/public/images/projects/corporate/clinic/arcDental.webp";
-import arcCoffee from "/public/images/projects/corporate/coffee/arcCoffee.webp";
-import pageturner from "/public/images/projects/e-commerce/books/cover.webp";
-import urbane from "/public/images/projects/e-commerce/urbane/cover.webp";
-import menex from "/public/images/projects/business/menex.webp";
-import driveManage from "/public/images/projects/business/driveManage/cover.webp";
-import hrManage from "/public/images/projects/business/hrManage/cover.webp";
-import salesHub from "/public/images/projects/business/salesHub/cover.webp";
-import stockFlow from "/public/images/projects/business/stockFlow/cover.webp";
+import clinicCover from "/images/projects/corporate/clinic/cover.webp";
+import coffeeCover from "/images/projects/corporate/coffee/cover.webp";
+import aluminumCover from "/images/projects/corporate/aluminum/cover.webp";
+import estateCover from "/images/projects/corporate/estate/cover.webp";
+import luxoraFurCover from "/images/projects/e-commerce/luxora_fur/cover.webp";
+import northwndCover from "/images/projects/e-commerce/northwnd/cover.webp";
+import yeniAy from "/images/projects/corporate/aluminum/yeniAy.webp";
+import arcDental from "/images/projects/corporate/clinic/arcDental.webp";
+import arcCoffee from "/images/projects/corporate/coffee/arcCoffee.webp";
+import pageturner from "/images/projects/e-commerce/books/cover.webp";
+import urbane from "/images/projects/e-commerce/urbane/cover.webp";
+import menex from "/images/projects/business/menex.webp";
+import driveManage from "/images/projects/business/driveManage/cover.webp";
+import hrManage from "/images/projects/business/hrManage/cover.webp";
+import salesHub from "/images/projects/business/salesHub/cover.webp";
+import stockFlow from "/images/projects/business/stockFlow/cover.webp";
 
 export const FILTERS = {
   ALL: "all",
@@ -40,11 +40,11 @@ export const getWorkProjects = (t) => [
     cta: t("projects.yeniAy.cta"),
     image: yeniAy,
     screenshots: [yeniAy, 
-      "/public/images/projects/corporate/aluminum/yeniAy/1.png",
-      "/public/images/projects/corporate/aluminum/yeniAy/2.png",
-      "/public/images/projects/corporate/aluminum/yeniAy/3.png",
-      "/public/images/projects/corporate/aluminum/yeniAy/4.png",
-      "/public/images/projects/corporate/aluminum/yeniAy/5.png",
+      "/images/projects/corporate/aluminum/yeniAy/1.png",
+      "/images/projects/corporate/aluminum/yeniAy/2.png",
+      "/images/projects/corporate/aluminum/yeniAy/3.png",
+      "/images/projects/corporate/aluminum/yeniAy/4.png",
+      "/images/projects/corporate/aluminum/yeniAy/5.png",
     ],
     filter: FILTERS.BUSINESS,
     link: "https://yeni-ay.vercel.app",
@@ -61,10 +61,10 @@ export const getWorkProjects = (t) => [
     cta: t("projects.menex.cta"),
     image: menex,
     screenshots: [menex,
-      "/public/images/projects/business/menex/1.png",
-      "/public/images/projects/business/menex/2.png",
-      "/public/images/projects/business/menex/3.png",
-      "/public/images/projects/business/menex/4.png",
+      "/images/projects/business/menex/1.png",
+      "/images/projects/business/menex/2.png",
+      "/images/projects/business/menex/3.png",
+      "/images/projects/business/menex/4.png",
     ],
     filter: FILTERS.SYSTEMS,
     link: "https://menex.my",
@@ -96,11 +96,11 @@ export const getWorkProjects = (t) => [
     cta: t("projects.arcCoffee.cta"),
     image: arcCoffee,
     screenshots: [arcCoffee, 
-      "/public/images/projects/corporate/coffee/arcCoffee/1.png",
-      "/public/images/projects/corporate/coffee/arcCoffee/2.png",
-      "/public/images/projects/corporate/coffee/arcCoffee/3.png",
-      "/public/images/projects/corporate/coffee/arcCoffee/4.png",
-      "/public/images/projects/corporate/coffee/arcCoffee/5.png",
+      "/images/projects/corporate/coffee/arcCoffee/1.png",
+      "/images/projects/corporate/coffee/arcCoffee/2.png",
+      "/images/projects/corporate/coffee/arcCoffee/3.png",
+      "/images/projects/corporate/coffee/arcCoffee/4.png",
+      "/images/projects/corporate/coffee/arcCoffee/5.png",
     ],
     filter: FILTERS.BUSINESS,
     link: "https://ahmedelkhalifa.github.io/Coffee_Shop",
