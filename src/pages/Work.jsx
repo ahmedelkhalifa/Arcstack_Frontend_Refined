@@ -9,6 +9,8 @@ import { FILTERS } from "../data/workProjects";
 import { useTranslation } from "react-i18next";
 import PageHelmet from "../components/general/PageHelmet";
 import WorkHero from "../components/work/WorkHero";
+import image from "../assets/work_hero.webp";
+import Hero from "../components/general/Hero";
 
 const Work = () => {
   const [activeFilter, setActiveFilter] = useState(FILTERS.ALL);
@@ -22,9 +24,22 @@ const Work = () => {
         description={t("seo.description")}
         canonical="/work"
       />
-      <Box sx={{ height: { xs: "fit-content", md: "100vh" }, display: "flex", flexDirection: "column" }}>
+      <Box
+        sx={{
+          height: { xs: "fit-content", md: "100vh" },
+          display: "flex",
+          flexDirection: "column",
+        }}
+      >
         <Nav active="work" />
-        <WorkHero />
+        <Hero
+          image={image}
+          badge={t("hero.badge")}
+          title={t("hero.title.line1")}
+          title2={t("hero.title.line2")}
+          description={t("hero.description")}
+          variant={"work"}
+        />
       </Box>
 
       <FilterBar
@@ -35,7 +50,10 @@ const Work = () => {
 
       <WorkGrid activeFilter={activeFilter} filterRef={filterRef} />
 
-      <Container maxWidth="xl" sx={{ px: { xs: 3, md: 6, lg: 8 }, pb: "100px" }}>
+      <Container
+        maxWidth="xl"
+        sx={{ px: { xs: 3, md: 6, lg: 8 }, pb: "100px" }}
+      >
         <CTABar />
       </Container>
 

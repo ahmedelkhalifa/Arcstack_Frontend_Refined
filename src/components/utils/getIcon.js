@@ -18,6 +18,8 @@ import {
   Work,
   Handshake,
   EventAvailable,
+  Hub,
+  Cloud,
 } from "@mui/icons-material";
 
 const iconMap = {
@@ -40,6 +42,8 @@ const iconMap = {
   FitScreen,
   Handshake,
   EventAvailable,
+  Hub,
+  Cloud
 };
 
 export const getIcon = (iconName) => {
