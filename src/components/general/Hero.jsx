@@ -14,6 +14,7 @@ import { useNavigate } from "react-router-dom";
 const Hero = (props) => {
   const { t } = useTranslation();
   const navigate = useNavigate();
+  const isDetails = props.type === "details";
   return (
     <Box
       sx={{
@@ -59,30 +60,46 @@ const Hero = (props) => {
                 {props.badge}
               </Typography>
             </Box>
-            <Typography
-              variant="h1"
-              sx={{
-                mt: 3,
-                fontSize:
-                    props.type === "details"
-                      ? { xs: "36px", md: "48px" }
-                      : { xs: 48, md: 60, lg: 72 },
-                whiteSpace: "pre-line",
-              }}
-            >
-              {props.title}
-            </Typography>
-            {props.title2 && (
+            {/* One <h1> per page. On non-detail pages title2 is part of the
+                headline, so it lives inside the h1 as a span; on detail pages
+                it is a subtitle and stays outside. */}
+            <Box component="h1" sx={{ m: 0 }}>
               <Typography
-                variant={props.type === "details" ? "body1" : "h1"}
+                variant="h1"
+                component="span"
                 sx={{
-                  fontSize:
-                    props.type === "details"
-                      ? { xs: "24px", md: "36px" }
-                      : { xs: 48, md: 60, lg: 72 },
-                  mt:
-                    props.type === "details"
-                      ? 2 : 0,
+                  display: "block",
+                  mt: 3,
+                  fontSize: isDetails
+                    ? { xs: "36px", md: "48px" }
+                    : { xs: 48, md: 60, lg: 72 },
+                  whiteSpace: "pre-line",
+                }}
+              >
+                {props.title}
+              </Typography>
+              {props.title2 && !isDetails && (
+                <Typography
+                  variant="h1"
+                  component="span"
+                  sx={{
+                    display: "block",
+                    fontSize: { xs: 48, md: 60, lg: 72 },
+                    whiteSpace: "pre-line",
+                    color: "primary.main",
+                    lineHeight: 1,
+                  }}
+                >
+                  {props.title2}
+                </Typography>
+              )}
+            </Box>
+            {props.title2 && isDetails && (
+              <Typography
+                variant="body1"
+                sx={{
+                  fontSize: { xs: "24px", md: "36px" },
+                  mt: 2,
                   whiteSpace: "pre-line",
                   color: "primary.main",
                   lineHeight: 1,

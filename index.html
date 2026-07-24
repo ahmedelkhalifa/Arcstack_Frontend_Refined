@@ -5,21 +5,28 @@
     <link rel="icon" type="image/png" href="/logo_mark.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Default SEO — overridden per page by react-helmet-async -->
-    <title>Web Design & Development Agency in North Cyprus — ArcStack</title>
-    <meta name="robots" content="index, follow" />
-    <link rel="canonical" href="https://arcstack.online/" />
+    <!--seo-->
+    <!--
+      Dev-server fallback only. scripts/prerender.mjs replaces everything
+      between the seo markers with the real per-page tags from PageHelmet.
 
-    <!-- Open Graph defaults -->
+      Deliberately NO <link rel="canonical"> here: a hardcoded canonical gets
+      served on every URL and tells Google that all 26 pages are duplicates of
+      the homepage.
+    -->
+    <title>Web Design & Development Agency in North Cyprus — ArcStack</title>
+    <meta
+      name="description"
+      content="ArcStack builds business websites, ecommerce stores and custom business systems for companies in North Cyprus."
+    />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="ArcStack" />
-    <meta property="og:image" content="https://arcstack.online/og-image.png" />
+    <meta property="og:image" content="https://www.arcstack.online/og-image.jpg" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-
-    <!-- Twitter defaults -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:image" content="https://arcstack.online/og-image.png" />
+    <meta name="twitter:image" content="https://www.arcstack.online/og-image.jpg" />
+    <!--/seo-->
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />

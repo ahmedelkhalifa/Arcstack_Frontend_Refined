@@ -1,3 +1,4 @@
+/** Service slug (either language) -> service id. @type {Record<string, number|undefined>} */
 export const slugMap = {
   "business-websites": 1,
   "e-commerce-websites": 2,

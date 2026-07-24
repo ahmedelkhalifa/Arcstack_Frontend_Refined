@@ -9,23 +9,33 @@ import Contact from "./pages/Contact";
 import Thanks from "./pages/Thanks";
 import Work from "./pages/Work";
 import ProjectDetails from "./pages/ProjectDetails";
+import NotFound from "./pages/NotFound";
 
-const App = () => {
-  return (
-    <BrowserRouter>
-      <ScrollToTop />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/services/:slug" element={<ServiceDetails />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/thank-you" element={<Thanks />} />
-        <Route path="/work" element={<Work />} />
-        <Route path="/work/:slug" element={<ProjectDetails />} />
-      </Routes>
-    </BrowserRouter>
-  );
-};
+/**
+ * Router-agnostic route tree, so the prerender can mount it inside a
+ * StaticRouter while the browser mounts it inside a BrowserRouter.
+ */
+export const AppRoutes = () => (
+  <>
+    <ScrollToTop />
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/services" element={<Services />} />
+      <Route path="/services/:slug" element={<ServiceDetails />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/contact" element={<Contact />} />
+      <Route path="/thank-you" element={<Thanks />} />
+      <Route path="/work" element={<Work />} />
+      <Route path="/work/:slug" element={<ProjectDetails />} />
+      <Route path="*" element={<NotFound />} />
+    </Routes>
+  </>
+);
+
+const App = () => (
+  <BrowserRouter>
+    <AppRoutes />
+  </BrowserRouter>
+);
 
 export default App;

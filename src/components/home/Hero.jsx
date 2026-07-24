@@ -58,41 +58,49 @@ const Hero = () => {
                 {t("hero.badge")}
               </Typography>
             </Box>
-            <Typography
-              variant="h1"
-              sx={{ mt: 3, fontSize: { xs: 48, md: 64, lg: 72 } }}
-            >
-              {t("hero.title.line1")}
-            </Typography>
-            <Typography
-              variant="h1"
-              sx={{
-                mt: 1,
-                color: "primary.main",
-                fontSize: { xs: 48, md: 64, lg: 72 },
-              }}
-            >
-              {t("hero.title.line2")}
-            </Typography>
-            <Typography
-              variant="h1"
-              sx={{
-                mt: 1,
-                fontSize: { xs: 48, md: 64, lg: 72 },
-                position: "relative",
-                "&::after": {
-                  content: '""',
-                  position: "absolute",
-                  bottom: -10,
-                  left: 0,
-                  height: "2px",
-                  width: 30,
-                  bgcolor: "secondary.main",
-                },
-              }}
-            >
-              {t("hero.title.line3")}
-            </Typography>
+            {/* One <h1> per page: the three lines are spans inside it. */}
+            <Box component="h1" sx={{ m: 0 }}>
+              <Typography
+                variant="h1"
+                component="span"
+                sx={{ display: "block", mt: 3, fontSize: { xs: 48, md: 64, lg: 72 } }}
+              >
+                {t("hero.title.line1")}
+              </Typography>
+              <Typography
+                variant="h1"
+                component="span"
+                sx={{
+                  display: "block",
+                  mt: 1,
+                  color: "primary.main",
+                  fontSize: { xs: 48, md: 64, lg: 72 },
+                }}
+              >
+                {t("hero.title.line2")}
+              </Typography>
+              <Typography
+                variant="h1"
+                component="span"
+                sx={{
+                  display: "block",
+                  mt: 1,
+                  fontSize: { xs: 48, md: 64, lg: 72 },
+                  position: "relative",
+                  "&::after": {
+                    content: '""',
+                    position: "absolute",
+                    bottom: -10,
+                    left: 0,
+                    height: "2px",
+                    width: 30,
+                    bgcolor: "secondary.main",
+                  },
+                }}
+              >
+                {t("hero.title.line3")}
+              </Typography>
+            </Box>
             <Typography
               variant="body1"
               sx={{

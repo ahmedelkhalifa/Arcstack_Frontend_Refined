@@ -9,8 +9,7 @@ import CTABar from "../components/general/CTABar";
 import ProjectGallery from "../components/projectDetails/ProjectGallery";
 import { getWorkProjects, PROJECT_TYPE } from "../data/workProjects";
 import PageHelmet from "../components/general/PageHelmet";
-
-const SITE_URL = "https://arcstack.online";
+import { SITE_URL, OG_IMAGE } from "../config/site";
 
 const ProjectDetails = () => {
   const { slug } = useParams();
@@ -55,7 +54,7 @@ const ProjectDetails = () => {
     "name": project.title,
     "description": seoDescription,
     "url": `${SITE_URL}/work/${project.slug}`,
-    "image": ogImage || `${SITE_URL}/og-image.png`,
+    "image": ogImage || OG_IMAGE,
     "creator": {
       "@type": "Organization",
       "name": "ArcStack",
@@ -140,6 +139,7 @@ const ProjectDetails = () => {
 
             <Typography
               variant="h2"
+              component="h1"
               sx={{ fontWeight: 800, fontSize: { xs: 32, md: 48 }, lineHeight: 1.1 }}
             >
               {project.title}

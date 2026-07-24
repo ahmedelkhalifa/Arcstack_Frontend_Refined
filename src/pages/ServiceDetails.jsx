@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { Box, Container, Typography } from "@mui/material";
@@ -14,13 +14,16 @@ import Process from "../components/general/Process";
 import CTABar from "../components/general/CTABar";
 import Footer from "../components/general/Footer";
 import PageHelmet from "../components/general/PageHelmet";
+import NotFound from "./NotFound";
 
 // Build a lookup: serviceId -> { en: slug, tr: slug }
 const buildAlternateSlugs = () => {
+  /** @type {Record<string, {en: string, tr: string}>} */
   const map = {};
   Object.entries(slugMap).forEach(([slug, id]) => {
     const lang = slugLangMap[slug];
-    if (!map[id]) map[id] = {};
+    if (id === undefined || !lang) return;
+    if (!map[id]) map[id] = { en: "", tr: "" };
     map[id][lang] = `/services/${slug}`;
   });
   return map;
@@ -31,39 +34,24 @@ const ServiceDetails = () => {
   const { slug } = useParams();
   const { i18n, t } = useTranslation();
   const navigate = useNavigate();
-  const [service, setService] = useState(null);
-  const [loading, setLoading] = useState(true);
 
+  // Resolved during render, not in an effect, so the prerendered HTML for
+  // both the English and Turkish slugs contains the real copy.
+  const serviceId = slug ? slugMap[slug] : undefined;
+  const detectedLang = slug ? slugLangMap[slug] : undefined;
+  const service =
+    serviceId && detectedLang ? getServiceData(detectedLang, serviceId) : null;
+
+  // Keep the shared i18n instance in step with the slug, so the chrome (nav,
+  // footer, CTAs) is in the same language as the page body.
   useEffect(() => {
-    const loadService = async () => {
-      try {
-        setLoading(true);
-        const serviceId = slugMap[slug];
-        const detectedLang = slugLangMap[slug];
+    if (detectedLang && detectedLang !== i18n.language) {
+      i18n.changeLanguage(detectedLang);
+    }
+  }, [detectedLang, i18n]);
 
-        if (!serviceId || !detectedLang) {
-          setService(null);
-          return;
-        }
-
-        if (detectedLang !== i18n.language) {
-          await i18n.changeLanguage(detectedLang);
-        }
-
-        const data = await getServiceData(detectedLang, serviceId);
-        setService(data);
-      } catch (error) {
-        setService(null);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    loadService();
-  }, [slug]);
-
+  // When the visitor switches language, move them to the sibling slug.
   useEffect(() => {
-    const serviceId = slugMap[slug];
     if (!serviceId) return;
 
     const newSlug = Object.entries(slugMap).find(
@@ -73,37 +61,14 @@ const ServiceDetails = () => {
     if (newSlug && newSlug !== slug) {
       navigate(`/services/${newSlug}`, { replace: true });
     }
-  }, [i18n.language]);
-
-  if (loading) {
-    return (
-      <Box>
-        <Nav active="services" />
-        <Container maxWidth="xl" sx={{ px: { xs: 3, md: 6, lg: 8 }, py: 20, textAlign: "center" }}>
-          <Typography variant="h5">Loading...</Typography>
-        </Container>
-      </Box>
-    );
-  }
+  }, [i18n.language, serviceId, slug, navigate]);
 
   if (!service) {
-    return (
-      <Box>
-        <Nav active="services" />
-        <Container maxWidth="xl" sx={{ px: { xs: 3, md: 6, lg: 8 }, py: 20, textAlign: "center" }}>
-          <Typography variant="h4" sx={{ fontWeight: 700, mb: 2 }}>Service not found</Typography>
-          <Typography variant="body1" sx={{ color: "text.secondary" }}>
-            The service you're looking for doesn't exist.
-          </Typography>
-        </Container>
-        <Footer />
-      </Box>
-    );
+    return <NotFound />;
   }
 
-  const serviceId = slugMap[slug];
   const alternateSlugs = alternateSlugsById[serviceId] || null;
-  const seoTitle = `${service.hero.title} in North Cyprus — ArcStack`;
+  const seoTitle = `${service.hero.title} ${t("seo.serviceTitleSuffix")}`;
   const seoDescription = service.hero.content || service.hero.description || "";
 
   return (

@@ -1,3 +1,4 @@
+/** Service slug -> the language it is written in. @type {Record<string, "en"|"tr"|undefined>} */
 export const slugLangMap = {
   "business-websites": "en",
   "e-commerce-websites": "en",

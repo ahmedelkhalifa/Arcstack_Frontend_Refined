@@ -42,27 +42,34 @@ const WorkHero = () => {
             {t("hero.badge")}
           </Typography>
 
-          <Typography
-            variant="h1"
-            sx={{ mt: 2, fontSize: { xs: 40, md: 52, lg: 64 } }}
-          >
-            {t("hero.title.line1")}
-          </Typography>
-          <Typography
-            variant="h1"
-            sx={{ fontSize: { xs: 40, md: 52, lg: 64 } }}
-          >
-            {t("hero.title.line2")}
-          </Typography>
-          <Typography
-            variant="h1"
-            sx={{
-              fontSize: { xs: 40, md: 52, lg: 64 },
-              color: "primary.main",
-            }}
-          >
-            {t("hero.title.highlight")}
-          </Typography>
+          {/* One <h1> per page: the three lines are spans inside it. */}
+          <Box component="h1" sx={{ m: 0 }}>
+            <Typography
+              variant="h1"
+              component="span"
+              sx={{ display: "block", mt: 2, fontSize: { xs: 40, md: 52, lg: 64 } }}
+            >
+              {t("hero.title.line1")}
+            </Typography>
+            <Typography
+              variant="h1"
+              component="span"
+              sx={{ display: "block", fontSize: { xs: 40, md: 52, lg: 64 } }}
+            >
+              {t("hero.title.line2")}
+            </Typography>
+            <Typography
+              variant="h1"
+              component="span"
+              sx={{
+                display: "block",
+                fontSize: { xs: 40, md: 52, lg: 64 },
+                color: "primary.main",
+              }}
+            >
+              {t("hero.title.highlight")}
+            </Typography>
+          </Box>
 
           <Typography
             variant="body1"

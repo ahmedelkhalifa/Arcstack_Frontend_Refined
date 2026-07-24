@@ -10,7 +10,6 @@
     },
     "cta": "LET'S TALK"
   },
-
   "hero": {
     "badge": "Premium Web Solutions",
     "title": {
@@ -27,7 +26,6 @@
       "text": "businesses trusted ArcStack"
     }
   },
-
   "stats": {
     "projectsCompleted": {
       "value": "50+",
@@ -46,7 +44,6 @@
       "label": "Serving businesses globally"
     }
   },
-
   "portfolio": {
     "badge": "Selected Work",
     "title": "Digital solutions that drive real results.",
@@ -74,7 +71,6 @@
       }
     }
   },
-
   "services": {
     "badge": "Services",
     "title": "Solutions tailored to your business.",
@@ -86,7 +82,11 @@
         "title": "Business Websites",
         "slug": "business-websites",
         "description": "Modern, fast, and SEO-friendly websites that help you attract more customers and grow your business.",
-        "features": ["Custom Design", "SEO Optimized", "Mobile Friendly"],
+        "features": [
+          "Custom Design",
+          "SEO Optimized",
+          "Mobile Friendly"
+        ],
         "cta": "Explore Service"
       },
       "2": {
@@ -127,7 +127,6 @@
       }
     }
   },
-
   "process": {
     "badge": "Our Process",
     "title": "A clear process.\nProven results.",
@@ -154,7 +153,6 @@
       }
     ]
   },
-
   "testimonials": {
     "badge": "Clients Love Us",
     "title": "Trusted by businesses\nacross industries.",
@@ -179,20 +177,25 @@
       }
     ]
   },
-
   "ctaSection": {
     "title": "Ready to build something better?",
     "description": "Let's discuss your project and create a digital solution that grows your business.",
     "button": "START YOUR PROJECT"
   },
-
   "footer": {
     "brand": {
       "name": "ARCSTACK",
       "description": "We design and develop modern websites, ecommerce platforms, and custom systems that help businesses grow online."
     },
     "services": "SERVICES",
-    "company": ["QUICK LINKS", "Home", "Services", "Work", "About", "Contact"],
+    "company": [
+      "QUICK LINKS",
+      "Home",
+      "Services",
+      "Work",
+      "About",
+      "Contact"
+    ],
     "contact": {
       "title": "CONTACT",
       "email": "arcstack.dev@gmail.com",
@@ -207,7 +210,6 @@
     },
     "copyright": "Arcstack | All copyrights are reserved."
   },
-
   "servicesPage": {
     "hero": {
       "badge": "Services",
@@ -302,13 +304,11 @@
       "button": "Start Your Project"
     }
   },
-
   "thanks": {
     "title": "Thank You",
     "text": "We've recieved your message, we will responsd to you as soon as possible :)",
     "button": "Go back to Homepage"
   },
-
   "seo": {
     "home": {
       "title": "Web Design & Development Agency in North Cyprus — ArcStack",
@@ -339,7 +339,8 @@
     "projectDetails": {
       "titleSuffix": "— Web Design by ArcStack"
     },
-    "ogImage": "https://arcstack.online/og-image.png",
-    "siteUrl": "https://arcstack.online"
+    "ogImage": "https://www.arcstack.online/og-image.jpg",
+    "siteUrl": "https://www.arcstack.online",
+    "serviceTitleSuffix": "in North Cyprus — ArcStack"
   }
 }

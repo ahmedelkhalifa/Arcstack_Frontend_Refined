@@ -1,28 +1,30 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
 import { useTranslation } from "react-i18next";
-
-const SITE_URL = "https://arcstack.online";
-const DEFAULT_OG_IMAGE = "https://arcstack.online/og-image.png";
+import { SITE_URL, OG_IMAGE as DEFAULT_OG_IMAGE } from "../../config/site";
 
 /**
  * PageHelmet — per-page SEO tags
  *
- * Props:
- *  title         string   — page <title>
- *  description   string   — meta description
- *  canonical     string   — path e.g. "/about" (SITE_URL is prepended)
- *  ogImage       string   — full URL, defaults to DEFAULT_OG_IMAGE
- *  alternateSlugs object  — { en: "/services/business-websites", tr: "/services/kurumsal-web-siteleri" }
- *                           omit when EN and TR share the same path
- *  noindex       bool     — adds noindex,nofollow (e.g. /thank-you)
- *  jsonLd        object   — structured data object, serialised to JSON-LD script tag
+ * @param {object}  props
+ * @param {string}  [props.title]        page <title>
+ * @param {string}  [props.description]  meta description
+ * @param {string}  [props.canonical]    path e.g. "/about" (SITE_URL is prepended)
+ * @param {string}  [props.ogImage]      full URL, defaults to DEFAULT_OG_IMAGE
+ * @param {{en: string, tr: string}} [props.alternateSlugs]
+ *        Distinct per-language paths, e.g.
+ *        { en: "/services/business-websites", tr: "/services/kurumsal-web-siteleri" }.
+ *        Omit when EN and TR share a single URL — emitting hreflang for two
+ *        languages that resolve to the same URL is meaningless and Google
+ *        discards the whole cluster.
+ * @param {boolean} [props.noindex]      adds noindex,nofollow (e.g. /thank-you)
+ * @param {object}  [props.jsonLd]       structured data, serialised to a JSON-LD script tag
  */
 const PageHelmet = ({
-  title,
-  description,
-  canonical,
-  ogImage,
+  title = "",
+  description = "",
+  canonical = "/",
+  ogImage = "",
   alternateSlugs,
   noindex = false,
   jsonLd,
@@ -36,14 +38,11 @@ const PageHelmet = ({
   const resolvedCanonical = `${SITE_URL}${canonical || "/"}`;
   const resolvedOgImage = ogImage || DEFAULT_OG_IMAGE;
 
-  // hreflang: if alternate slugs differ per language use them,
-  // otherwise both languages point to the same canonical path
-  const enHref = alternateSlugs
-    ? `${SITE_URL}${alternateSlugs.en}`
-    : resolvedCanonical;
-  const trHref = alternateSlugs
-    ? `${SITE_URL}${alternateSlugs.tr}`
-    : resolvedCanonical;
+  // hreflang is only emitted when the two languages genuinely live at
+  // different URLs (currently just the service detail pages). x-default
+  // points at the English URL to match <html lang="en"> on the shell.
+  const enHref = alternateSlugs ? `${SITE_URL}${alternateSlugs.en}` : undefined;
+  const trHref = alternateSlugs ? `${SITE_URL}${alternateSlugs.tr}` : undefined;
 
   return (
     <Helmet prioritizeSeoTags>
@@ -53,13 +52,15 @@ const PageHelmet = ({
       {/* Primary */}
       <title>{resolvedTitle}</title>
       <meta name="description" content={resolvedDescription} />
-      <link rel="canonical" href={resolvedCanonical} />
+      {/* A noindex page has no canonical URL to point at — the 404 in
+          particular must not nominate the homepage as its canonical. */}
+      {!noindex && <link rel="canonical" href={resolvedCanonical} />}
       {noindex && <meta name="robots" content="noindex, nofollow" />}
 
-      {/* hreflang — bilingual SEO */}
-      <link rel="alternate" hrefLang="en" href={enHref} />
-      <link rel="alternate" hrefLang="tr" href={trHref} />
-      <link rel="alternate" hrefLang="x-default" href={enHref} />
+      {/* hreflang — only for pages with distinct EN/TR URLs */}
+      {enHref && <link rel="alternate" hrefLang="en" href={enHref} />}
+      {trHref && <link rel="alternate" hrefLang="tr" href={trHref} />}
+      {enHref && <link rel="alternate" hrefLang="x-default" href={enHref} />}
 
       {/* Open Graph */}
       <meta property="og:type" content="website" />

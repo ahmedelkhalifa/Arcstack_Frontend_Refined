@@ -208,8 +208,9 @@ const Footer = () => {
             {t("footer.services")}
           </Typography>
           <Box sx={{ display: "flex", flexDirection: "column", gap: 1, mt: 1 }}>
-            {services.map((service, index) => (
+            {services.map((service) => (
               <Typography
+                key={service.slug}
                 variant="body1"
                 sx={{
                   fontWeight: 400,

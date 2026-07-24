@@ -11,14 +11,15 @@ import Testomonials from "../components/general/Testimonials";
 import CTABar from "../components/general/CTABar";
 import Footer from "../components/general/Footer";
 import PageHelmet from "../components/general/PageHelmet";
+import { SITE_URL, OG_IMAGE } from "../config/site";
 
 const localBusinessJsonLd = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "ArcStack",
-  "url": "https://arcstack.online",
-  "logo": "https://arcstack.online/og-image.png",
-  "image": "https://arcstack.online/og-image.png",
+  "url": SITE_URL,
+  "logo": OG_IMAGE,
+  "image": OG_IMAGE,
   "description": "Web design and development agency in North Cyprus building websites, ecommerce stores, and business systems.",
   "address": {
     "@type": "PostalAddress",

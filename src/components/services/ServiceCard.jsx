@@ -6,7 +6,6 @@ import { useNavigate } from "react-router-dom";
 const ServiceCard = (props) => {
   const navigate = useNavigate();
   const service = props.service;
-  console.log(service.feautres);
   return (
     <Card
       sx={{

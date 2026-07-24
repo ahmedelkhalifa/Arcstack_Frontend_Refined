@@ -1,8 +1,8 @@
 # robots.txt for ArcStack
-# https://arcstack.online
+# https://www.arcstack.online
 
 User-agent: *
 Allow: /
 
-# Sitemap
-Sitemap: https://arcstack.online/sitemap.xml
+# Sitemap — must use the canonical www host; the apex 308-redirects.
+Sitemap: https://www.arcstack.online/sitemap.xml
